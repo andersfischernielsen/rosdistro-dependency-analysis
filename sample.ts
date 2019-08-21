@@ -12,7 +12,7 @@ const shuffle = function(xs: any[]) {
     }
     return res;
   } else {
-    throw new TypeError('Must be an Array or an object');
+    throw new TypeError('Input parameter must be an Array.');
   }
 };
 
