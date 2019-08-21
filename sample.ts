@@ -11,20 +11,6 @@ const shuffle = function(xs: any[]) {
       res[n] = t;
     }
     return res;
-  } else if (typeof xs === 'object') {
-    var weights = Object.keys(xs).reduce(function(acc, key) {
-      acc[key] = xs[key];
-      return acc;
-    }, {});
-
-    var ret = [];
-
-    while (Object.keys(weights).length > 0) {
-      var key = exports.pick(weights);
-      delete weights[key];
-      ret.push(key);
-    }
-    return ret;
   } else {
     throw new TypeError('Must be an Array or an object');
   }
