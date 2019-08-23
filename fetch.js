@@ -56,6 +56,7 @@ function getIssuesForRepository(owner, repository) {
             },
             positives: issuesWithDependency,
             negatives: issuesWithoutDependency,
+            allBugs: issuesWithComments.length,
         };
     });
 }
@@ -87,10 +88,21 @@ fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
     const fractions = rs.reduce((acc, r) => acc.concat(r.fractions), []);
     const positives = rs.reduce((acc, r) => acc.concat(r.positives), []);
     const negatives = rs.reduce((acc, r) => acc.concat(r.negatives), []);
-    fs_1.default.mkdirSync('results');
-    fs_1.default.writeFileSync(`${path}/${filename}`, js_yaml_1.safeDump(fractions));
-    fs_1.default.writeFileSync(`${path}/positives.yaml`, js_yaml_1.safeDump(positives));
-    fs_1.default.writeFileSync(`${path}/negatives.yaml`, js_yaml_1.safeDump(negatives));
-    console.log(`Results have been written to ${path}/${filename}`);
+    const allBugs = rs.reduce((acc, r) => acc + r.allBugs, 0);
+    const totalFraction = positives.length / allBugs;
+    console.log(`The total fraction is: ${positives.length}/${allBugs} = ${totalFraction}`);
+    try {
+        if (!fs_1.default.existsSync('results')) {
+            fs_1.default.mkdirSync('results');
+        }
+        fs_1.default.writeFileSync(`${path}/${filename}`, js_yaml_1.safeDump(fractions));
+        fs_1.default.writeFileSync(`${path}/positives.yaml`, js_yaml_1.safeDump(positives));
+        fs_1.default.writeFileSync(`${path}/negatives.yaml`, js_yaml_1.safeDump(negatives));
+        console.log(`Results have been written to ${path}/${filename}`);
+        process.exit(0);
+    }
+    catch (error) {
+        console.error(error);
+    }
 });
-//# sourceMappingURL=fetch.js.map
+//# sourceMappingURL=Fetch.js.map

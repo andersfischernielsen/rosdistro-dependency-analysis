@@ -16,21 +16,8 @@ const shuffle = function (xs) {
         }
         return res;
     }
-    else if (typeof xs === 'object') {
-        var weights = Object.keys(xs).reduce(function (acc, key) {
-            acc[key] = xs[key];
-            return acc;
-        }, {});
-        var ret = [];
-        while (Object.keys(weights).length > 0) {
-            var key = exports.pick(weights);
-            delete weights[key];
-            ret.push(key);
-        }
-        return ret;
-    }
     else {
-        throw new TypeError('Must be an Array or an object');
+        throw new TypeError('Input parameter must be an Array.');
     }
 };
 const positives = js_yaml_1.safeLoad(fs_1.default.readFileSync('results/positives.yaml').toString());
@@ -41,4 +28,4 @@ const positiveSample = positivesShuffled.slice(0, 50);
 const negativeSample = negativesShuffled.slice(0, 50);
 fs_1.default.writeFileSync('results/positives_sample.yaml', js_yaml_1.safeDump(positiveSample));
 fs_1.default.writeFileSync('results/negatives_sample.yaml', js_yaml_1.safeDump(negativeSample));
-//# sourceMappingURL=sample.js.map
+//# sourceMappingURL=Sample.js.map

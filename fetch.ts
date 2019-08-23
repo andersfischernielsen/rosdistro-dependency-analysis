@@ -15,6 +15,7 @@ type Results = {
   fractions: Fraction;
   positives: Issue[];
   negatives: Issue[];
+  allBugs: number;
 };
 
 const url = '127.0.0.1:27017/github';
@@ -81,6 +82,7 @@ async function getIssuesForRepository(
     },
     positives: issuesWithDependency,
     negatives: issuesWithoutDependency,
+    allBugs: issuesWithComments.length,
   };
 }
 
@@ -114,9 +116,23 @@ fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
   const fractions = rs.reduce((acc, r) => acc.concat(r.fractions), []);
   const positives = rs.reduce((acc, r) => acc.concat(r.positives), []);
   const negatives = rs.reduce((acc, r) => acc.concat(r.negatives), []);
-  fs.mkdirSync('results');
-  fs.writeFileSync(`${path}/${filename}`, safeDump(fractions));
-  fs.writeFileSync(`${path}/positives.yaml`, safeDump(positives));
-  fs.writeFileSync(`${path}/negatives.yaml`, safeDump(negatives));
-  console.log(`Results have been written to ${path}/${filename}`);
+  const allBugs = rs.reduce((acc, r) => acc + r.allBugs, 0);
+  const totalFraction = positives.length / allBugs;
+
+  console.log(
+    `The total fraction is: ${positives.length}/${allBugs} = ${totalFraction}`,
+  );
+
+  try {
+    if (!fs.existsSync('results')) {
+      fs.mkdirSync('results');
+    }
+    fs.writeFileSync(`${path}/${filename}`, safeDump(fractions));
+    fs.writeFileSync(`${path}/positives.yaml`, safeDump(positives));
+    fs.writeFileSync(`${path}/negatives.yaml`, safeDump(negatives));
+    console.log(`Results have been written to ${path}/${filename}`);
+    process.exit(0);
+  } catch (error) {
+    console.error(error);
+  }
 });
