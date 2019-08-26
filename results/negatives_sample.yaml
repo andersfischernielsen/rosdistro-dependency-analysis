@@ -1,435 +1,16 @@
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAcau
-  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/501'
-  closed_at: '2012-09-19T22:15:33Z'
-  created_at: '2012-09-19T22:15:32Z'
-  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/501/labels{/name}'
-  body: >-
-    Passing the attached stage.vcg file as a `-d` arg to rviz 1.8.4 doesn't
-    cause it to load the file, nor does it produce an error or warning.  I'm ok
-    if the format I'm using is too old and the file needs to be updated or
-    regenerated manually.  But an informative message would be nice.
-
-
-    trac data:
-     * Owner: **hersh**
-     * Reporter: **gerkey**
-     * Reported at: **Mon Mar 12 13:51:42 2012**
-     * URL: http://code.ros.org/trac/ros-pkg/ticket/5393
-  title: >-
-    rviz fails to load old .vcg files, with no error message  (ros-pkg ticket
-    #5393)
-  pull_request:
-    diff_url: null
-    patch_url: null
-    html_url: null
-  assignee: null
-  user:
-    url: 'https://api.github.com/users/hershwg'
-    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
-    repos_url: 'https://api.github.com/users/hershwg/repos'
-    organizations_url: 'https://api.github.com/users/hershwg/orgs'
-    followers_url: 'https://api.github.com/users/hershwg/followers'
-    received_events_url: 'https://api.github.com/users/hershwg/received_events'
-    gists_url: 'https://api.github.com/users/hershwg/gists{/gist_id}'
-    following_url: 'https://api.github.com/users/hershwg/following'
-    subscriptions_url: 'https://api.github.com/users/hershwg/subscriptions'
-    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
-    gravatar_id: 59c9a5865de1e52681657f3770b7b07d
-    id: 2372515
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    login: hershwg
-  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/501/comments'
-  milestone: null
-  number: 501
-  updated_at: '2012-09-19T22:15:33Z'
-  labels:
-    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/bug'
-      color: fc2929
-      name: bug
-    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/minor'
-      color: ededed
-      name: minor
-  state: closed
-  id: 6996683
-  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/501/events'
-  comments: 2
-  html_url: 'https://github.com/ros-visualization/rviz/issues/501'
-  repo: rviz
-  owner: ros-visualization
-  data_comments: []
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UXoHj701Q7tkAAoN
-  url: 'https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/13'
+    id: !<tag:yaml.org,2002:binary> VQFHvr01Q8OgAhTD
+  url: 'https://api.github.com/repos/mikeferguson/robot_calibration/issues/6'
   labels_url: >-
-    https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/13/labels{/name}
+    https://api.github.com/repos/mikeferguson/robot_calibration/issues/6/labels{/name}
   comments_url: >-
-    https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/13/comments
-  events_url: >-
-    https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/13/events
-  html_url: 'https://github.com/ros-visualization/rqt_robot_plugins/issues/13'
-  id: 12424761
-  number: 13
-  title: 'rqt_robot_monitor: popup windows are empty'
-  user:
-    login: ahendrix
-    id: 2073767
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/9480bac4d99f4cc1834cf305e6eac3ac?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    gravatar_id: 9480bac4d99f4cc1834cf305e6eac3ac
-    url: 'https://api.github.com/users/ahendrix'
-    html_url: 'https://github.com/ahendrix'
-    followers_url: 'https://api.github.com/users/ahendrix/followers'
-    following_url: 'https://api.github.com/users/ahendrix/following'
-    gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
-    organizations_url: 'https://api.github.com/users/ahendrix/orgs'
-    repos_url: 'https://api.github.com/users/ahendrix/repos'
-    events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/ahendrix/received_events'
-    type: User
-  labels:
-    - url: >-
-        https://api.github.com/repos/ros-visualization/rqt_robot_plugins/labels/bug
-      name: bug
-      color: fc2929
-  state: closed
-  assignee:
-    login: 130s
-    id: 1840401
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/7b9b9ceaac1395a222e798d46e2a7655?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    gravatar_id: 7b9b9ceaac1395a222e798d46e2a7655
-    url: 'https://api.github.com/users/130s'
-    html_url: 'https://github.com/130s'
-    followers_url: 'https://api.github.com/users/130s/followers'
-    following_url: 'https://api.github.com/users/130s/following'
-    gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
-    organizations_url: 'https://api.github.com/users/130s/orgs'
-    repos_url: 'https://api.github.com/users/130s/repos'
-    events_url: 'https://api.github.com/users/130s/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/130s/received_events'
-    type: User
-  milestone:
-    url: >-
-      https://api.github.com/repos/ros-visualization/rqt_robot_plugins/milestones/2
-    labels_url: >-
-      https://api.github.com/repos/ros-visualization/rqt_robot_plugins/milestones/2/labels
-    id: 281337
-    number: 2
-    title: Hydro Beta Release
-    description: ''
-    creator:
-      login: 130s
-      id: 1840401
-      avatar_url: >-
-        https://secure.gravatar.com/avatar/7b9b9ceaac1395a222e798d46e2a7655?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-      gravatar_id: 7b9b9ceaac1395a222e798d46e2a7655
-      url: 'https://api.github.com/users/130s'
-      html_url: 'https://github.com/130s'
-      followers_url: 'https://api.github.com/users/130s/followers'
-      following_url: 'https://api.github.com/users/130s/following'
-      gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
-      starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
-      subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
-      organizations_url: 'https://api.github.com/users/130s/orgs'
-      repos_url: 'https://api.github.com/users/130s/repos'
-      events_url: 'https://api.github.com/users/130s/events{/privacy}'
-      received_events_url: 'https://api.github.com/users/130s/received_events'
-      type: User
-    open_issues: 3
-    closed_issues: 2
-    state: open
-    created_at: '2013-03-05T19:42:01Z'
-    updated_at: '2013-04-25T07:05:50Z'
-    due_on: '2013-04-25T07:00:00Z'
-  comments: 1
-  created_at: '2013-03-25T21:52:03Z'
-  updated_at: '2013-03-26T02:13:30Z'
-  closed_at: '2013-03-26T02:13:30Z'
-  pull_request:
-    html_url: null
-    diff_url: null
-    patch_url: null
-  body: "When opening popup windows, the window has no content and no timeline bar.\r\n\r\nThis stacktrace prints to the console whenever I open a popup:\r\n\r\n```\r\nTraceback (most recent call last):\r\n  File \"/opt/ros/groovy/lib/python2.7/dist-packages/rqt_robot_monitor/robot_monitor.py\", line 191, in _tree_clicked\r\n    item.on_click()\r\n  File \"/opt/ros/groovy/lib/python2.7/dist-packages/rqt_robot_monitor/chronologic_state.py\", line 151, in on_click\r\n    self.close_inspector_window)\r\n  File \"/opt/ros/groovy/lib/python2.7/dist-packages/rqt_robot_monitor/inspector_window.py\", line 92, in __init__\r\n    self.update_status_display(status)\r\n  File \"/opt/ros/groovy/lib/python2.7/dist-packages/rqt_robot_monitor/inspector_window.py\", line 142, in update_status_display\r\n    self.timeline_pane.new_diagnostic(status)\r\n  File \"/opt/ros/groovy/lib/python2.7/dist-packages/rqt_robot_monitor/time_pane.py\", line 194, in new_diagnostic\r\n    if (self._paused):\r\nAttributeError: 'TimelinePane' object has no attribute '_paused'\r\n```\r\n\r\nros-groovy-rqt-robot-monitor 0.2.9-0precise-20130314-2315-+0000\r\nros-groovy-qt-gui-py-common 0.2.12-0precise-20130125-2009-+0000"
-  repo: rqt_robot_plugins
-  owner: ros-visualization
-  data_comments: []
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> Uw7+9r01Q3lGAG5/
-  url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97'
-  labels_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97/labels{/name}'
-  comments_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97/comments'
-  events_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97/events'
-  html_url: 'https://github.com/PR2/pr2_simulator/issues/97'
-  id: 28403405
-  number: 97
-  title: PR2 Grippers not visible in simulation.
-  user:
-    login: ahendrix
-    id: 2073767
-    avatar_url: 'https://avatars.githubusercontent.com/u/2073767'
-    gravatar_id: e51d02b08b671143167f8645183c06b0
-    url: 'https://api.github.com/users/ahendrix'
-    html_url: 'https://github.com/ahendrix'
-    followers_url: 'https://api.github.com/users/ahendrix/followers'
-    following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
-    gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
-    organizations_url: 'https://api.github.com/users/ahendrix/orgs'
-    repos_url: 'https://api.github.com/users/ahendrix/repos'
-    events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/ahendrix/received_events'
-    type: User
-    site_admin: false
-  labels:
-    - url: 'https://api.github.com/repos/PR2/pr2_simulator/labels/bug'
-      name: bug
-      color: fc2929
-  state: open
-  assignee: null
-  milestone: null
-  comments: 0
-  created_at: '2014-02-27T09:01:39Z'
-  updated_at: '2014-02-27T09:01:39Z'
-  closed_at: null
-  pull_request:
-    html_url: null
-    diff_url: null
-    patch_url: null
-  body: "It looks like the frames for the PR2 grippers are not being published in simulation; in particular I'm seeing TF frame errors for both grippers and both fingers on the _finger_link, _finger_tip_frame, _finger_tip_link, _motor_screw_link and _motor_slider_link frames.\r\n\r\nI've just merged https://github.com/PR2/pr2_mechanism/commit/c3d77a0fe80cabeb6faecc23c9bde4b0e6ad6fc0, so that may or may not be responsible."
-  repo: pr2_simulator
-  owner: PR2
-  data_comments:
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> Uw7/Eb01Q3n/AHAr
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/36222424'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/97#issuecomment-36222424'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97'
-      id: 36222424
-      user:
-        login: ahendrix
-        id: 2073767
-        avatar_url: 'https://avatars.githubusercontent.com/u/2073767'
-        gravatar_id: e51d02b08b671143167f8645183c06b0
-        url: 'https://api.github.com/users/ahendrix'
-        html_url: 'https://github.com/ahendrix'
-        followers_url: 'https://api.github.com/users/ahendrix/followers'
-        following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
-        gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
-        organizations_url: 'https://api.github.com/users/ahendrix/orgs'
-        repos_url: 'https://api.github.com/users/ahendrix/repos'
-        events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/ahendrix/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-02-27T09:02:05Z'
-      updated_at: '2014-02-27T09:02:05Z'
-      body: '@hsu can you take a look at this if you have a chance?'
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 97
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UzLMJL01Q4bzAtG5
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/38678783'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/97#issuecomment-38678783'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97'
-      id: 38678783
-      user:
-        login: ZdenekM
-        id: 1199396
-        avatar_url: 'https://avatars.githubusercontent.com/u/1199396?'
-        gravatar_id: 1096a5a70e49708ad6bc9fd3004402c9
-        url: 'https://api.github.com/users/ZdenekM'
-        html_url: 'https://github.com/ZdenekM'
-        followers_url: 'https://api.github.com/users/ZdenekM/followers'
-        following_url: 'https://api.github.com/users/ZdenekM/following{/other_user}'
-        gists_url: 'https://api.github.com/users/ZdenekM/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/ZdenekM/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/ZdenekM/subscriptions'
-        organizations_url: 'https://api.github.com/users/ZdenekM/orgs'
-        repos_url: 'https://api.github.com/users/ZdenekM/repos'
-        events_url: 'https://api.github.com/users/ZdenekM/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/ZdenekM/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-03-26T12:46:23Z'
-      updated_at: '2014-03-26T12:46:23Z'
-      body: Same problem here.
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 97
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UzMC9701Q4YdAuND
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/38707425'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/97#issuecomment-38707425'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97'
-      id: 38707425
-      user:
-        login: trainman419
-        id: 103991
-        avatar_url: 'https://avatars.githubusercontent.com/u/103991?'
-        gravatar_id: e51d02b08b671143167f8645183c06b0
-        url: 'https://api.github.com/users/trainman419'
-        html_url: 'https://github.com/trainman419'
-        followers_url: 'https://api.github.com/users/trainman419/followers'
-        following_url: 'https://api.github.com/users/trainman419/following{/other_user}'
-        gists_url: 'https://api.github.com/users/trainman419/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/trainman419/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/trainman419/subscriptions'
-        organizations_url: 'https://api.github.com/users/trainman419/orgs'
-        repos_url: 'https://api.github.com/users/trainman419/repos'
-        events_url: 'https://api.github.com/users/trainman419/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/trainman419/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-03-26T16:40:11Z'
-      updated_at: '2014-03-26T16:40:11Z'
-      body: "I don't currently have time to work on this.\r\n\r\n@ZdenekM if you can track this down and provide a pull requests that fixes it, I'll happily merge it."
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 97
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UzMEU701Q4Y5AueW
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/38708204'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/97#issuecomment-38708204'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97'
-      id: 38708204
-      user:
-        login: hsu
-        id: 138109
-        avatar_url: 'https://avatars.githubusercontent.com/u/138109?'
-        gravatar_id: db911fa13e8a29c755272a5d870a6c26
-        url: 'https://api.github.com/users/hsu'
-        html_url: 'https://github.com/hsu'
-        followers_url: 'https://api.github.com/users/hsu/followers'
-        following_url: 'https://api.github.com/users/hsu/following{/other_user}'
-        gists_url: 'https://api.github.com/users/hsu/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/hsu/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/hsu/subscriptions'
-        organizations_url: 'https://api.github.com/users/hsu/orgs'
-        repos_url: 'https://api.github.com/users/hsu/repos'
-        events_url: 'https://api.github.com/users/hsu/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/hsu/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-03-26T16:46:05Z'
-      updated_at: '2014-03-26T16:46:05Z'
-      body: "Sorry, probably not going to get around to patching this week.  It may very well be that the recently merged changes (PR2/pr2_mechanism@c3d77a0) disabled joint states from being published by mistake.\r\n"
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 97
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U0Yv0701Q+3VAwWF
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/40045036'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/97#issuecomment-40045036'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/97'
-      id: 40045036
-      user:
-        login: ahendrix
-        id: 2073767
-        avatar_url: 'https://avatars.githubusercontent.com/u/2073767?'
-        gravatar_id: e51d02b08b671143167f8645183c06b0
-        url: 'https://api.github.com/users/ahendrix'
-        html_url: 'https://github.com/ahendrix'
-        followers_url: 'https://api.github.com/users/ahendrix/followers'
-        following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
-        gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
-        organizations_url: 'https://api.github.com/users/ahendrix/orgs'
-        repos_url: 'https://api.github.com/users/ahendrix/repos'
-        events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/ahendrix/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-04-10T05:44:46Z'
-      updated_at: '2014-04-10T05:44:46Z'
-      body: >-
-        Fixed in
-        https://github.com/PR2/pr2_mechanism/commit/1156d4ec63130a2277bf842ccb124ad7d256e4c7
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 97
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> WmbDX2SA/QT1vYTr
-  url: 'https://api.github.com/repos/ipab-slmc/exotica/issues/227'
-  repository_url: 'https://api.github.com/repos/ipab-slmc/exotica'
-  labels_url: 'https://api.github.com/repos/ipab-slmc/exotica/issues/227/labels{/name}'
-  comments_url: 'https://api.github.com/repos/ipab-slmc/exotica/issues/227/comments'
-  events_url: 'https://api.github.com/repos/ipab-slmc/exotica/issues/227/events'
-  html_url: 'https://github.com/ipab-slmc/exotica/issues/227'
-  id: 290710981
-  number: 227
-  title: List of stuff broken due to separation into cost/constraints
-  user:
-    login: wxmerkt
-    id: 1664508
-    avatar_url: 'https://avatars2.githubusercontent.com/u/1664508?v=4'
-    gravatar_id: ''
-    url: 'https://api.github.com/users/wxmerkt'
-    html_url: 'https://github.com/wxmerkt'
-    followers_url: 'https://api.github.com/users/wxmerkt/followers'
-    following_url: 'https://api.github.com/users/wxmerkt/following{/other_user}'
-    gists_url: 'https://api.github.com/users/wxmerkt/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/wxmerkt/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/wxmerkt/subscriptions'
-    organizations_url: 'https://api.github.com/users/wxmerkt/orgs'
-    repos_url: 'https://api.github.com/users/wxmerkt/repos'
-    events_url: 'https://api.github.com/users/wxmerkt/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/wxmerkt/received_events'
-    type: User
-    site_admin: false
-  labels:
-    - id: 275505070
-      url: 'https://api.github.com/repos/ipab-slmc/exotica/labels/bug'
-      name: bug
-      color: fc2929
-      default: true
-  state: open
-  locked: false
-  assignee: null
-  assignees: []
-  milestone: null
-  comments: 0
-  created_at: '2018-01-23T05:08:43Z'
-  updated_at: '2018-01-23T05:08:43Z'
-  closed_at: null
-  author_association: OWNER
-  body: "Noticed during rebase... #220 broke:\r\n\r\n- [ ] Checks for 0<=t<T broken\r\n- [ ] Checks for -1 broken\r\n- [ ] TimeIndexedTask has dependency on UnconstrainedTimeIndexedProblem: ``T = std::static_pointer_cast<UnconstrainedTimeIndexedProblem>(prob)->getT();``\r\n- [ ] Sometimes initialize from XML fails when ``Cost.initialize`` is called (may be correlated with above)\r\n\r\n... to be continued"
-  closed_by: null
-  repo: exotica
-  owner: ipab-slmc
-  data_comments: []
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> VO6hP701Q9oVAEFH
-  url: 'https://api.github.com/repos/mikeferguson/robot_calibration/issues/3'
-  labels_url: >-
-    https://api.github.com/repos/mikeferguson/robot_calibration/issues/3/labels{/name}
-  comments_url: >-
-    https://api.github.com/repos/mikeferguson/robot_calibration/issues/3/comments
-  events_url: 'https://api.github.com/repos/mikeferguson/robot_calibration/issues/3/events'
-  html_url: 'https://github.com/mikeferguson/robot_calibration/issues/3'
-  id: 59016894
-  number: 3
-  title: Add message for commanding gripper less
+    https://api.github.com/repos/mikeferguson/robot_calibration/issues/6/comments
+  events_url: 'https://api.github.com/repos/mikeferguson/robot_calibration/issues/6/events'
+  html_url: 'https://github.com/mikeferguson/robot_calibration/issues/6'
+  id: 60783418
+  number: 6
+  title: Need support for planning into move_state()
   user:
     login: mikeferguson
     id: 899410
@@ -454,28 +35,11 @@
       color: fc2929
   state: open
   locked: false
-  assignee:
-    login: mikeferguson
-    id: 899410
-    avatar_url: 'https://avatars.githubusercontent.com/u/899410?v=3'
-    gravatar_id: ''
-    url: 'https://api.github.com/users/mikeferguson'
-    html_url: 'https://github.com/mikeferguson'
-    followers_url: 'https://api.github.com/users/mikeferguson/followers'
-    following_url: 'https://api.github.com/users/mikeferguson/following{/other_user}'
-    gists_url: 'https://api.github.com/users/mikeferguson/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/mikeferguson/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/mikeferguson/subscriptions'
-    organizations_url: 'https://api.github.com/users/mikeferguson/orgs'
-    repos_url: 'https://api.github.com/users/mikeferguson/repos'
-    events_url: 'https://api.github.com/users/mikeferguson/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/mikeferguson/received_events'
-    type: User
-    site_admin: false
+  assignee: null
   milestone: null
   comments: 0
-  created_at: '2015-02-26T04:29:44Z'
-  updated_at: '2015-02-26T04:29:44Z'
+  created_at: '2015-03-12T08:00:23Z'
+  updated_at: '2015-03-12T08:00:23Z'
   closed_at: null
   body: ''
   repo: robot_calibration
@@ -483,13 +47,13 @@
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> VPg18L01Q8RPAGz8
+        id: !<tag:yaml.org,2002:binary> VQJ2Zb01Q8QkAnU/
       url: >-
-        https://api.github.com/repos/mikeferguson/robot_calibration/issues/comments/77341918
+        https://api.github.com/repos/mikeferguson/robot_calibration/issues/comments/78812318
       html_url: >-
-        https://github.com/mikeferguson/robot_calibration/issues/3#issuecomment-77341918
-      issue_url: 'https://api.github.com/repos/mikeferguson/robot_calibration/issues/3'
-      id: 77341918
+        https://github.com/mikeferguson/robot_calibration/issues/6#issuecomment-78812318
+      issue_url: 'https://api.github.com/repos/mikeferguson/robot_calibration/issues/6'
+      id: 78812318
       user:
         login: mikeferguson
         id: 899410
@@ -508,34 +72,209 @@
         received_events_url: 'https://api.github.com/users/mikeferguson/received_events'
         type: User
         site_admin: false
-      created_at: '2015-03-05T10:37:34Z'
-      updated_at: '2015-03-05T10:37:34Z'
+      created_at: '2015-03-13T05:31:55Z'
+      updated_at: '2015-03-13T05:31:55Z'
       body: >-
-        https://github.com/mikeferguson/robot_calibration/commit/20f222cfbf4e1ed345e2200198351b5a581a01c4
-      repo: robot_calibration
+        implemented by c9dcf669f018316de8c61f2d8dbacb9ddc581fe9
+        59e0e9fd6b13ef1ee951e19721473f22fc06ba7f
+        a53868888a6b4a82314af97309ede33307f4cfc1
+        c37e8500358465451bc1ba24725e034ae941724f
       owner: mikeferguson
-      issue_id: 3
+      repo: robot_calibration
+      issue_id: 6
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UTF8V701Q0S7AAA4
-  url: 'https://api.github.com/repos/ros/ros_comm/issues/183'
-  labels_url: 'https://api.github.com/repos/ros/ros_comm/issues/183/labels{/name}'
-  comments_url: 'https://api.github.com/repos/ros/ros_comm/issues/183/comments'
-  events_url: 'https://api.github.com/repos/ros/ros_comm/issues/183/events'
-  html_url: 'https://github.com/ros/ros_comm/issues/183'
-  id: 11571492
-  number: 183
-  title: '[dry] message generation extrmely slow'
+    id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAcZT
+  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/528'
+  closed_at: null
+  created_at: '2012-10-04T22:38:56Z'
+  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/528/labels{/name}'
+  body: Default view controller should be Orbit.
+  title: 'With empty config file, default view controller is FPS'
+  assignee:
+    received_events_url: 'https://api.github.com/users/hershwg/received_events'
+    url: 'https://api.github.com/users/hershwg'
+    organizations_url: 'https://api.github.com/users/hershwg/orgs'
+    followers_url: 'https://api.github.com/users/hershwg/followers'
+    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
+    gists_url: 'https://api.github.com/users/hershwg/gists{/gist_id}'
+    following_url: 'https://api.github.com/users/hershwg/following'
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    repos_url: 'https://api.github.com/users/hershwg/repos'
+    subscriptions_url: 'https://api.github.com/users/hershwg/subscriptions'
+    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
+    gravatar_id: 59c9a5865de1e52681657f3770b7b07d
+    id: 2372515
+    login: hershwg
   user:
+    received_events_url: 'https://api.github.com/users/hershwg/received_events'
+    url: 'https://api.github.com/users/hershwg'
+    organizations_url: 'https://api.github.com/users/hershwg/orgs'
+    followers_url: 'https://api.github.com/users/hershwg/followers'
+    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
+    gists_url: 'https://api.github.com/users/hershwg/gists{/gist_id}'
+    following_url: 'https://api.github.com/users/hershwg/following'
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    repos_url: 'https://api.github.com/users/hershwg/repos'
+    subscriptions_url: 'https://api.github.com/users/hershwg/subscriptions'
+    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
+    gravatar_id: 59c9a5865de1e52681657f3770b7b07d
+    id: 2372515
+    login: hershwg
+  pull_request:
+    diff_url: null
+    html_url: null
+    patch_url: null
+  milestone: null
+  number: 528
+  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/528/comments'
+  updated_at: '2012-10-04T22:39:01Z'
+  labels:
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/bug'
+      color: fc2929
+      name: bug
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/major'
+      color: ededed
+      name: major
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/groovy'
+      color: d7e102
+      name: groovy
+  html_url: 'https://github.com/ros-visualization/rviz/issues/528'
+  state: open
+  id: 7365089
+  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/528/events'
+  comments: 0
+  repo: rviz
+  owner: ros-visualization
+  data_comments: []
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAcbx
+  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/420'
+  closed_at: '2012-09-19T22:12:40Z'
+  created_at: '2012-09-19T22:12:39Z'
+  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/420/labels{/name}'
+  body: >-
+    When using the !TopDownOrtho view controller in rviz, the 3D position of
+    mouse events in !InteractiveMarkerFeedback messages is incorrect.  Z values
+    are huge negative and X and Y values seem scaled by some value.
+
+
+    trac data:
+     * Owner: **hersh**
+     * Reporter: **hersh**
+     * Reported at: **Thu Jul 28 15:16:25 2011**
+     * URL: http://code.ros.org/trac/ros-pkg/ticket/5098
+  title: >-
+    rviz: 3D mouse click position in interactive marker feedback incorrect in
+    orthographic mode.  (ros-pkg ticket #5098)
+  pull_request:
+    diff_url: null
+    patch_url: null
+    html_url: null
+  assignee: null
+  user:
+    url: 'https://api.github.com/users/hershwg'
+    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
+    repos_url: 'https://api.github.com/users/hershwg/repos'
+    organizations_url: 'https://api.github.com/users/hershwg/orgs'
+    followers_url: 'https://api.github.com/users/hershwg/followers'
+    received_events_url: 'https://api.github.com/users/hershwg/received_events'
+    gists_url: 'https://api.github.com/users/hershwg/gists{/gist_id}'
+    following_url: 'https://api.github.com/users/hershwg/following'
+    subscriptions_url: 'https://api.github.com/users/hershwg/subscriptions'
+    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
+    gravatar_id: 59c9a5865de1e52681657f3770b7b07d
+    id: 2372515
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    login: hershwg
+  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/420/comments'
+  milestone: null
+  number: 420
+  updated_at: '2012-09-19T22:12:40Z'
+  labels:
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/bug'
+      color: fc2929
+      name: bug
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/minor'
+      color: ededed
+      name: minor
+  state: closed
+  id: 6996523
+  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/420/events'
+  comments: 1
+  html_url: 'https://github.com/ros-visualization/rviz/issues/420'
+  repo: rviz
+  owner: ros-visualization
+  data_comments: []
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> WJNbfmSA/UooJ95D
+  url: 'https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426'
+  repository_url: 'https://api.github.com/repos/ros-visualization/rqt_common_plugins'
+  labels_url: >-
+    https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426/labels{/name}
+  comments_url: >-
+    https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426/comments
+  events_url: >-
+    https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426/events
+  html_url: 'https://github.com/ros-visualization/rqt_common_plugins/pull/426'
+  id: 204671724
+  number: 426
+  title: '[fix][rqt_bag_plugins] ''image_helper'' is not defined" error.'
+  user:
+    login: 130s
+    id: 1840401
+    avatar_url: 'https://avatars.githubusercontent.com/u/1840401?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/130s'
+    html_url: 'https://github.com/130s'
+    followers_url: 'https://api.github.com/users/130s/followers'
+    following_url: 'https://api.github.com/users/130s/following{/other_user}'
+    gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+    organizations_url: 'https://api.github.com/users/130s/orgs'
+    repos_url: 'https://api.github.com/users/130s/repos'
+    events_url: 'https://api.github.com/users/130s/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/130s/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - id: 22913179
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/labels/bug
+      name: bug
+      color: fc2929
+      default: true
+  state: closed
+  locked: false
+  assignee: null
+  assignees: []
+  milestone: null
+  comments: 5
+  created_at: '2017-02-01T18:53:03Z'
+  updated_at: '2017-02-01T20:05:27Z'
+  closed_at: '2017-02-01T19:25:59Z'
+  pull_request:
+    url: >-
+      https://api.github.com/repos/ros-visualization/rqt_common_plugins/pulls/426
+    html_url: 'https://github.com/ros-visualization/rqt_common_plugins/pull/426'
+    diff_url: 'https://github.com/ros-visualization/rqt_common_plugins/pull/426.diff'
+    patch_url: 'https://github.com/ros-visualization/rqt_common_plugins/pull/426.patch'
+  body: "Similar to https://github.com/ros-visualization/rqt_common_plugins/issues/424, without this PR I get the following error when I click `Toggle Thumbnail` button after loading a `.bag` file that contains image topics.\r\n\r\n```\r\n$ rqt&\r\n$ Loading /home/rosnoodle/Desktop/2017-01-30-15-03-19.bag\r\nDone loading /home/rosnoodele/Desktop/2017-01-30-15-03-19.bag\r\nError loading image on topic /camera/image_raw: global name 'image_helper' is not defined\r\nDisabling renderer on /camera/image_raw\r\n\r\n$ rospack find rqt_bag\r\n/home/rosnoodele/cws_viz/src/ros-visualization/rqt_common_plugins/rqt_bag\r\n$ roscd rqt_bag\r\n$ git log\r\ncommit 2c2487a02c83628a14be7bde318d20249167ffdb\r\nAuthor: Dirk Thomas <dthomas@osrfoundation.org>\r\nDate:   Tue Jan 31 12:35:55 2017 -0800\r\n\r\n    fix bag_helper import\r\n:\r\n```\r\n\r\n(For testing I used [this bag file](http://opensource-robotics.tokyo.jp/ar_track_alvar_4markers_tork_2017-01-30-15-03-19.bag) that contains images (500+MB though, and URL will likely change soon)."
+  closed_by:
     login: dirk-thomas
     id: 1335366
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
+    avatar_url: 'https://avatars.githubusercontent.com/u/1335366?v=3'
+    gravatar_id: ''
     url: 'https://api.github.com/users/dirk-thomas'
     html_url: 'https://github.com/dirk-thomas'
     followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-    following_url: 'https://api.github.com/users/dirk-thomas/following'
+    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
     gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
     starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
     subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
@@ -544,377 +283,461 @@
     events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
     received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
     type: User
+    site_admin: false
+  repo: rqt_common_plugins
+  owner: ros-visualization
+  data_comments:
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WJM9O2SA/Uxitqe7
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/comments/276746048
+      html_url: >-
+        https://github.com/ros-visualization/rqt_common_plugins/pull/426#issuecomment-276746048
+      issue_url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426
+      id: 276746048
+      user:
+        login: 130s
+        id: 1840401
+        avatar_url: 'https://avatars.githubusercontent.com/u/1840401?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/130s'
+        html_url: 'https://github.com/130s'
+        followers_url: 'https://api.github.com/users/130s/followers'
+        following_url: 'https://api.github.com/users/130s/following{/other_user}'
+        gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+        organizations_url: 'https://api.github.com/users/130s/orgs'
+        repos_url: 'https://api.github.com/users/130s/repos'
+        events_url: 'https://api.github.com/users/130s/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/130s/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-01T18:53:51Z'
+      updated_at: '2017-02-01T18:53:51Z'
+      body: Tested on Indigo - Python2 only. About to test on Kinetic now.
+      owner: ros-visualization
+      repo: rqt_common_plugins
+      issue_id: 426
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WJM9O2SA/Uxitqe8
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/comments/276750591
+      html_url: >-
+        https://github.com/ros-visualization/rqt_common_plugins/pull/426#issuecomment-276750591
+      issue_url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426
+      id: 276750591
+      user:
+        login: dirk-thomas
+        id: 1335366
+        avatar_url: 'https://avatars.githubusercontent.com/u/1335366?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/dirk-thomas'
+        html_url: 'https://github.com/dirk-thomas'
+        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
+        following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
+        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
+        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
+        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
+        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-01T19:10:10Z'
+      updated_at: '2017-02-01T19:10:10Z'
+      body: "Reviewing the PR #421 which introduced the regressions it looks like this line needs the same fix: https://github.com/ros-visualization/rqt_common_plugins/blob/2c2487a02c83628a14be7bde318d20249167ffdb/rqt_bag_plugins/src/rqt_bag_plugins/image_view.py#L46\r\n\r\nCould you please update this PR to fix that line too."
+      owner: ros-visualization
+      repo: rqt_common_plugins
+      issue_id: 426
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WJM9O2SA/Uxitqe9
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/comments/276754462
+      html_url: >-
+        https://github.com/ros-visualization/rqt_common_plugins/pull/426#issuecomment-276754462
+      issue_url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426
+      id: 276754462
+      user:
+        login: 130s
+        id: 1840401
+        avatar_url: 'https://avatars.githubusercontent.com/u/1840401?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/130s'
+        html_url: 'https://github.com/130s'
+        followers_url: 'https://api.github.com/users/130s/followers'
+        following_url: 'https://api.github.com/users/130s/following{/other_user}'
+        gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+        organizations_url: 'https://api.github.com/users/130s/orgs'
+        repos_url: 'https://api.github.com/users/130s/repos'
+        events_url: 'https://api.github.com/users/130s/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/130s/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-01T19:23:45Z'
+      updated_at: '2017-02-01T19:23:45Z'
+      body: "Ok, `rqt_bag_plugins/image_view.py` is changed too.\r\n\r\nOn my Kinetic I have a Qt issue that has nothing to with the issue here, so I'm not able to test this for now. If someone can test that'll be great."
+      owner: ros-visualization
+      repo: rqt_common_plugins
+      issue_id: 426
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WJM9O2SA/Uxitqe+
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/comments/276755068
+      html_url: >-
+        https://github.com/ros-visualization/rqt_common_plugins/pull/426#issuecomment-276755068
+      issue_url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426
+      id: 276755068
+      user:
+        login: dirk-thomas
+        id: 1335366
+        avatar_url: 'https://avatars.githubusercontent.com/u/1335366?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/dirk-thomas'
+        html_url: 'https://github.com/dirk-thomas'
+        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
+        following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
+        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
+        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
+        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
+        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-01T19:25:56Z'
+      updated_at: '2017-02-01T19:25:56Z'
+      body: Thanks for patch.
+      owner: ros-visualization
+      repo: rqt_common_plugins
+      issue_id: 426
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WJM9O2SA/Uxitqe/
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/comments/276766367
+      html_url: >-
+        https://github.com/ros-visualization/rqt_common_plugins/pull/426#issuecomment-276766367
+      issue_url: >-
+        https://api.github.com/repos/ros-visualization/rqt_common_plugins/issues/426
+      id: 276766367
+      user:
+        login: 130s
+        id: 1840401
+        avatar_url: 'https://avatars.githubusercontent.com/u/1840401?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/130s'
+        html_url: 'https://github.com/130s'
+        followers_url: 'https://api.github.com/users/130s/followers'
+        following_url: 'https://api.github.com/users/130s/following{/other_user}'
+        gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+        organizations_url: 'https://api.github.com/users/130s/orgs'
+        repos_url: 'https://api.github.com/users/130s/repos'
+        events_url: 'https://api.github.com/users/130s/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/130s/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-01T20:05:27Z'
+      updated_at: '2017-02-01T20:05:27Z'
+      body: Confirmed on Kinetic too that the issue raised is fixed with this PR.
+      owner: ros-visualization
+      repo: rqt_common_plugins
+      issue_id: 426
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> UYo8d701Q1jqAAXP
+  url: 'https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/27'
+  labels_url: >-
+    https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/27/labels{/name}
+  comments_url: >-
+    https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/27/comments
+  events_url: >-
+    https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/27/events
+  html_url: 'https://github.com/ros-visualization/rqt_robot_plugins/issues/27'
+  id: 14096203
+  number: 27
+  title: rqt_nav_view) save_settings not found although it's called
+  user:
+    login: 130s
+    id: 1840401
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/7b9b9ceaac1395a222e798d46e2a7655?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    gravatar_id: 7b9b9ceaac1395a222e798d46e2a7655
+    url: 'https://api.github.com/users/130s'
+    html_url: 'https://github.com/130s'
+    followers_url: 'https://api.github.com/users/130s/followers'
+    following_url: 'https://api.github.com/users/130s/following{/other_user}'
+    gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+    organizations_url: 'https://api.github.com/users/130s/orgs'
+    repos_url: 'https://api.github.com/users/130s/repos'
+    events_url: 'https://api.github.com/users/130s/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/130s/received_events'
+    type: User
   labels:
-    - url: 'https://api.github.com/repos/ros/ros_comm/labels/bug'
+    - url: >-
+        https://api.github.com/repos/ros-visualization/rqt_robot_plugins/labels/bug
       name: bug
       color: fc2929
   state: open
-  assignee:
-    login: dirk-thomas
-    id: 1335366
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
-    url: 'https://api.github.com/users/dirk-thomas'
-    html_url: 'https://github.com/dirk-thomas'
-    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-    following_url: 'https://api.github.com/users/dirk-thomas/following'
-    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-    type: User
-  milestone: null
+  assignee: null
+  milestone:
+    url: >-
+      https://api.github.com/repos/ros-visualization/rqt_robot_plugins/milestones/2
+    labels_url: >-
+      https://api.github.com/repos/ros-visualization/rqt_robot_plugins/milestones/2/labels
+    id: 281337
+    number: 2
+    title: Hydro Beta Release
+    description: ''
+    creator:
+      login: 130s
+      id: 1840401
+      avatar_url: >-
+        https://secure.gravatar.com/avatar/7b9b9ceaac1395a222e798d46e2a7655?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+      gravatar_id: 7b9b9ceaac1395a222e798d46e2a7655
+      url: 'https://api.github.com/users/130s'
+      html_url: 'https://github.com/130s'
+      followers_url: 'https://api.github.com/users/130s/followers'
+      following_url: 'https://api.github.com/users/130s/following{/other_user}'
+      gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+      starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+      subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+      organizations_url: 'https://api.github.com/users/130s/orgs'
+      repos_url: 'https://api.github.com/users/130s/repos'
+      events_url: 'https://api.github.com/users/130s/events{/privacy}'
+      received_events_url: 'https://api.github.com/users/130s/received_events'
+      type: User
+    open_issues: 3
+    closed_issues: 4
+    state: open
+    created_at: '2013-03-05T19:42:01Z'
+    updated_at: '2013-05-08T11:52:20Z'
+    due_on: '2013-04-25T07:00:00Z'
   comments: 0
-  created_at: '2013-03-02T04:12:59Z'
-  updated_at: '2013-03-02T04:12:59Z'
+  created_at: '2013-05-08T11:52:20Z'
+  updated_at: '2013-05-08T11:52:20Z'
   closed_at: null
   pull_request:
     html_url: null
     diff_url: null
     patch_url: null
-  body: >-
-    The message generation in dry packages takes a very long time (reported by
-    @hershwg).
-  repo: ros_comm
-  owner: ros
+  body: "When shutdown the plugin the following error is printed:\r\n\r\n```\r\nPluginHandlerDirect._restore_settings() plugin \"rqt_nav_view/NavigationView#1\" raised an exception:\r\nTraceback (most recent call last):\r\n  File \"/home/ros_noodle/catkin_ws/src/qt_gui_core/qt_gui/src/qt_gui/plugin_handler_direct.py\", line 116, in _restore_settings\r\n    self._plugin.restore_settings(plugin_settings_plugin, instance_settings_plugin)\r\n  File \"/home/ros_noodle/catkin_ws/src/rqt_robot_plugins/rqt_nav_view/src/rqt_nav_view/nav_view_plugin.py\", line 53, in restore_settings\r\n    self._widget.restore_settings(plugin_settings, instance_settings)\r\nAttributeError: 'NavViewWidget' object has no attribute 'restore_settings'\r\n\r\nPluginHandlerDirect._save_settings() plugin \"rqt_nav_view/NavigationView#1\" raised an exception:\r\nTraceback (most recent call last):\r\n  File \"/home/ros_noodle/catkin_ws/src/qt_gui_core/qt_gui/src/qt_gui/plugin_handler_direct.py\", line 106, in _save_settings\r\n    self._plugin.save_settings(plugin_settings_plugin, instance_settings_plugin)\r\n  File \"/home/ros_noodle/catkin_ws/src/rqt_robot_plugins/rqt_nav_view/src/rqt_nav_view/nav_view_plugin.py\", line 50, in save_settings\r\n    self._widget.save_settings(plugin_settings, instance_settings)\r\nAttributeError: 'NavViewWidget' object has no attribute 'save_settings'\r\n```\r\n"
+  repo: rqt_robot_plugins
+  owner: ros-visualization
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UTF8fL01Q0S4AAAk
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/14322561'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/183'
-      id: 14322561
+        id: !<tag:yaml.org,2002:binary> UYo8sr01Q1jbAATX
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/comments/17600701
+      html_url: >-
+        https://github.com/ros-visualization/rqt_robot_plugins/issues/27#issuecomment-17600701
+      issue_url: >-
+        https://api.github.com/repos/ros-visualization/rqt_robot_plugins/issues/27
+      id: 17600701
       user:
-        login: dirk-thomas
-        id: 1335366
+        login: 130s
+        id: 1840401
         avatar_url: >-
-          https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
-        url: 'https://api.github.com/users/dirk-thomas'
-        html_url: 'https://github.com/dirk-thomas'
-        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-        following_url: 'https://api.github.com/users/dirk-thomas/following'
-        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+          https://secure.gravatar.com/avatar/7b9b9ceaac1395a222e798d46e2a7655?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        gravatar_id: 7b9b9ceaac1395a222e798d46e2a7655
+        url: 'https://api.github.com/users/130s'
+        html_url: 'https://github.com/130s'
+        followers_url: 'https://api.github.com/users/130s/followers'
+        following_url: 'https://api.github.com/users/130s/following{/other_user}'
+        gists_url: 'https://api.github.com/users/130s/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/130s/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/130s/subscriptions'
+        organizations_url: 'https://api.github.com/users/130s/orgs'
+        repos_url: 'https://api.github.com/users/130s/repos'
+        events_url: 'https://api.github.com/users/130s/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/130s/received_events'
         type: User
-      created_at: '2013-03-02T04:13:39Z'
-      updated_at: '2013-03-02T04:13:39Z'
-      body: "Step-by-step use case provided by Dave:\r\n\r\nsudo emacs /opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py\r\n\r\nthen make it look like this:\r\n............\r\n## ROS message source code generation for C++\r\n## \r\n## Converts ROS .msg files in a package into C++ source code implementations.\r\n\r\nimport msg_gen\r\n\r\nimport sys\r\n\r\n# REMOVE ME... hersh added this in-place for profiling...\r\nif len(sys.argv) > 1:\r\n    import os.path\r\n    import cProfile\r\n    outname = '/tmp/genmsg_cpp.profile.' + os.path.basename( sys.argv[1] )\r\n    cProfile.run('msg_gen.generate_messages(sys.argv)', outname)\r\n    exit\r\n# ...end REMOVE ME section.\r\n\r\nif __name__ == \"__main__\":\r\n    msg_gen.generate_messages(sys.argv)\r\n\r\n............\r\n(Not very proper, but it got me a quick result without needing to understand how to set up the test environment)\r\n\r\nNow set up the target messages:\r\n\r\ncd ~/groovy_stacks # ...or wherever you like to check out dry packages\r\ngit clone git@github.com:ros-interactive-manipulation/object_manipulation.git\r\ncd object_manipulation/object_manipulation_msgs\r\n\r\nnow do the regular message building step for dry packages:\r\n\r\nmake\r\n\r\nSince step 1 was to edit the installed python script in-place, the regular message build does the profiling now.  It leaves its result files in /tmp/genmsg_cpp.profile.*\r\n\r\nNow to process the results, you need more python:\r\n\r\ncd /tmp # ... since that is where the files are...\r\nipython\r\n\r\ninside ipython I did:\r\n\r\nimport pstats\r\np = pstats.Stats('genmsg_cpp.profile.PlaceAction.msg')\r\np.strip_dirs().sort_stats('cumulative').print_stats(20)\r\n\r\nOnce you have the \"p\" stats object, there are lots of ways to process it.  I read this page: http://docs.python.org/2/library/profile.html to learn what I know about python profiling."
-      repo: ros_comm
-      owner: ros
-      issue_id: 183
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UTF8zr01Q0TOAABD
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/14322578'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/183'
-      id: 14322578
-      user:
-        login: dirk-thomas
-        id: 1335366
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
-        url: 'https://api.github.com/users/dirk-thomas'
-        html_url: 'https://github.com/dirk-thomas'
-        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-        following_url: 'https://api.github.com/users/dirk-thomas/following'
-        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-        type: User
-      created_at: '2013-03-02T04:15:08Z'
-      updated_at: '2013-03-02T04:15:08Z'
-      body: >-
-        For `genmsg_cpp.py object_manipulation_msgs/msg/PickupAction.msg` it
-        takes 95s for me...
-      repo: ros_comm
-      owner: ros
-      issue_id: 183
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UTF+PL01Q0TFAABX
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/14322618'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/183'
-      id: 14322618
-      user:
-        login: dirk-thomas
-        id: 1335366
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
-        url: 'https://api.github.com/users/dirk-thomas'
-        html_url: 'https://github.com/dirk-thomas'
-        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-        following_url: 'https://api.github.com/users/dirk-thomas/following'
-        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-        type: User
-      created_at: '2013-03-02T04:21:03Z'
-      updated_at: '2013-03-02T04:21:03Z'
-      body: After these "tiny" optimizations the time is down to 1.3s...
-      repo: ros_comm
-      owner: ros
-      issue_id: 183
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UTF/Vb01Q0TKAABr
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/14322668'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/183'
-      id: 14322668
-      user:
-        login: dirk-thomas
-        id: 1335366
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
-        url: 'https://api.github.com/users/dirk-thomas'
-        html_url: 'https://github.com/dirk-thomas'
-        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-        following_url: 'https://api.github.com/users/dirk-thomas/following'
-        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-        type: User
-      created_at: '2013-03-02T04:25:49Z'
-      updated_at: '2013-03-02T04:25:49Z'
-      body: 'The same will be the case for service... '
-      repo: ros_comm
-      owner: ros
-      issue_id: 183
+      created_at: '2013-05-08T11:53:12Z'
+      updated_at: '2013-05-08T11:53:12Z'
+      body: Fixed via f44d640
+      owner: ros-visualization
+      repo: rqt_robot_plugins
+      issue_id: 27
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> U2TFPL01QzorAISZ
-  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/760'
-  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/760/labels{/name}'
-  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/760/comments'
-  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/760/events'
-  html_url: 'https://github.com/ros-visualization/rviz/issues/760'
-  id: 32658724
-  number: 760
-  title: 'build error when building for indigo on trusty '
+    id: !<tag:yaml.org,2002:binary> VdTs4RtIdjkoAADM
+  url: 'https://api.github.com/repos/mavlink/mavros/issues/352'
+  labels_url: 'https://api.github.com/repos/mavlink/mavros/issues/352/labels{/name}'
+  comments_url: 'https://api.github.com/repos/mavlink/mavros/issues/352/comments'
+  events_url: 'https://api.github.com/repos/mavlink/mavros/issues/352/events'
+  html_url: 'https://github.com/mavlink/mavros/issues/352'
+  id: 97809809
+  number: 352
+  title: 'Eigen::Map<Quaternionf> place data in xyzw order instead of wxyz.'
   user:
-    login: wjwwood
-    id: 100427
-    avatar_url: 'https://avatars.githubusercontent.com/u/100427?'
-    gravatar_id: e9b7130c915ff71c0812d99ff927e929
-    url: 'https://api.github.com/users/wjwwood'
-    html_url: 'https://github.com/wjwwood'
-    followers_url: 'https://api.github.com/users/wjwwood/followers'
-    following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
-    gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
-    organizations_url: 'https://api.github.com/users/wjwwood/orgs'
-    repos_url: 'https://api.github.com/users/wjwwood/repos'
-    events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+    login: vooon
+    id: 1023568
+    avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/vooon'
+    html_url: 'https://github.com/vooon'
+    followers_url: 'https://api.github.com/users/vooon/followers'
+    following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+    gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+    organizations_url: 'https://api.github.com/users/vooon/orgs'
+    repos_url: 'https://api.github.com/users/vooon/repos'
+    events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/vooon/received_events'
     type: User
     site_admin: false
   labels:
-    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/bug'
+    - url: 'https://api.github.com/repos/mavlink/mavros/labels/bug'
       name: bug
       color: fc2929
   state: closed
-  assignee: null
-  milestone: null
+  locked: false
+  assignee:
+    login: vooon
+    id: 1023568
+    avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/vooon'
+    html_url: 'https://github.com/vooon'
+    followers_url: 'https://api.github.com/users/vooon/followers'
+    following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+    gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+    organizations_url: 'https://api.github.com/users/vooon/orgs'
+    repos_url: 'https://api.github.com/users/vooon/repos'
+    events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/vooon/received_events'
+    type: User
+    site_admin: false
+  milestone:
+    url: 'https://api.github.com/repos/mavlink/mavros/milestones/14'
+    html_url: 'https://github.com/mavlink/mavros/milestones/Version%200.13'
+    labels_url: 'https://api.github.com/repos/mavlink/mavros/milestones/14/labels'
+    id: 1184329
+    number: 14
+    title: Version 0.13
+    description: ''
+    creator:
+      login: vooon
+      id: 1023568
+      avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+      gravatar_id: ''
+      url: 'https://api.github.com/users/vooon'
+      html_url: 'https://github.com/vooon'
+      followers_url: 'https://api.github.com/users/vooon/followers'
+      following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+      gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+      starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+      subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+      organizations_url: 'https://api.github.com/users/vooon/orgs'
+      repos_url: 'https://api.github.com/users/vooon/repos'
+      events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+      received_events_url: 'https://api.github.com/users/vooon/received_events'
+      type: User
+      site_admin: false
+    open_issues: 0
+    closed_issues: 17
+    state: closed
+    created_at: '2015-06-28T17:55:40Z'
+    updated_at: '2015-08-01T11:03:31Z'
+    due_on: '2015-08-01T21:00:00Z'
+    closed_at: '2015-08-01T11:03:31Z'
   comments: 1
-  created_at: '2014-05-02T00:09:56Z'
-  updated_at: '2014-05-02T00:10:06Z'
-  closed_at: '2014-05-02T00:10:06Z'
-  body: "When building the indigo version on trusty (64-bit) I get:\r\n\r\n```\r\nmake[2]: *** No rule to make target `/usr/lib/x86_64-linux-gnu/libGL.so', needed by `/home/william/rviz_ws/devel/lib/librviz.so'.  Stop.\r\nmake[1]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/all] Error 2\r\nmake: *** [all] Error 2\r\nInvoking \"make\" failed\r\n```\r\n\r\nIt seems to be a broken symlink for `libGL.so` and only affects 64-bit:\r\n\r\nhttp://stackoverflow.com/questions/18714161/installing-glfw3-on-ubuntu-13-04-make-error"
-  repo: rviz
-  owner: ros-visualization
+  created_at: '2015-07-28T21:51:31Z'
+  updated_at: '2015-07-29T10:45:46Z'
+  closed_at: '2015-07-29T10:45:46Z'
+  body: 'Found in PR #351.'
+  closed_by:
+    login: vooon
+    id: 1023568
+    avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/vooon'
+    html_url: 'https://github.com/vooon'
+    followers_url: 'https://api.github.com/users/vooon/followers'
+    following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+    gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+    organizations_url: 'https://api.github.com/users/vooon/orgs'
+    repos_url: 'https://api.github.com/users/vooon/repos'
+    events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/vooon/received_events'
+    type: User
+    site_admin: false
+  repo: mavros
+  owner: mavlink
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U2TKlb01Qzp6AIqK
-      url: >-
-        https://api.github.com/repos/ros-visualization/rviz/issues/comments/41971182
-      html_url: >-
-        https://github.com/ros-visualization/rviz/issues/760#issuecomment-41971182
-      issue_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/760'
-      id: 41971182
+        id: !<tag:yaml.org,2002:binary> VdxfABtIdnhUAmKd
+      url: 'https://api.github.com/repos/mavlink/mavros/issues/comments/125913947'
+      html_url: 'https://github.com/mavlink/mavros/issues/352#issuecomment-125913947'
+      issue_url: 'https://api.github.com/repos/mavlink/mavros/issues/352'
+      id: 125913947
       user:
-        login: wjwwood
-        id: 100427
-        avatar_url: 'https://avatars.githubusercontent.com/u/100427?'
-        gravatar_id: e9b7130c915ff71c0812d99ff927e929
-        url: 'https://api.github.com/users/wjwwood'
-        html_url: 'https://github.com/wjwwood'
-        followers_url: 'https://api.github.com/users/wjwwood/followers'
-        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
-        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
-        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
-        repos_url: 'https://api.github.com/users/wjwwood/repos'
-        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        login: vooon
+        id: 1023568
+        avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/vooon'
+        html_url: 'https://github.com/vooon'
+        followers_url: 'https://api.github.com/users/vooon/followers'
+        following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+        gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+        organizations_url: 'https://api.github.com/users/vooon/orgs'
+        repos_url: 'https://api.github.com/users/vooon/repos'
+        events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/vooon/received_events'
         type: User
         site_admin: false
-      created_at: '2014-05-02T00:10:06Z'
-      updated_at: '2014-05-02T00:10:06Z'
-      body: "I'm not certain that we can do anything about this in rviz, but the work around for now is to correct the symlink:\r\n\r\n```\r\n$ # Rename the original file\r\n$ sudo mv /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGL.so.original\r\n$ # Make the correct symlink\r\n$ ln -s /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so\r\n```"
-      owner: ros-visualization
-      repo: rviz
-      issue_id: 760
+      created_at: '2015-07-29T10:26:32Z'
+      updated_at: '2015-07-29T10:26:32Z'
+      body: >-
+        That issue is surprise to me, because at API level Eigen::Quaternion
+        uses wxyz, so different internal representation is weird.
+      owner: mavlink
+      repo: mavros
+      issue_id: 352
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> ULWnkdGSXCMYDuHC
-  events_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/25/events'
-  comments: 0
-  created_at: '2012-11-22T02:51:25Z'
-  number: 25
-  body: |-
-    Traceback (most recent call last):
-      File "/u/ablasdel/groovy_sandbox/rqt/rqt_robot_dashboard/src/rqt_robot_dashboard/monitor_dash_widget.py", line 100, in _stalled
-        self.update_state(3)
-      File "/u/ablasdel/groovy_sandbox/rqt/rqt_robot_dashboard/src/rqt_robot_dashboard/icon_tool_button.py", line 94, in update_state
-        self.state_changed.emit(self.__state)
-    TypeError: pyqtSignal must be bound to a QObject, not 'MonitorDashWidget'
-  assignee:
-    login: ablasdel
-    events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
-    organizations_url: 'https://api.github.com/users/ablasdel/orgs'
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    followers_url: 'https://api.github.com/users/ablasdel/followers'
-    received_events_url: 'https://api.github.com/users/ablasdel/received_events'
-    following_url: 'https://api.github.com/users/ablasdel/following'
-    subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
-    url: 'https://api.github.com/users/ablasdel'
-    starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
-    gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
-    id: 2374428
-    repos_url: 'https://api.github.com/users/ablasdel/repos'
-    gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
-  title: rqt_robot_dashboard occasionally causes this traceback in pyqt
-  milestone: null
-  labels:
-    - url: 'https://api.github.com/repos/ros-visualization/rqt/labels/bug'
-      name: bug
-      color: fc2929
-  url: 'https://api.github.com/repos/ros-visualization/rqt/issues/25'
-  comments_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/25/comments'
-  updated_at: '2012-11-28T01:53:50Z'
-  state: closed
-  user:
-    login: ablasdel
-    events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
-    organizations_url: 'https://api.github.com/users/ablasdel/orgs'
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    followers_url: 'https://api.github.com/users/ablasdel/followers'
-    received_events_url: 'https://api.github.com/users/ablasdel/received_events'
-    following_url: 'https://api.github.com/users/ablasdel/following'
-    subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
-    url: 'https://api.github.com/users/ablasdel'
-    starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
-    gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
-    id: 2374428
-    repos_url: 'https://api.github.com/users/ablasdel/repos'
-    gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
-  id: 8565648
-  labels_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/25/labels{/name}'
-  pull_request:
-    patch_url: null
-    diff_url: null
-    html_url: null
-  closed_at: '2012-11-28T01:53:50Z'
-  html_url: 'https://github.com/ros-visualization/rqt/issues/25'
-  repo: rqt
-  owner: ros-visualization
-  data_comments: []
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UP+WMr01Q6DVAMvt
-  milestone: null
-  url: 'https://api.github.com/repos/ros-drivers/joystick_drivers/issues/31'
-  events_url: 'https://api.github.com/repos/ros-drivers/joystick_drivers/issues/31/events'
-  body: "Just like any other sensor stream (images, lasers, IMUs), joystick messages should be stamped upon receipt by the driver. \r\n\r\nI want to answer questions like \"how much time was there between button press 1 and button press 2\".  The cleanest way to do this would be with a header field.\n\ntrac data:\n * Owner: **mwise**\n * Reporter: **vpradeep**\n * Reported at: **Tue Feb 15 12:04:45 2011**\n * URL: https://code.ros.org/trac/ros-pkg/joystick_drivers/ticket/4790"
-  pull_request:
-    patch_url: null
-    diff_url: null
-    html_url: null
-  assignee: null
-  user:
-    type: User
-    received_events_url: 'https://api.github.com/users/wjwwood/received_events'
-    subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
-    url: 'https://api.github.com/users/wjwwood'
-    events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
-    gravatar_id: e9b7130c915ff71c0812d99ff927e929
-    starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
-    organizations_url: 'https://api.github.com/users/wjwwood/orgs'
-    login: wjwwood
-    gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/e9b7130c915ff71c0812d99ff927e929?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    repos_url: 'https://api.github.com/users/wjwwood/repos'
-    followers_url: 'https://api.github.com/users/wjwwood/followers'
-    id: 100427
-    following_url: 'https://api.github.com/users/wjwwood/following'
-  state: closed
-  labels:
-    - color: fc2929
-      url: 'https://api.github.com/repos/ros-drivers/joystick_drivers/labels/bug'
-      name: bug
-    - color: ededed
-      url: 'https://api.github.com/repos/ros-drivers/joystick_drivers/labels/major'
-      name: major
-  title: 'joy/Joy msg should have a header  (ros-pkg ticket #4790)'
-  number: 31
-  updated_at: '2012-10-31T03:35:39Z'
-  comments: 1
-  comments_url: 'https://api.github.com/repos/ros-drivers/joystick_drivers/issues/31/comments'
-  labels_url: >-
-    https://api.github.com/repos/ros-drivers/joystick_drivers/issues/31/labels{/name}
-  closed_at: '2012-10-31T03:35:39Z'
-  id: 7988807
-  html_url: 'https://github.com/ros-drivers/joystick_drivers/issues/31'
-  created_at: '2012-10-31T03:35:39Z'
-  repo: joystick_drivers
-  owner: ros-drivers
-  data_comments: []
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UjG8K701Q6JzAAcE
-  url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/92'
-  labels_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/92/labels{/name}'
-  comments_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/92/comments'
-  events_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/92/events'
-  html_url: 'https://github.com/PR2/pr2_simulator/issues/92'
-  id: 19214440
-  number: 92
-  title: 'ConnectWorldUpdateStart is deprecated  (ros ticket #5219)'
+    id: !<tag:yaml.org,2002:binary> UjG8K701Q6JzAAc/
+  url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32'
+  labels_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32/labels{/name}'
+  comments_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32/comments'
+  events_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32/events'
+  html_url: 'https://github.com/PR2/pr2_simulator/issues/32'
+  id: 19214183
+  number: 32
+  title: >-
+    all code that refers to pr2core.h should load parameters from pr2.xml via
+    the parameter server  (ros ticket #173)
   user:
     login: ahendrix
     id: 2073767
     avatar_url: >-
-      https://0.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
+      https://1.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
     gravatar_id: e51d02b08b671143167f8645183c06b0
     url: 'https://api.github.com/users/ahendrix'
     html_url: 'https://github.com/ahendrix'
@@ -935,65 +758,40 @@
     - url: 'https://api.github.com/repos/PR2/pr2_simulator/labels/major'
       name: major
       color: ededed
-  state: open
+  state: closed
   assignee: null
   milestone: null
-  comments: 0
-  created_at: '2013-09-09T18:34:22Z'
-  updated_at: '2013-09-09T18:34:22Z'
-  closed_at: null
+  comments: 5
+  created_at: '2013-09-09T18:30:56Z'
+  updated_at: '2013-09-09T18:30:59Z'
+  closed_at: '2013-09-09T18:30:59Z'
   pull_request:
     html_url: null
     diff_url: null
     patch_url: null
-  body: "Should be ConnectWorldUpdateBegin. See patch:\r\nhttps://github.com/danepowell/pr2_simulator/commit/90ebfcfac63dd7ef94a94f59d18012dba47b0919\n\ntrac data:\n * Owner: **hsu**\n * Reporter: **danepowell**\n * Reported at: **Wed Aug 14 15:15:43 2013**\n * URL: https://code.ros.org/trac/wg-ros-pkg/ticket/5219"
+  body: |-
+    modules that use this include pr2_gazebo (RosGazeboNode.cpp) and libKDL.
+
+    trac data:
+     * Owner: **sachinc**
+     * Reporter: **gjones**
+     * Reported at: **Mon Aug  4 15:54:26 2008**
+     * URL: https://code.ros.org/trac/wg-ros-pkg/ticket/173
   repo: pr2_simulator
   owner: PR2
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UqpVKL01Qz5PAABO
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/30179057'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/92#issuecomment-30179057'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/92'
-      id: 30179057
-      user:
-        login: hsu
-        id: 138109
-        avatar_url: >-
-          https://gravatar.com/avatar/db911fa13e8a29c755272a5d870a6c26?d=https%3A%2F%2Fidenticons.github.com%2F4299467d8e845f40e58bc689d6c6e9c4.png&r=x
-        gravatar_id: db911fa13e8a29c755272a5d870a6c26
-        url: 'https://api.github.com/users/hsu'
-        html_url: 'https://github.com/hsu'
-        followers_url: 'https://api.github.com/users/hsu/followers'
-        following_url: 'https://api.github.com/users/hsu/following{/other_user}'
-        gists_url: 'https://api.github.com/users/hsu/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/hsu/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/hsu/subscriptions'
-        organizations_url: 'https://api.github.com/users/hsu/orgs'
-        repos_url: 'https://api.github.com/users/hsu/repos'
-        events_url: 'https://api.github.com/users/hsu/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/hsu/received_events'
-        type: User
-        site_admin: false
-      created_at: '2013-12-09T22:11:16Z'
-      updated_at: '2013-12-09T22:11:16Z'
-      body: 'Thanks for the patch, is there a pull request pending?'
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 92
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UqpVQr01Qzf0AAR+
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/30179527'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/92#issuecomment-30179527'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/92'
-      id: 30179527
+        id: !<tag:yaml.org,2002:binary> UjG8/L01Q6GMAAaI
+      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/24102895'
+      html_url: 'https://github.com/PR2/pr2_simulator/issues/32#issuecomment-24102895'
+      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32'
+      id: 24102895
       user:
         login: ahendrix
         id: 2073767
         avatar_url: >-
-          https://gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png&r=x
+          https://1.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
         gravatar_id: e51d02b08b671143167f8645183c06b0
         url: 'https://api.github.com/users/ahendrix'
         html_url: 'https://github.com/ahendrix'
@@ -1007,10 +805,461 @@
         events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
         received_events_url: 'https://api.github.com/users/ahendrix/received_events'
         type: User
-        site_admin: false
-      created_at: '2013-12-09T22:16:40Z'
-      updated_at: '2013-12-09T22:16:40Z'
-      body: "This was submitted before pr2_simulator was converted to git and moved to github, so there isn't a pull request open.\r\n\r\n@danepowell 's pr2_simulator looks like a separate conversion or import into git, so there isn't any common history to use for a pull request. You'll probably have to apply his patch by hand."
-      repo: pr2_simulator
+      created_at: '2013-09-09T18:30:57Z'
+      updated_at: '2013-09-09T18:30:57Z'
+      body: "[hsu] a version of libpr2API and libpr2HW using pr2.xml rather than pr2Core.h is underway.\r\nmore information to arrive when I make an update."
       owner: PR2
-      issue_id: 92
+      repo: pr2_simulator
+      issue_id: 32
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UjG8/L01Q6GMAAaJ
+      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/24102896'
+      html_url: 'https://github.com/PR2/pr2_simulator/issues/32#issuecomment-24102896'
+      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32'
+      id: 24102896
+      user:
+        login: ahendrix
+        id: 2073767
+        avatar_url: >-
+          https://1.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
+        gravatar_id: e51d02b08b671143167f8645183c06b0
+        url: 'https://api.github.com/users/ahendrix'
+        html_url: 'https://github.com/ahendrix'
+        followers_url: 'https://api.github.com/users/ahendrix/followers'
+        following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
+        gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
+        organizations_url: 'https://api.github.com/users/ahendrix/orgs'
+        repos_url: 'https://api.github.com/users/ahendrix/repos'
+        events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/ahendrix/received_events'
+        type: User
+      created_at: '2013-09-09T18:30:57Z'
+      updated_at: '2013-09-09T18:30:57Z'
+      body: >-
+        [hsu] pr2Core is to become obsolete as soon as the arm control loops are
+        tuned.
+      owner: PR2
+      repo: pr2_simulator
+      issue_id: 32
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UjG8/L01Q6GMAAaK
+      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/24102897'
+      html_url: 'https://github.com/PR2/pr2_simulator/issues/32#issuecomment-24102897'
+      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32'
+      id: 24102897
+      user:
+        login: ahendrix
+        id: 2073767
+        avatar_url: >-
+          https://1.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
+        gravatar_id: e51d02b08b671143167f8645183c06b0
+        url: 'https://api.github.com/users/ahendrix'
+        html_url: 'https://github.com/ahendrix'
+        followers_url: 'https://api.github.com/users/ahendrix/followers'
+        following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
+        gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
+        organizations_url: 'https://api.github.com/users/ahendrix/orgs'
+        repos_url: 'https://api.github.com/users/ahendrix/repos'
+        events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/ahendrix/received_events'
+        type: User
+      created_at: '2013-09-09T18:30:57Z'
+      updated_at: '2013-09-09T18:30:57Z'
+      body: "[hsu] with the exception of deprecated kinematics library and pr2_etherDrive,\r\npr2Core is considered retired."
+      owner: PR2
+      repo: pr2_simulator
+      issue_id: 32
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UjG8/L01Q6GMAAaL
+      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/24102898'
+      html_url: 'https://github.com/PR2/pr2_simulator/issues/32#issuecomment-24102898'
+      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32'
+      id: 24102898
+      user:
+        login: ahendrix
+        id: 2073767
+        avatar_url: >-
+          https://1.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
+        gravatar_id: e51d02b08b671143167f8645183c06b0
+        url: 'https://api.github.com/users/ahendrix'
+        html_url: 'https://github.com/ahendrix'
+        followers_url: 'https://api.github.com/users/ahendrix/followers'
+        following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
+        gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
+        organizations_url: 'https://api.github.com/users/ahendrix/orgs'
+        repos_url: 'https://api.github.com/users/ahendrix/repos'
+        events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/ahendrix/received_events'
+        type: User
+      created_at: '2013-09-09T18:30:58Z'
+      updated_at: '2013-09-09T18:30:58Z'
+      body: "[hsu] Sachin,\r\nmaybe we can wait for pr2_etherCAT to come up for the base and not worry about this?\r\nThanks,\r\nJohn"
+      owner: PR2
+      repo: pr2_simulator
+      issue_id: 32
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UjG8/L01Q6GMAAaM
+      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/24102899'
+      html_url: 'https://github.com/PR2/pr2_simulator/issues/32#issuecomment-24102899'
+      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/32'
+      id: 24102899
+      user:
+        login: ahendrix
+        id: 2073767
+        avatar_url: >-
+          https://1.gravatar.com/avatar/e51d02b08b671143167f8645183c06b0?d=https%3A%2F%2Fidenticons.github.com%2F799f241f9a0e6c7b58c1051007c91bb3.png
+        gravatar_id: e51d02b08b671143167f8645183c06b0
+        url: 'https://api.github.com/users/ahendrix'
+        html_url: 'https://github.com/ahendrix'
+        followers_url: 'https://api.github.com/users/ahendrix/followers'
+        following_url: 'https://api.github.com/users/ahendrix/following{/other_user}'
+        gists_url: 'https://api.github.com/users/ahendrix/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/ahendrix/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/ahendrix/subscriptions'
+        organizations_url: 'https://api.github.com/users/ahendrix/orgs'
+        repos_url: 'https://api.github.com/users/ahendrix/repos'
+        events_url: 'https://api.github.com/users/ahendrix/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/ahendrix/received_events'
+        type: User
+      created_at: '2013-09-09T18:30:58Z'
+      updated_at: '2013-09-09T18:30:58Z'
+      body: "[sachinc] Yes,\r\n\r\nThe old base is too much of a pain to work with and should be shelved as soon as possible.\r\n\r\nSachin"
+      owner: PR2
+      repo: pr2_simulator
+      issue_id: 32
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> VWDEPb01Q/GcAIe0
+  url: 'https://api.github.com/repos/mavlink/mavros/issues/300'
+  labels_url: 'https://api.github.com/repos/mavlink/mavros/issues/300/labels{/name}'
+  comments_url: 'https://api.github.com/repos/mavlink/mavros/issues/300/comments'
+  events_url: 'https://api.github.com/repos/mavlink/mavros/issues/300/events'
+  html_url: 'https://github.com/mavlink/mavros/issues/300'
+  id: 79917035
+  number: 300
+  title: AUTOPILOT_VERSION make quirk for APM
+  user:
+    login: vooon
+    id: 1023568
+    avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/vooon'
+    html_url: 'https://github.com/vooon'
+    followers_url: 'https://api.github.com/users/vooon/followers'
+    following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+    gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+    organizations_url: 'https://api.github.com/users/vooon/orgs'
+    repos_url: 'https://api.github.com/users/vooon/repos'
+    events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/vooon/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - url: 'https://api.github.com/repos/mavlink/mavros/labels/APM'
+      name: APM
+      color: 207de5
+    - url: 'https://api.github.com/repos/mavlink/mavros/labels/bug'
+      name: bug
+      color: fc2929
+    - url: 'https://api.github.com/repos/mavlink/mavros/labels/plugin'
+      name: plugin
+      color: 009800
+  state: open
+  locked: false
+  assignee: null
+  milestone: null
+  comments: 0
+  created_at: '2015-05-23T18:17:30Z'
+  updated_at: '2015-05-23T18:17:30Z'
+  closed_at: null
+  body: "https://github.com/mavlink/mavros/issues/96\r\n\r\nNow PX4 implement APTOPILOT_VERSION, and as it described in message doc.\r\nNew APM quirk..."
+  repo: mavros
+  owner: mavlink
+  data_comments:
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> VXBhrr01QxR0AAhB
+      url: 'https://api.github.com/repos/mavlink/mavros/issues/comments/108916119'
+      html_url: 'https://github.com/mavlink/mavros/issues/300#issuecomment-108916119'
+      issue_url: 'https://api.github.com/repos/mavlink/mavros/issues/300'
+      id: 108916119
+      user:
+        login: vooon
+        id: 1023568
+        avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/vooon'
+        html_url: 'https://github.com/vooon'
+        followers_url: 'https://api.github.com/users/vooon/followers'
+        following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+        gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+        organizations_url: 'https://api.github.com/users/vooon/orgs'
+        repos_url: 'https://api.github.com/users/vooon/repos'
+        events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/vooon/received_events'
+        type: User
+        site_admin: false
+      created_at: '2015-06-04T14:33:13Z'
+      updated_at: '2015-06-04T14:33:13Z'
+      body: Done.
+      owner: mavlink
+      repo: mavros
+      issue_id: 300
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> VYB07r01Q5f2ABa2
+      url: 'https://api.github.com/repos/mavlink/mavros/issues/comments/112531703'
+      html_url: 'https://github.com/mavlink/mavros/issues/300#issuecomment-112531703'
+      issue_url: 'https://api.github.com/repos/mavlink/mavros/issues/300'
+      id: 112531703
+      user:
+        login: vooon
+        id: 1023568
+        avatar_url: 'https://avatars.githubusercontent.com/u/1023568?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/vooon'
+        html_url: 'https://github.com/vooon'
+        followers_url: 'https://api.github.com/users/vooon/followers'
+        following_url: 'https://api.github.com/users/vooon/following{/other_user}'
+        gists_url: 'https://api.github.com/users/vooon/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/vooon/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/vooon/subscriptions'
+        organizations_url: 'https://api.github.com/users/vooon/orgs'
+        repos_url: 'https://api.github.com/users/vooon/repos'
+        events_url: 'https://api.github.com/users/vooon/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/vooon/received_events'
+        type: User
+        site_admin: false
+      created_at: '2015-06-16T19:07:11Z'
+      updated_at: '2015-06-16T19:07:11Z'
+      body: "Seems that my fix incomplete. Just flashed stable to pixhawk, and connected via TELEM2 in companion mode.\r\n\r\n```\r\n[ INFO] [1434481477.929407879]: VER: Capabilities 0x00000000000004eb\r\n[ INFO] [1434481477.929732830]: VER: Flight software:     00000000 (0?0y0?0=0?0?0?0Z)\r\n[ INFO] [1434481477.929864906]: VER: Middleware software: 00000000 (0?0y0?0=0?0?0?0Z)\r\n[ INFO] [1434481477.929953628]: VER: OS software:         00000000 (0)\r\n[ INFO] [1434481477.930033061]: VER: Board hardware:      00000000\r\n[ INFO] [1434481477.930108184]: VER: VID/PID: 26ac:0011\r\n[ INFO] [1434481477.930184244]: VER: UID: 3133470131383530\r\n```"
+      owner: mavlink
+      repo: mavros
+      issue_id: 300
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAccc
+  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/370'
+  closed_at: '2012-09-19T22:11:05Z'
+  created_at: '2012-09-19T22:11:04Z'
+  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/370/labels{/name}'
+  body: |-
+    This would be the pr2_dashboard w/o the pr2 specific aspects. 
+
+    Since this is what everyone w/o a pr2 should be running all the time.
+
+    trac data:
+     * Owner: **jfaust**
+     * Reporter: **tfoote**
+     * Reported at: **Tue Nov 23 16:19:29 2010**
+     * URL: http://code.ros.org/trac/ros-pkg/ticket/4587
+  title: 'create a robot dashboard  (ros-pkg ticket #4587)'
+  assignee: null
+  user:
+    url: 'https://api.github.com/users/hershwg'
+    received_events_url: 'https://api.github.com/users/hershwg/received_events'
+    organizations_url: 'https://api.github.com/users/hershwg/orgs'
+    followers_url: 'https://api.github.com/users/hershwg/followers'
+    gists_url: 'https://api.github.com/users/hershwg/gists{/gist_id}'
+    following_url: 'https://api.github.com/users/hershwg/following'
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/hershwg/subscriptions'
+    repos_url: 'https://api.github.com/users/hershwg/repos'
+    gravatar_id: 59c9a5865de1e52681657f3770b7b07d
+    id: 2372515
+    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
+    login: hershwg
+  milestone: null
+  number: 370
+  updated_at: '2012-09-19T22:11:05Z'
+  labels:
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/bug'
+      color: fc2929
+      name: bug
+    - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/major'
+      color: ededed
+      name: major
+  pull_request:
+    patch_url: null
+    diff_url: null
+    html_url: null
+  state: closed
+  id: 6996430
+  comments: 0
+  html_url: 'https://github.com/ros-visualization/rviz/issues/370'
+  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/370/events'
+  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/370/comments'
+  repo: rviz
+  owner: ros-visualization
+  data_comments: []
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> WErAjGSA/ZtFKPld
+  url: 'https://api.github.com/repos/ethz-asl/rotors_simulator/issues/322'
+  repository_url: 'https://api.github.com/repos/ethz-asl/rotors_simulator'
+  labels_url: >-
+    https://api.github.com/repos/ethz-asl/rotors_simulator/issues/322/labels{/name}
+  comments_url: 'https://api.github.com/repos/ethz-asl/rotors_simulator/issues/322/comments'
+  events_url: 'https://api.github.com/repos/ethz-asl/rotors_simulator/issues/322/events'
+  html_url: 'https://github.com/ethz-asl/rotors_simulator/issues/322'
+  id: 194334228
+  number: 322
+  title: '"gyroscopoe" typo in component_snippets.xacro'
+  user:
+    login: gbmhunter
+    id: 2396869
+    avatar_url: 'https://avatars.githubusercontent.com/u/2396869?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/gbmhunter'
+    html_url: 'https://github.com/gbmhunter'
+    followers_url: 'https://api.github.com/users/gbmhunter/followers'
+    following_url: 'https://api.github.com/users/gbmhunter/following{/other_user}'
+    gists_url: 'https://api.github.com/users/gbmhunter/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/gbmhunter/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/gbmhunter/subscriptions'
+    organizations_url: 'https://api.github.com/users/gbmhunter/orgs'
+    repos_url: 'https://api.github.com/users/gbmhunter/repos'
+    events_url: 'https://api.github.com/users/gbmhunter/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/gbmhunter/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - id: 86802076
+      url: 'https://api.github.com/repos/ethz-asl/rotors_simulator/labels/bug'
+      name: bug
+      color: fc2929
+      default: true
+  state: open
+  locked: false
+  assignee:
+    login: gbmhunter
+    id: 2396869
+    avatar_url: 'https://avatars.githubusercontent.com/u/2396869?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/gbmhunter'
+    html_url: 'https://github.com/gbmhunter'
+    followers_url: 'https://api.github.com/users/gbmhunter/followers'
+    following_url: 'https://api.github.com/users/gbmhunter/following{/other_user}'
+    gists_url: 'https://api.github.com/users/gbmhunter/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/gbmhunter/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/gbmhunter/subscriptions'
+    organizations_url: 'https://api.github.com/users/gbmhunter/orgs'
+    repos_url: 'https://api.github.com/users/gbmhunter/repos'
+    events_url: 'https://api.github.com/users/gbmhunter/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/gbmhunter/received_events'
+    type: User
+    site_admin: false
+  assignees:
+    - login: gbmhunter
+      id: 2396869
+      avatar_url: 'https://avatars.githubusercontent.com/u/2396869?v=3'
+      gravatar_id: ''
+      url: 'https://api.github.com/users/gbmhunter'
+      html_url: 'https://github.com/gbmhunter'
+      followers_url: 'https://api.github.com/users/gbmhunter/followers'
+      following_url: 'https://api.github.com/users/gbmhunter/following{/other_user}'
+      gists_url: 'https://api.github.com/users/gbmhunter/gists{/gist_id}'
+      starred_url: 'https://api.github.com/users/gbmhunter/starred{/owner}{/repo}'
+      subscriptions_url: 'https://api.github.com/users/gbmhunter/subscriptions'
+      organizations_url: 'https://api.github.com/users/gbmhunter/orgs'
+      repos_url: 'https://api.github.com/users/gbmhunter/repos'
+      events_url: 'https://api.github.com/users/gbmhunter/events{/privacy}'
+      received_events_url: 'https://api.github.com/users/gbmhunter/received_events'
+      type: User
+      site_admin: false
+  milestone: null
+  comments: 2
+  created_at: '2016-12-08T13:21:27Z'
+  updated_at: '2016-12-08T14:04:38Z'
+  closed_at: null
+  body: "There might be a typo in the `component_snippets.xacro` file under the `rotors_description` package. The parameter `gyroscopoe_random_walk` looks to be spelt incorrectly. See the snippet below for context:\r\n\r\n````\r\ngyroscope_noise_density=\"0.0003394\"\r\ngyroscopoe_random_walk=\"0.000038785\"\r\ngyroscope_bias_correlation_time=\"1000.0\"\r\ngyroscope_turn_on_bias_sigma=\"0.0087\"\r\n````\r\n\r\nThe parameter is repeated like this a number of times throughout the file."
+  closed_by: null
+  repo: rotors_simulator
+  owner: ethz-asl
+  data_comments:
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WErAjWSA/ZtFKPlo
+      url: >-
+        https://api.github.com/repos/ethz-asl/rotors_simulator/issues/comments/265738314
+      html_url: >-
+        https://github.com/ethz-asl/rotors_simulator/issues/322#issuecomment-265738314
+      issue_url: 'https://api.github.com/repos/ethz-asl/rotors_simulator/issues/322'
+      id: 265738314
+      user:
+        login: gbmhunter
+        id: 2396869
+        avatar_url: 'https://avatars.githubusercontent.com/u/2396869?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/gbmhunter'
+        html_url: 'https://github.com/gbmhunter'
+        followers_url: 'https://api.github.com/users/gbmhunter/followers'
+        following_url: 'https://api.github.com/users/gbmhunter/following{/other_user}'
+        gists_url: 'https://api.github.com/users/gbmhunter/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/gbmhunter/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/gbmhunter/subscriptions'
+        organizations_url: 'https://api.github.com/users/gbmhunter/orgs'
+        repos_url: 'https://api.github.com/users/gbmhunter/repos'
+        events_url: 'https://api.github.com/users/gbmhunter/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/gbmhunter/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-08T13:22:17Z'
+      updated_at: '2016-12-08T13:22:17Z'
+      body: >-
+        @ffurrer  or @burrimi , if you can confirm this, I can fix in the
+        px4-merge branch.
+      owner: ethz-asl
+      repo: rotors_simulator
+      issue_id: 322
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WErAjWSA/ZtFKPlp
+      url: >-
+        https://api.github.com/repos/ethz-asl/rotors_simulator/issues/comments/265746990
+      html_url: >-
+        https://github.com/ethz-asl/rotors_simulator/issues/322#issuecomment-265746990
+      issue_url: 'https://api.github.com/repos/ethz-asl/rotors_simulator/issues/322'
+      id: 265746990
+      user:
+        login: gbmhunter
+        id: 2396869
+        avatar_url: 'https://avatars.githubusercontent.com/u/2396869?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/gbmhunter'
+        html_url: 'https://github.com/gbmhunter'
+        followers_url: 'https://api.github.com/users/gbmhunter/followers'
+        following_url: 'https://api.github.com/users/gbmhunter/following{/other_user}'
+        gists_url: 'https://api.github.com/users/gbmhunter/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/gbmhunter/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/gbmhunter/subscriptions'
+        organizations_url: 'https://api.github.com/users/gbmhunter/orgs'
+        repos_url: 'https://api.github.com/users/gbmhunter/repos'
+        events_url: 'https://api.github.com/users/gbmhunter/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/gbmhunter/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-08T14:04:25Z'
+      updated_at: '2016-12-08T14:04:25Z'
+      body: >-
+        Talked with @ffurrer  and yes it is a typo, but wasn't causing any
+        issues as the macro definition also had a type. Will still fix.
+      owner: ethz-asl
+      repo: rotors_simulator
+      issue_id: 322

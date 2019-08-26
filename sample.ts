@@ -38,12 +38,16 @@ fs.writeFileSync('results/positives_sample.yaml', safeDump(positiveSample));
 fs.writeFileSync('results/negatives_sample.yaml', safeDump(negativeSample));
 
 const positivesMapped = positiveURLs.map((p) => {
-  return { pos_neg: 'P', URL: p };
+  return [p, 'P'];
 });
 const negativesMapped = negativeURLs.map((n) => {
-  return { pos_neg: 'N', URL: n };
+  return [n, 'N'];
 });
 
 const combinedURLs = shuffle(positivesMapped.concat(negativesMapped));
+const asDict = Object.assign(
+  {},
+  ...combinedURLs.map(([key, val]) => ({ [key]: val })),
+);
 
-fs.writeFileSync('results/sample_urls.yaml', safeDump(combinedURLs));
+fs.writeFileSync('results/sample_urls.json', JSON.stringify(asDict));

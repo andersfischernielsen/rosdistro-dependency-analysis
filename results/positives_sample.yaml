@@ -1,5 +1,963 @@
 - _id:
     _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> VgpA/BtIdmUgAHdf
+  url: 'https://api.github.com/repos/swri-robotics/marti_common/issues/239'
+  labels_url: >-
+    https://api.github.com/repos/swri-robotics/marti_common/issues/239/labels{/name}
+  comments_url: 'https://api.github.com/repos/swri-robotics/marti_common/issues/239/comments'
+  events_url: 'https://api.github.com/repos/swri-robotics/marti_common/issues/239/events'
+  html_url: 'https://github.com/swri-robotics/marti_common/issues/239'
+  id: 108544346
+  number: 239
+  title: swri_transform_util missing dependencies
+  user:
+    login: evenator
+    id: 567836
+    avatar_url: 'https://avatars.githubusercontent.com/u/567836?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/evenator'
+    html_url: 'https://github.com/evenator'
+    followers_url: 'https://api.github.com/users/evenator/followers'
+    following_url: 'https://api.github.com/users/evenator/following{/other_user}'
+    gists_url: 'https://api.github.com/users/evenator/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/evenator/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/evenator/subscriptions'
+    organizations_url: 'https://api.github.com/users/evenator/orgs'
+    repos_url: 'https://api.github.com/users/evenator/repos'
+    events_url: 'https://api.github.com/users/evenator/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/evenator/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - url: 'https://api.github.com/repos/swri-robotics/marti_common/labels/bug'
+      name: bug
+      color: fc2929
+  state: closed
+  locked: false
+  assignee:
+    login: evenator
+    id: 567836
+    avatar_url: 'https://avatars.githubusercontent.com/u/567836?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/evenator'
+    html_url: 'https://github.com/evenator'
+    followers_url: 'https://api.github.com/users/evenator/followers'
+    following_url: 'https://api.github.com/users/evenator/following{/other_user}'
+    gists_url: 'https://api.github.com/users/evenator/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/evenator/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/evenator/subscriptions'
+    organizations_url: 'https://api.github.com/users/evenator/orgs'
+    repos_url: 'https://api.github.com/users/evenator/repos'
+    events_url: 'https://api.github.com/users/evenator/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/evenator/received_events'
+    type: User
+    site_admin: false
+  milestone: null
+  comments: 2
+  created_at: '2015-09-27T16:01:13Z'
+  updated_at: '2015-09-27T23:01:16Z'
+  closed_at: '2015-09-27T23:01:16Z'
+  body: 'Missing opencv, yaml-cpp, and boost in package.xml'
+  closed_by:
+    login: evenator
+    id: 567836
+    avatar_url: 'https://avatars.githubusercontent.com/u/567836?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/evenator'
+    html_url: 'https://github.com/evenator'
+    followers_url: 'https://api.github.com/users/evenator/followers'
+    following_url: 'https://api.github.com/users/evenator/following{/other_user}'
+    gists_url: 'https://api.github.com/users/evenator/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/evenator/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/evenator/subscriptions'
+    organizations_url: 'https://api.github.com/users/evenator/orgs'
+    repos_url: 'https://api.github.com/users/evenator/repos'
+    events_url: 'https://api.github.com/users/evenator/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/evenator/received_events'
+    type: User
+    site_admin: false
+  repo: marti_common
+  owner: swri-robotics
+  data_comments:
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> VgqQBxtIdl/AAABd
+      url: >-
+        https://api.github.com/repos/swri-robotics/marti_common/issues/comments/143575841
+      html_url: >-
+        https://github.com/swri-robotics/marti_common/issues/239#issuecomment-143575841
+      issue_url: 'https://api.github.com/repos/swri-robotics/marti_common/issues/239'
+      id: 143575841
+      user:
+        login: evenator
+        id: 567836
+        avatar_url: 'https://avatars.githubusercontent.com/u/567836?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/evenator'
+        html_url: 'https://github.com/evenator'
+        followers_url: 'https://api.github.com/users/evenator/followers'
+        following_url: 'https://api.github.com/users/evenator/following{/other_user}'
+        gists_url: 'https://api.github.com/users/evenator/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/evenator/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/evenator/subscriptions'
+        organizations_url: 'https://api.github.com/users/evenator/orgs'
+        repos_url: 'https://api.github.com/users/evenator/repos'
+        events_url: 'https://api.github.com/users/evenator/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/evenator/received_events'
+        type: User
+        site_admin: false
+      created_at: '2015-09-27T16:41:28Z'
+      updated_at: '2015-09-27T16:41:28Z'
+      body: >-
+        This should be fixed now; I'll close the issue when the package builds
+        on the ROS build farm.
+      owner: swri-robotics
+      repo: marti_common
+      issue_id: 239
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> VgqQBxtIdl/AAABe
+      url: >-
+        https://api.github.com/repos/swri-robotics/marti_common/issues/comments/143600609
+      html_url: >-
+        https://github.com/swri-robotics/marti_common/issues/239#issuecomment-143600609
+      issue_url: 'https://api.github.com/repos/swri-robotics/marti_common/issues/239'
+      id: 143600609
+      user:
+        login: evenator
+        id: 567836
+        avatar_url: 'https://avatars.githubusercontent.com/u/567836?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/evenator'
+        html_url: 'https://github.com/evenator'
+        followers_url: 'https://api.github.com/users/evenator/followers'
+        following_url: 'https://api.github.com/users/evenator/following{/other_user}'
+        gists_url: 'https://api.github.com/users/evenator/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/evenator/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/evenator/subscriptions'
+        organizations_url: 'https://api.github.com/users/evenator/orgs'
+        repos_url: 'https://api.github.com/users/evenator/repos'
+        events_url: 'https://api.github.com/users/evenator/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/evenator/received_events'
+        type: User
+        site_admin: false
+      created_at: '2015-09-27T23:01:16Z'
+      updated_at: '2015-09-27T23:01:16Z'
+      body: swri_transform_util builds on the ROS build farm as of 0.0.5
+      owner: swri-robotics
+      repo: marti_common
+      issue_id: 239
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> Un6ctL01Q+2vAAEy
+  url: 'https://api.github.com/repos/ros/diagnostics/issues/14'
+  labels_url: 'https://api.github.com/repos/ros/diagnostics/issues/14/labels{/name}'
+  comments_url: 'https://api.github.com/repos/ros/diagnostics/issues/14/comments'
+  events_url: 'https://api.github.com/repos/ros/diagnostics/issues/14/events'
+  html_url: 'https://github.com/ros/diagnostics/issues/14'
+  id: 22393340
+  number: 14
+  title: fix reference to example.cpp in manifest.dox file
+  user:
+    login: dirk-thomas
+    id: 1335366
+    avatar_url: >-
+      https://0.gravatar.com/avatar/00f79f6be5722ab3a1b3ece2cd32bb35?d=https%3A%2F%2Fidenticons.github.com%2F0c4fa44dd82805398e25508d93341849.png&r=x
+    gravatar_id: 00f79f6be5722ab3a1b3ece2cd32bb35
+    url: 'https://api.github.com/users/dirk-thomas'
+    html_url: 'https://github.com/dirk-thomas'
+    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
+    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
+    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
+    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
+    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
+    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - url: 'https://api.github.com/repos/ros/diagnostics/labels/bug'
+      name: bug
+      color: fc2929
+  state: open
+  assignee: null
+  milestone: null
+  comments: 0
+  created_at: '2013-11-09T20:35:59Z'
+  updated_at: '2013-11-09T20:35:59Z'
+  closed_at: null
+  pull_request:
+    html_url: null
+    diff_url: null
+    patch_url: null
+  body: "The reference to `example.cpp` is not unique since other packages which this package depends on also contain a file with that name. Therefore you need to reference the file with its relative location from the `manifest.dox` file: https://github.com/ros/diagnostics/blob/groovy-devel/diagnostic_updater/mainpage.dox#L25\r\n\r\n    Example uses of these classes can be found in \\ref src/example.cpp.\r\n\r\nBtw. the `\\ref` should not be necessary. Doxygen will consider every word containing dots as potential file references."
+  repo: diagnostics
+  owner: ros
+  data_comments: []
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Km
+  url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+  repository_url: 'https://api.github.com/repos/ros/ros_comm'
+  labels_url: 'https://api.github.com/repos/ros/ros_comm/issues/952/labels{/name}'
+  comments_url: 'https://api.github.com/repos/ros/ros_comm/issues/952/comments'
+  events_url: 'https://api.github.com/repos/ros/ros_comm/issues/952/events'
+  html_url: 'https://github.com/ros/ros_comm/issues/952'
+  id: 196780756
+  number: 952
+  title: 'rosbag: start and end times are wrong (implies wrong duration)'
+  user:
+    login: NikolausDemmel
+    id: 479562
+    avatar_url: 'https://avatars.githubusercontent.com/u/479562?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/NikolausDemmel'
+    html_url: 'https://github.com/NikolausDemmel'
+    followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+    following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+    gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+    organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+    repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+    events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - id: 11948475
+      url: 'https://api.github.com/repos/ros/ros_comm/labels/bug'
+      name: bug
+      color: fc2929
+      default: true
+  state: open
+  locked: false
+  assignee: null
+  assignees: []
+  milestone: null
+  comments: 6
+  created_at: '2016-12-20T21:03:46Z'
+  updated_at: '2016-12-22T00:18:24Z'
+  closed_at: null
+  body: "It seems there is something wrong with the logic that computes the start and end time of bags. This results in the wrong times as well as wrong duration. The issue is present for the `rosbag info` output as well as the `get_start_time()` and `get_end_time()` Python API.\r\n\r\nThe issue is here: https://github.com/ros/ros_comm/blob/ea132076ae6741caeda5b933b78f9e64efe2426c/tools/rosbag/src/rosbag/bag.py#L511\r\n\r\n```\r\n    def get_end_time(self):\r\n        \"\"\"\r\n        Returns the end time of the bag.\r\n        @return: a timestamp of the end of the bag\r\n        @rtype: float, timestamp in seconds, includes fractions of a second\r\n        \"\"\"\r\n        \r\n        if self._chunks:\r\n            end_stamp = self._chunks[-1].end_time.to_sec()\r\n        else:\r\n            if not self._connection_indexes:\r\n                raise ROSBagException('Bag contains no message')\r\n            end_stamp = max([index[-1].time.to_sec() for index in self._connection_indexes.values()])\r\n        \r\n        return end_stamp\r\n```\r\n\r\nIf there are `_chunks`, the line \r\n\r\n```\r\nend_stamp = self._chunks[-1].end_time.to_sec()\r\n```\r\n\r\nassumes that the last chunk contains the last message, which is not necesarily the case.\r\n\r\nSimilarly, the first chunk does not necessarily contain the first message.\r\n\r\nI guess we need to either look at all chunks and take the min / max of their start / end times, or maybe can we somehow use the index to get to the first and last message more efficiently?\r\n\r\nI'm not sure if some other place except the `Bag` class accesses the chunks directly, but at least for the `Bag` class the places that need to be updated are `get_end_time`, `get_start_time`, `__str__`, and `_get_yaml_info`.\r\n\r\n"
+  closed_by: null
+  repo: ros_comm
+  owner: ros
+  data_comments:
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Kq
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268516889'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268516889'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268516889
+      user:
+        login: chaoflow
+        id: 89596
+        avatar_url: 'https://avatars.githubusercontent.com/u/89596?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/chaoflow'
+        html_url: 'https://github.com/chaoflow'
+        followers_url: 'https://api.github.com/users/chaoflow/followers'
+        following_url: 'https://api.github.com/users/chaoflow/following{/other_user}'
+        gists_url: 'https://api.github.com/users/chaoflow/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/chaoflow/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/chaoflow/subscriptions'
+        organizations_url: 'https://api.github.com/users/chaoflow/orgs'
+        repos_url: 'https://api.github.com/users/chaoflow/repos'
+        events_url: 'https://api.github.com/users/chaoflow/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/chaoflow/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-21T12:58:11Z'
+      updated_at: '2016-12-21T12:58:11Z'
+      body: "- Do messages within a chunk need to be in chronological order?\r\n- Do chunks need to be in chronological order?\r\n\r\nIn http://wiki.ros.org/Bags/Format/2.0, I could not find information regarding this."
+      owner: ros
+      repo: ros_comm
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Kr
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268645547'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268645547'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268645547
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars.githubusercontent.com/u/100427?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-21T21:30:45Z'
+      updated_at: '2016-12-21T21:30:45Z'
+      body: "I don't have the citations handy, but based on my experience I would say:\r\n\r\n> - Do messages within a chunk need to be in chronological order?\r\n\r\nNo. I don't think so because to require this would require rosbag to collect messages that will go into a chunk and before writing them sort them chronologically. I do not believe the C++ code does this.\r\n\r\n> Do chunks need to be in chronological order?\r\n\r\nNo. I don't think so because the way the C++ rosbag::View iterates over the messages, in my opinion, is that it considers all entries in the index in order to iterate in chronological order. If the chunks were know to be in order, then they would only need to consider the order within the current chunk.\r\n\r\nThis is a similar function in C++ which calculates the earliest time within a \"View\":\r\n\r\nhttps://github.com/ros/ros_comm/blob/kinetic-devel/tools/rosbag_storage/src/view.cpp#L174-L187\r\n\r\nBased on that, I think this Python function is just naive and not correct."
+      owner: ros
+      repo: ros_comm
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Ks
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268646352'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268646352'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268646352
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars.githubusercontent.com/u/100427?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-21T21:34:27Z'
+      updated_at: '2016-12-21T21:34:27Z'
+      body: >-
+        Well, on further reflection, my answer to the first question is a bit
+        off. In normal use of `rosbag record`, messages should always be
+        received in order (by receive time), but my logic still holds true if
+        you're building the bag programmatically. There's nothing to stop you
+        from inserting the messages out of chronological order using the C++ bag
+        API.
+      owner: ros
+      repo: ros_comm
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Kt
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268672694'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268672694'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268672694
+      user:
+        login: NikolausDemmel
+        id: 479562
+        avatar_url: 'https://avatars.githubusercontent.com/u/479562?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/NikolausDemmel'
+        html_url: 'https://github.com/NikolausDemmel'
+        followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+        following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+        gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+        organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+        repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+        events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-21T23:29:32Z'
+      updated_at: '2016-12-21T23:29:32Z'
+      body: "@wjwwood What you say is in line with what I think it should be as well. However, I also don't have a citation to back this up. I agree that the C++ implementation probably handles this correctly, but I'm not sure about the Python implementation. I would assume it does (mostly). I.e. I hope that bag.read_messages(...) returns the bags in chronological order no matter how the chunks are sorted and how the messages are sorted within chunks.\r\n\r\nTo fix the issue of start and end time, I'm not sure what is the best way. It seems to me that the if / else is there for compatibility with previous formats that have _connection_indexes, but not _chunks.\r\n\r\nNaively I would have said to use:\r\n\r\n```\r\nstart_stamp = min([c.start_time.to_sec() for c in self._chunks])\r\n```\r\n\r\nHowever, there can be quite a lot of chunks while I would assume most of the time fewer connections and using the indices seems more reasonable:\r\n\r\n```\r\nstart_stamp = min([index[0].time.to_sec() for index in self._connection_indexes.values()])\r\n```\r\n\r\nI'm just not sure if the _connection_indexes are correctly filled in the format 2.0 case with chunks.\r\n\r\nI guess there was a reason why the if / else  was introduced (I am assuming that that happened when bag format 2.0 was implemented)."
+      owner: ros
+      repo: ros_comm
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Ku
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268673385'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268673385'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268673385
+      user:
+        login: NikolausDemmel
+        id: 479562
+        avatar_url: 'https://avatars.githubusercontent.com/u/479562?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/NikolausDemmel'
+        html_url: 'https://github.com/NikolausDemmel'
+        followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+        following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+        gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+        organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+        repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+        events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-21T23:32:36Z'
+      updated_at: '2016-12-21T23:32:36Z'
+      body: "P.S.: As you say the issue would likely not manifest or be quite subtle for bags that are recorded because the chunks will probably be mostly in chronological order.\r\n\r\nOne case where we notice this is when we record a bag, and then using the python API append one more message (containing metadata) with the bag's start time. That message will get a new chunk, meaning the the start and end time are now the same and the duration is reported as 0s."
+      owner: ros
+      repo: ros_comm
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WFwG+WSA/ZD3s2Kv
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268682880'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268682880'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268682880
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars.githubusercontent.com/u/100427?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-22T00:18:24Z'
+      updated_at: '2016-12-22T00:18:24Z'
+      body: "> However, there can be quite a lot of chunks while I would assume most of the time fewer connections and using the indices seems more reasonable:\r\n\r\nUsing the indices is definitely what we want, as you pointed out iterating over all the chunks would be quite expensive in some cases and the C++ code also uses the indices to answer this question.\r\n\r\n> One case where we notice this is when we record a bag, and then using the python API append one more message (containing metadata) with the bag's start time. That message will get a new chunk, meaning the the start and end time are now the same and the duration is reported as 0s.\r\n\r\nLooks like someone just noted this in the wiki's rosbag cookbook:\r\n\r\nhttp://wiki.ros.org/rosbag/Cookbook?action=diff&rev1=28&rev2=29\r\n\r\nAnd updated the method for adding metadata:\r\n\r\nhttp://wiki.ros.org/rosbag/Cookbook?action=diff&rev1=30&rev2=31\r\n\r\nIs that one of you guys?\r\n\r\nIn any case I think that the behavior of `bag.get_end_time()` in Python is wrong and should be fixed."
+      owner: ros
+      repo: ros_comm
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WF2gfmSA/YsepWCW
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268875000'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268875000'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268875000
+      user:
+        login: NikolausDemmel
+        id: 479562
+        avatar_url: 'https://avatars.githubusercontent.com/u/479562?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/NikolausDemmel'
+        html_url: 'https://github.com/NikolausDemmel'
+        followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+        following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+        gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+        organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+        repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+        events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-22T19:41:43Z'
+      updated_at: '2016-12-22T19:41:43Z'
+      body: "> Using the indices is definitely what we want, as you pointed out iterating over all the chunks would be quite expensive in some cases and the C++ code also uses the indices to answer this question.\r\n\r\nSo you are quite certain that the indices are properly set also for bag format 2.0? I.e. the fix would boild down to removing the `if self._chunks:` and just use the current `else:` branch?\r\n\r\n> Is that one of you guys?\r\n\r\nNope. I think this is a followup from https://github.com/hordurk/rosbag_metadata/pull/3. At the time it did not investigate why the duration information was affected though..."
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WF2gumSA/ZDcMs+G
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/268878375'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-268878375'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 268878375
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars.githubusercontent.com/u/100427?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-22T19:58:39Z'
+      updated_at: '2016-12-22T19:58:39Z'
+      body: >-
+        @NikolausDemmel I'm not _certain_, but I do think it should be that way
+        and I have experiences which would indicate to me that it should be
+        always filled out correctly. However, that code might be in place for
+        when the bag is unindexed, which can be the case when a bag file is not
+        properly closed. You can emulate this by doing `ctrl-\` while using
+        rosbag record.
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WF8cCmSA/ZM2SrJW
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/269055192'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-269055192'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 269055192
+      user:
+        login: chaoflow
+        id: 89596
+        avatar_url: 'https://avatars.githubusercontent.com/u/89596?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/chaoflow'
+        html_url: 'https://github.com/chaoflow'
+        followers_url: 'https://api.github.com/users/chaoflow/followers'
+        following_url: 'https://api.github.com/users/chaoflow/following{/other_user}'
+        gists_url: 'https://api.github.com/users/chaoflow/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/chaoflow/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/chaoflow/subscriptions'
+        organizations_url: 'https://api.github.com/users/chaoflow/orgs'
+        repos_url: 'https://api.github.com/users/chaoflow/repos'
+        events_url: 'https://api.github.com/users/chaoflow/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/chaoflow/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-23T23:08:55Z'
+      updated_at: '2016-12-23T23:08:55Z'
+      body: >-
+        Is the current order of self._chunks, i.e. order in the bag file,
+        relevant or could we keep self._chunks chronologically ordered?
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WF8fmmSA/Y7tacBo
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/269055401'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-269055401'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 269055401
+      user:
+        login: NikolausDemmel
+        id: 479562
+        avatar_url: 'https://avatars.githubusercontent.com/u/479562?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/NikolausDemmel'
+        html_url: 'https://github.com/NikolausDemmel'
+        followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+        following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+        gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+        organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+        repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+        events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+        type: User
+        site_admin: false
+      created_at: '2016-12-23T23:11:47Z'
+      updated_at: '2016-12-23T23:11:47Z'
+      body: "> Is the current order of self._chunks, i.e. order in the bag file, relevant or could we keep self._chunks chronologically ordered?\r\n\r\nI guess chronoglogical order of chunks is meaningless. The first and last message of a bag file might be in the same chunk. "
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> Wp2VyGSA/VltXJr1
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/370528462'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-370528462'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 370528462
+      user:
+        login: NikolausDemmel
+        id: 479562
+        avatar_url: 'https://avatars1.githubusercontent.com/u/479562?v=4'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/NikolausDemmel'
+        html_url: 'https://github.com/NikolausDemmel'
+        followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+        following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+        gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+        organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+        repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+        events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+        type: User
+        site_admin: false
+      created_at: '2018-03-05T19:08:53Z'
+      updated_at: '2018-03-05T19:08:53Z'
+      author_association: CONTRIBUTOR
+      body: >-
+        The issue still remains. @wjwwood, are you inclined to merge a fix and
+        also backport to at least kinetic if a PR is provided. I see that this
+        has potential for a lot of breakage. What level of testing would be
+        required?
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> Wp3D8WSA/VoB17AT
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/370589552'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-370589552'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 370589552
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars1.githubusercontent.com/u/100427?v=4'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2018-03-05T22:25:51Z'
+      updated_at: '2018-03-05T22:25:51Z'
+      author_association: OWNER
+      body: "I can help review a change for this, and based on the comparison with similar C++ code I'd be in favor of merging at least into melodic. So, targeting melodic I think it's likely to get merged, as for back porting to kinetic, I'd have to look at it in detail again to make a recommendation, and ultimately the decision is @dirk-thomas's.\r\n\r\n> What level of testing would be required?\r\n\r\nI recommend an automated test which shows how the problem manifests (use a bag with out-of order message insertion and at least two chunks), and that will be enough for a melodic merge. For back porting, again I'd defer to @dirk-thomas, but I'd say we would need to communicate this with the community through discourse and give a period for feedback, since this is a behavior change (not necessarily an API change). It's the classic argument that \"yes the behavior is wrong, but someone might be depending on that bad behavior\", and then it becomes a judgement call on whether to favor a bug fix or stability in Kinetic."
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> Wp32NmSA/VrKe6p4
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/370634479'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-370634479'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 370634479
+      user:
+        login: NikolausDemmel
+        id: 479562
+        avatar_url: 'https://avatars1.githubusercontent.com/u/479562?v=4'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/NikolausDemmel'
+        html_url: 'https://github.com/NikolausDemmel'
+        followers_url: 'https://api.github.com/users/NikolausDemmel/followers'
+        following_url: 'https://api.github.com/users/NikolausDemmel/following{/other_user}'
+        gists_url: 'https://api.github.com/users/NikolausDemmel/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/NikolausDemmel/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/NikolausDemmel/subscriptions'
+        organizations_url: 'https://api.github.com/users/NikolausDemmel/orgs'
+        repos_url: 'https://api.github.com/users/NikolausDemmel/repos'
+        events_url: 'https://api.github.com/users/NikolausDemmel/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/NikolausDemmel/received_events'
+        type: User
+        site_admin: false
+      created_at: '2018-03-06T02:00:18Z'
+      updated_at: '2018-03-06T02:00:18Z'
+      author_association: CONTRIBUTOR
+      body: "Creating a test case is actually quite easy:\r\n\r\n```\r\nIn [114]: b = Bag(\"foo.bag\", 'w')\r\n     ...: b.chunk_threshold = 0\r\n     ...: b.write(\"foo\", String(\"2\"), Time(2))\r\n     ...: b.write(\"foo\", String(\"3\"), Time(3))\r\n     ...: b.write(\"foo\", String(\"1\"), Time(1))\r\n     ...: b.close()\r\n     ...: b = Bag(\"foo.bag\", 'r')\r\n     ...:\r\n\r\nIn [115]: b.get_start_time()\r\nOut[115]: 2.0\r\n\r\nIn [116]: b.get_end_time()\r\nOut[116]: 1.0\r\n```\r\n\r\nThere is actually another issue, which is that read_messages does not return messages in chronological order in this case. I would say this is a bug as well.\r\n\r\n```\r\nIn [117]: list(b.read_messages())\r\nOut[117]:\r\n[BagMessage(topic='foo', message=data: \"2\", timestamp=rospy.Time[2000000000]),\r\n BagMessage(topic='foo', message=data: \"3\", timestamp=rospy.Time[3000000000]),\r\n BagMessage(topic='foo', message=data: \"1\", timestamp=rospy.Time[1000000000])]\r\n```\r\n\r\nThe C++ API seems to sort correctly. At least `rosbag play` publishes them in chronological order (whereas e.g. `rostopic echo -b ...` does not).\r\n\r\nA quick investigation leads me to believe that the indices needs to be sorted, as the current read logic does not guarantee that if it is read from multiple chunks:\r\n\r\nhttps://github.com/ros/ros_comm/blob/94aaaec56e51840d8a39de383c6e89054af97e1e/tools/rosbag/src/rosbag/bag.py#L2315-L2322\r\n\r\nLater, the indices are used as if they were sorted:\r\n\r\nhttps://github.com/ros/ros_comm/blob/94aaaec56e51840d8a39de383c6e89054af97e1e/tools/rosbag/src/rosbag/bag.py#L1011"
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> Wp6qMmSA/VkIIPM2
+      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/370804919'
+      html_url: 'https://github.com/ros/ros_comm/issues/952#issuecomment-370804919'
+      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/952'
+      id: 370804919
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars1.githubusercontent.com/u/100427?v=4'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2018-03-06T14:47:50Z'
+      updated_at: '2018-03-06T14:47:50Z'
+      author_association: OWNER
+      body: >-
+        Yeah, it sounds like this detail (bags can contain out of order
+        messages) was just ignored by the Python implementation, and it's not
+        surprising since recording bags almost always result in bags that happen
+        in order.
+      repo: ros_comm
+      owner: ros
+      issue_id: 952
+- _id:
+    _bsontype: ObjectID
+    id: !<tag:yaml.org,2002:binary> WKO4TGSA/Zj4P8S1
+  url: 'https://api.github.com/repos/ros/catkin/issues/855'
+  repository_url: 'https://api.github.com/repos/ros/catkin'
+  labels_url: 'https://api.github.com/repos/ros/catkin/issues/855/labels{/name}'
+  comments_url: 'https://api.github.com/repos/ros/catkin/issues/855/comments'
+  events_url: 'https://api.github.com/repos/ros/catkin/issues/855/events'
+  html_url: 'https://github.com/ros/catkin/issues/855'
+  id: 207690274
+  number: 855
+  title: Cannot install catkin in a clean environment
+  user:
+    login: mirzashah
+    id: 2066542
+    avatar_url: 'https://avatars.githubusercontent.com/u/2066542?v=3'
+    gravatar_id: ''
+    url: 'https://api.github.com/users/mirzashah'
+    html_url: 'https://github.com/mirzashah'
+    followers_url: 'https://api.github.com/users/mirzashah/followers'
+    following_url: 'https://api.github.com/users/mirzashah/following{/other_user}'
+    gists_url: 'https://api.github.com/users/mirzashah/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/mirzashah/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/mirzashah/subscriptions'
+    organizations_url: 'https://api.github.com/users/mirzashah/orgs'
+    repos_url: 'https://api.github.com/users/mirzashah/repos'
+    events_url: 'https://api.github.com/users/mirzashah/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/mirzashah/received_events'
+    type: User
+    site_admin: false
+  labels:
+    - id: 232253
+      url: 'https://api.github.com/repos/ros/catkin/labels/bug'
+      name: bug
+      color: fc2929
+      default: true
+  state: open
+  locked: false
+  assignee: null
+  assignees: []
+  milestone: null
+  comments: 0
+  created_at: '2017-02-15T02:08:49Z'
+  updated_at: '2017-02-15T02:08:59Z'
+  closed_at: null
+  body: "Our automated builds have started breaking when attempting to install catkin. Here is the output when attempting to install catkin in a clean 16.04 container:\r\n\r\n```\r\nroot@51476a8facdb:~# apt-get install catkin\r\nReading package lists... Done\r\nBuilding dependency tree       \r\nReading state information... Done\r\nSome packages could not be installed. This may mean that you have\r\nrequested an impossible situation or if you are using the unstable\r\ndistribution that some required packages have not yet been created\r\nor been moved out of Incoming.\r\nThe following information may help to resolve the situation:\r\n\r\nThe following packages have unmet dependencies:\r\n catkin : Depends: python-catkin-pkg but it is not going to be installed\r\nE: Unable to correct problems, you have held broken packages.\r\n```"
+  closed_by: null
+  repo: catkin
+  owner: ros
+  data_comments:
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WKO6/WSA/Zi77Bgf
+      url: 'https://api.github.com/repos/ros/catkin/issues/comments/279897528'
+      html_url: 'https://github.com/ros/catkin/issues/855#issuecomment-279897528'
+      issue_url: 'https://api.github.com/repos/ros/catkin/issues/855'
+      id: 279897528
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars.githubusercontent.com/u/100427?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-15T02:11:27Z'
+      updated_at: '2017-02-15T02:11:27Z'
+      body: >-
+        Probably this:
+        https://github.com/ros-infrastructure/catkin_pkg/pull/157#issuecomment-278720164
+      repo: catkin
+      owner: ros
+      issue_id: 855
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WKO/8mSA/Zi77B1a
+      url: 'https://api.github.com/repos/ros/catkin/issues/comments/279898042'
+      html_url: 'https://github.com/ros/catkin/issues/855#issuecomment-279898042'
+      issue_url: 'https://api.github.com/repos/ros/catkin/issues/855'
+      id: 279898042
+      user:
+        login: tfoote
+        id: 447804
+        avatar_url: 'https://avatars.githubusercontent.com/u/447804?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/tfoote'
+        html_url: 'https://github.com/tfoote'
+        followers_url: 'https://api.github.com/users/tfoote/followers'
+        following_url: 'https://api.github.com/users/tfoote/following{/other_user}'
+        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
+        organizations_url: 'https://api.github.com/users/tfoote/orgs'
+        repos_url: 'https://api.github.com/users/tfoote/repos'
+        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/tfoote/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-15T02:15:17Z'
+      updated_at: '2017-02-15T02:15:17Z'
+      body: >-
+        This looks like it's not a clean container. If you're getting the newer
+        stuff we released then you are then also mixing upstream packages with
+        OSRF-provided packages: http://wiki.ros.org/UpstreamPackages 
+      owner: ros
+      repo: catkin
+      issue_id: 855
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WKO/8mSA/Zi77B1b
+      url: 'https://api.github.com/repos/ros/catkin/issues/comments/279899079'
+      html_url: 'https://github.com/ros/catkin/issues/855#issuecomment-279899079'
+      issue_url: 'https://api.github.com/repos/ros/catkin/issues/855'
+      id: 279899079
+      user:
+        login: mirzashah
+        id: 2066542
+        avatar_url: 'https://avatars.githubusercontent.com/u/2066542?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/mirzashah'
+        html_url: 'https://github.com/mirzashah'
+        followers_url: 'https://api.github.com/users/mirzashah/followers'
+        following_url: 'https://api.github.com/users/mirzashah/following{/other_user}'
+        gists_url: 'https://api.github.com/users/mirzashah/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/mirzashah/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/mirzashah/subscriptions'
+        organizations_url: 'https://api.github.com/users/mirzashah/orgs'
+        repos_url: 'https://api.github.com/users/mirzashah/repos'
+        events_url: 'https://api.github.com/users/mirzashah/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/mirzashah/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-15T02:23:10Z'
+      updated_at: '2017-02-15T02:23:10Z'
+      body: "@tfoote Ah, was not aware of upstream packages. It works if I use the package ```ros-kinetic-catkin```.\r\n\r\nThanks guys!"
+      owner: ros
+      repo: catkin
+      issue_id: 855
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> WKO/8mSA/Zi77B1c
+      url: 'https://api.github.com/repos/ros/catkin/issues/comments/279900441'
+      html_url: 'https://github.com/ros/catkin/issues/855#issuecomment-279900441'
+      issue_url: 'https://api.github.com/repos/ros/catkin/issues/855'
+      id: 279900441
+      user:
+        login: wjwwood
+        id: 100427
+        avatar_url: 'https://avatars.githubusercontent.com/u/100427?v=3'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
+        type: User
+        site_admin: false
+      created_at: '2017-02-15T02:33:32Z'
+      updated_at: '2017-02-15T02:33:32Z'
+      body: >-
+        Ah, actually then it is this:
+        https://github.com/ros-infrastructure/catkin_pkg/pull/156 and it is
+        intentional.
+      owner: ros
+      repo: catkin
+      issue_id: 855
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> W2gvYGSA/cp3dSbA
+      url: 'https://api.github.com/repos/ros/catkin/issues/comments/410675028'
+      html_url: 'https://github.com/ros/catkin/issues/855#issuecomment-410675028'
+      issue_url: 'https://api.github.com/repos/ros/catkin/issues/855'
+      id: 410675028
+      node_id: MDEyOklzc3VlQ29tbWVudDQxMDY3NTAyOA==
+      user:
+        login: elahia
+        id: 14091096
+        node_id: MDQ6VXNlcjE0MDkxMDk2
+        avatar_url: 'https://avatars0.githubusercontent.com/u/14091096?v=4'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/elahia'
+        html_url: 'https://github.com/elahia'
+        followers_url: 'https://api.github.com/users/elahia/followers'
+        following_url: 'https://api.github.com/users/elahia/following{/other_user}'
+        gists_url: 'https://api.github.com/users/elahia/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/elahia/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/elahia/subscriptions'
+        organizations_url: 'https://api.github.com/users/elahia/orgs'
+        repos_url: 'https://api.github.com/users/elahia/repos'
+        events_url: 'https://api.github.com/users/elahia/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/elahia/received_events'
+        type: User
+        site_admin: false
+      created_at: '2018-08-06T11:17:01Z'
+      updated_at: '2018-08-06T11:17:01Z'
+      author_association: NONE
+      body: "I have the same problem but, ` sudo apt-get install ros-indigo-catkin   `  didn't help!\r\n\r\nI'm trying to install rosindigo on chroot.\r\nThe main os is ubuntu 16.04 and then I installed 14.04 by chroot. "
+      repo: catkin
+      owner: ros
+      issue_id: 855
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> W2hxN2SA/cV0o9yt
+      url: 'https://api.github.com/repos/ros/catkin/issues/comments/410757993'
+      html_url: 'https://github.com/ros/catkin/issues/855#issuecomment-410757993'
+      issue_url: 'https://api.github.com/repos/ros/catkin/issues/855'
+      id: 410757993
+      node_id: MDEyOklzc3VlQ29tbWVudDQxMDc1Nzk5Mw==
+      user:
+        login: dirk-thomas
+        id: 1335366
+        node_id: MDQ6VXNlcjEzMzUzNjY=
+        avatar_url: 'https://avatars1.githubusercontent.com/u/1335366?v=4'
+        gravatar_id: ''
+        url: 'https://api.github.com/users/dirk-thomas'
+        html_url: 'https://github.com/dirk-thomas'
+        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
+        following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
+        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
+        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
+        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
+        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+        type: User
+        site_admin: false
+      created_at: '2018-08-06T15:57:56Z'
+      updated_at: '2018-08-06T15:57:56Z'
+      author_association: MEMBER
+      body: "@elahia You have been cross posting this in at least three locations:\r\n* https://answers.ros.org/question/299739/problem-in-installing-ros-indigo-in-chroot/\r\n* https://github.com/ros-infrastructure/catkin_pkg/issues/230#issuecomment-410678699\r\n\r\nThis is against the etiquette - please read the support support guidelines of ROS: http://wiki.ros.org/Support"
+      repo: catkin
+      owner: ros
+      issue_id: 855
+- _id:
+    _bsontype: ObjectID
     id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAcbI
   url: 'https://api.github.com/repos/ros-visualization/rviz/issues/471'
   closed_at: '2012-09-19T22:14:43Z'
@@ -91,200 +1049,222 @@
   data_comments: []
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> WxqnSmSA/YKrC/5r
-  url: 'https://api.github.com/repos/ros/geometry2/issues/299'
-  repository_url: 'https://api.github.com/repos/ros/geometry2'
-  labels_url: 'https://api.github.com/repos/ros/geometry2/issues/299/labels{/name}'
-  comments_url: 'https://api.github.com/repos/ros/geometry2/issues/299/comments'
-  events_url: 'https://api.github.com/repos/ros/geometry2/issues/299/events'
-  html_url: 'https://github.com/ros/geometry2/issues/299'
-  id: 330714132
-  node_id: MDU6SXNzdWUzMzA3MTQxMzI=
-  number: 299
-  title: invalid test dependency
-  user:
-    login: dirk-thomas
-    id: 1335366
-    node_id: MDQ6VXNlcjEzMzUzNjY=
-    avatar_url: 'https://avatars1.githubusercontent.com/u/1335366?v=4'
-    gravatar_id: ''
-    url: 'https://api.github.com/users/dirk-thomas'
-    html_url: 'https://github.com/dirk-thomas'
-    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
-    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-    type: User
-    site_admin: false
-  labels:
-    - id: 23875580
-      node_id: MDU6TGFiZWwyMzg3NTU4MA==
-      url: 'https://api.github.com/repos/ros/geometry2/labels/bug'
-      name: bug
-      color: fc2929
-      default: true
-  state: open
-  locked: false
-  assignee: null
-  assignees: []
-  milestone: null
-  comments: 0
-  created_at: '2018-06-08T15:56:49Z'
-  updated_at: '2018-06-08T15:56:49Z'
-  closed_at: null
-  author_association: MEMBER
+    id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAcbU
+  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/456'
+  closed_at: '2012-09-19T22:14:10Z'
+  created_at: '2012-09-19T22:14:09Z'
+  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/456/labels{/name}'
   body: >-
-    The test launch file `test_tf2_bullet.launch` tries to use a test executable
-    from the `test_tf2`
-    (https://github.com/ros/geometry2/blob/6eed82a013fa2f575f12fca92e5fd105518a1441/test_tf2/test/test_tf2_bullet.launch#L2)
-    which is neither depended on nor is that binary being installed. Maybe it is
-    supposed to use the local executable instead
-    (https://github.com/ros/geometry2/blob/6eed82a013fa2f575f12fca92e5fd105518a1441/test_tf2/CMakeLists.txt#L47-L48)?
-  closed_by: null
-  repo: geometry2
-  owner: ros
-  data_comments: []
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UNwe5u3stTk3AD6A
-  body: "Currently the velocity smoother adjusts the velocities independently, what can cause the original velocity heading (vector orientation) to be modified as well.\r\n\r\nPlease adjust the smoothing in the way that the original heading is not changed."
-  milestone: null
-  title: keep direction constant when smoothing velocities
-  html_url: 'https://github.com/yujinrobot/yujin_ocs/issues/3'
-  labels_url: 'https://api.github.com/repos/yujinrobot/yujin_ocs/issues/3/labels{/name}'
-  assignee:
-    type: User
-    gists_url: 'https://api.github.com/users/corot/gists{/gist_id}'
-    events_url: 'https://api.github.com/users/corot/events{/privacy}'
-    followers_url: 'https://api.github.com/users/corot/followers'
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/9d1f9be65fdb1506922dc4cd3816ec42?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    following_url: 'https://api.github.com/users/corot/following'
-    organizations_url: 'https://api.github.com/users/corot/orgs'
-    url: 'https://api.github.com/users/corot'
-    repos_url: 'https://api.github.com/users/corot/repos'
-    starred_url: 'https://api.github.com/users/corot/starred{/owner}{/repo}'
-    gravatar_id: 9d1f9be65fdb1506922dc4cd3816ec42
-    login: corot
-    received_events_url: 'https://api.github.com/users/corot/received_events'
-    subscriptions_url: 'https://api.github.com/users/corot/subscriptions'
-    id: 322610
-  events_url: 'https://api.github.com/repos/yujinrobot/yujin_ocs/issues/3/events'
-  updated_at: '2012-12-14T08:09:50Z'
-  comments: 1
-  state: closed
-  url: 'https://api.github.com/repos/yujinrobot/yujin_ocs/issues/3'
-  pull_request:
-    html_url: null
-    patch_url: null
-    diff_url: null
-  closed_at: '2012-12-14T08:09:50Z'
-  created_at: '2012-12-13T02:12:47Z'
-  user:
-    type: User
-    gists_url: 'https://api.github.com/users/bit-pirate/gists{/gist_id}'
-    events_url: 'https://api.github.com/users/bit-pirate/events{/privacy}'
-    followers_url: 'https://api.github.com/users/bit-pirate/followers'
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/dec89fe7edb3199a81905cc8c0ddd658?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    following_url: 'https://api.github.com/users/bit-pirate/following'
-    organizations_url: 'https://api.github.com/users/bit-pirate/orgs'
-    url: 'https://api.github.com/users/bit-pirate'
-    repos_url: 'https://api.github.com/users/bit-pirate/repos'
-    starred_url: 'https://api.github.com/users/bit-pirate/starred{/owner}{/repo}'
-    gravatar_id: dec89fe7edb3199a81905cc8c0ddd658
-    login: bit-pirate
-    received_events_url: 'https://api.github.com/users/bit-pirate/received_events'
-    subscriptions_url: 'https://api.github.com/users/bit-pirate/subscriptions'
-    id: 1136833
-  id: 9239889
-  labels:
-    - url: 'https://api.github.com/repos/yujinrobot/yujin_ocs/labels/bug'
-      name: bug
-      color: fc2929
-  number: 3
-  comments_url: 'https://api.github.com/repos/yujinrobot/yujin_ocs/issues/3/comments'
-  repo: yujin_ocs
-  owner: yujinrobot
-  data_comments:
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UN6+U+iSKWtvAPxG
-      created_at: '2012-12-14T08:09:50Z'
-      body: >-
-        We should rename this package to diff_drive_vel_smoother or something
-        like that. Sooner or latter we will have an omni base a then I will
-        recover the previous version smoothing each dof separately.
-      url: >-
-        https://api.github.com/repos/yujinrobot/yujin_ocs/issues/comments/11368182
-      updated_at: '2012-12-14T08:09:50Z'
-      user:
-        type: User
-        followers_url: 'https://api.github.com/users/corot/followers'
-        login: corot
-        gists_url: 'https://api.github.com/users/corot/gists{/gist_id}'
-        following_url: 'https://api.github.com/users/corot/following'
-        organizations_url: 'https://api.github.com/users/corot/orgs'
-        events_url: 'https://api.github.com/users/corot/events{/privacy}'
-        repos_url: 'https://api.github.com/users/corot/repos'
-        received_events_url: 'https://api.github.com/users/corot/received_events'
-        url: 'https://api.github.com/users/corot'
-        subscriptions_url: 'https://api.github.com/users/corot/subscriptions'
-        starred_url: 'https://api.github.com/users/corot/starred{/owner}{/repo}'
-        id: 322610
-        gravatar_id: 9d1f9be65fdb1506922dc4cd3816ec42
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/9d1f9be65fdb1506922dc4cd3816ec42?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-      id: 11368182
-      issue_url: 'https://api.github.com/repos/yujinrobot/yujin_ocs/issues/9239889'
-      owner: yujinrobot
-      repo: yujin_ocs
-      issue_id: 3
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UK1eKeiSKU6FAccv
-  url: 'https://api.github.com/repos/ros-visualization/rviz/issues/347'
-  closed_at: '2012-09-19T22:10:13Z'
-  created_at: '2012-09-19T22:10:12Z'
-  labels_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/347/labels{/name}'
-  body: >-
-    rxtools/wxswig/etc... are in the rx stack now. Please update and re-release
-    into unstable. This will likely require 1.2 branching
+    When building ogre_tool_qt from visualization_experimental on OS X using
+    Homebrew I get:
+
+
+    {{{
+
+    mkdir -p bin
+
+    cd build && cmake -Wdev -DCMAKE_TOOLCHAIN_FILE=`rospack find
+    rosbuild`/rostoolchain.cmake  ..
+
+    -- The C compiler identification is GNU
+
+    -- The CXX compiler identification is GNU
+
+    -- Checking whether C compiler has -isysroot
+
+    -- Checking whether C compiler has -isysroot - yes
+
+    -- Checking whether C compiler supports OSX deployment target flag
+
+    -- Checking whether C compiler supports OSX deployment target flag - yes
+
+    -- Check for working C compiler: /usr/bin/gcc
+
+    -- Check for working C compiler: /usr/bin/gcc -- works
+
+    -- Detecting C compiler ABI info
+
+    -- Detecting C compiler ABI info - done
+
+    -- Checking whether CXX compiler has -isysroot
+
+    -- Checking whether CXX compiler has -isysroot - yes
+
+    -- Checking whether CXX compiler supports OSX deployment target flag
+
+    -- Checking whether CXX compiler supports OSX deployment target flag - yes
+
+    -- Check for working CXX compiler: /usr/bin/c++
+
+    -- Check for working CXX compiler: /usr/bin/c++ -- works
+
+    -- Detecting CXX compiler ABI info
+
+    -- Detecting CXX compiler ABI info - done
+
+    [rosbuild] Building package ogre_tools_qt
+
+    [rosbuild] Cached build flags older than manifests; calling rospack to get
+    flags
+
+    [rosbuild] Including
+    /Users/william/ros/ros_comm/clients/roslisp/cmake/roslisp.cmake
+
+    [rosbuild] Including
+    /Users/william/ros/ros_comm/clients/rospy/cmake/rospy.cmake
+
+    [rosbuild] Including
+    /Users/william/ros/ros_comm/clients/cpp/roscpp/cmake/roscpp.cmake
+
+    -- Looking for Q_WS_X11
+
+    -- Looking for Q_WS_X11 - not found.
+
+    -- Looking for Q_WS_WIN
+
+    -- Looking for Q_WS_WIN - not found.
+
+    -- Looking for Q_WS_QWS
+
+    -- Looking for Q_WS_QWS - not found.
+
+    -- Looking for Q_WS_MAC
+
+    -- Looking for Q_WS_MAC - found
+
+    -- Looking for QT_MAC_USE_COCOA
+
+    -- Looking for QT_MAC_USE_COCOA - found
+
+    -- Found Qt4: /usr/local/bin/qmake (found version "4.7.4")
+
+    -- Found OpenGL: /System/Library/Frameworks/OpenGL.framework 
+
+    -- Found PythonLibs: /usr/lib/libpython2.7.dylib 
+
+    [rosbuild] Couldn't find source file
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/build/src/test/moc_grid_test.cxx;
+    assuming that it is in
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt and
+    will be generated later
+
+    -- Configuring done
+
+    -- Generating done
+
+    -- Build files have been written to:
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/build
+
+    cd build && make -l4
+
+    Scanning dependencies of target rospack_genmsg_libexe
+
+    [  0%] Built target rospack_genmsg_libexe
+
+    Scanning dependencies of target rosbuild_precompile
+
+    [  0%] Built target rosbuild_precompile
+
+    Scanning dependencies of target ogre_tools_qt
+
+    [  5%] Building CXX object
+    CMakeFiles/ogre_tools_qt.dir/src/ogre_tools/initialization.o
+
+    [ 10%] Building CXX object
+    CMakeFiles/ogre_tools_qt.dir/src/ogre_tools/render_system.o
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:32:20:
+    error: GL/glx.h: No such file or directory
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:
+    In member function ‘void ogre_tools::RenderSystem::setupDummyWindowId()’:
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:73:
+    error: ‘GLX_RGBA’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:73:
+    error: ‘GLX_DOUBLEBUFFER’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:73:
+    error: ‘GLX_DEPTH_SIZE’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:74:
+    error: ‘GLX_STENCIL_SIZE’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:76:
+    error: ‘glXChooseVisual’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:82:
+    error: ‘GLXContext’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:82:
+    error: expected `;' before ‘context’
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:84:
+    error: ‘context’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:84:
+    error: ‘glXMakeCurrent’ was not declared in this scope
+
+    /Users/william/devel/vis_exp/visualization_experimental/ogre_tools_qt/src/ogre_tools/render_system.cpp:76:
+    warning: unused variable ‘visual’
+
+    make[3]: *** [CMakeFiles/ogre_tools_qt.dir/src/ogre_tools/render_system.o]
+    Error 1
+
+    make[2]: *** [CMakeFiles/ogre_tools_qt.dir/all] Error 2
+
+    make[1]: *** [all] Error 2
+
+    make: *** [all] Error 2
+
+    }}}
+
+
+    This is due to the proper include and link directories missing from the
+    path, a patch to the CMakeLists.txt file fixes this.  Ideally, we should try
+    to eliminate dependencies on X11 libraries when possible on OS X and
+    leverage Ogre and Qt to handle the portability issues.  This might not be
+    possible in these circumstances, but I will investigate this and see if it
+    is possible.
+
+
+    Attached patch is for visualization_experiemental 830568a7d2a9.
 
 
     trac data:
-     * Owner: **jfaust**
-     * Reporter: **kwc**
-     * Reported at: **Fri Sep  3 19:37:20 2010**
-     * URL: http://code.ros.org/trac/ros-pkg/ticket/4404
+     * Owner: **hersh**
+     * Reporter: **wjwwood**
+     * Reported at: **Sat Dec 10 17:19:29 2011**
+     * URL: http://code.ros.org/trac/ros-pkg/ticket/5283
   title: >-
-    update visualization and visualization_common to depend on rx  (ros-pkg
-    ticket #4404)
+    ogre_tools_qt fails to build with X11 headers issue on osx  (ros-pkg ticket
+    #5283)
+  pull_request:
+    diff_url: null
+    patch_url: null
+    html_url: null
   assignee: null
   user:
     url: 'https://api.github.com/users/hershwg'
-    received_events_url: 'https://api.github.com/users/hershwg/received_events'
+    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
+    repos_url: 'https://api.github.com/users/hershwg/repos'
     organizations_url: 'https://api.github.com/users/hershwg/orgs'
     followers_url: 'https://api.github.com/users/hershwg/followers'
+    received_events_url: 'https://api.github.com/users/hershwg/received_events'
     gists_url: 'https://api.github.com/users/hershwg/gists{/gist_id}'
     following_url: 'https://api.github.com/users/hershwg/following'
-    avatar_url: >-
-      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    starred_url: 'https://api.github.com/users/hershwg/starred{/owner}{/repo}'
     subscriptions_url: 'https://api.github.com/users/hershwg/subscriptions'
-    repos_url: 'https://api.github.com/users/hershwg/repos'
+    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
     gravatar_id: 59c9a5865de1e52681657f3770b7b07d
     id: 2372515
-    events_url: 'https://api.github.com/users/hershwg/events{/privacy}'
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/59c9a5865de1e52681657f3770b7b07d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
     login: hershwg
+  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/456/comments'
   milestone: null
-  number: 347
-  updated_at: '2012-09-19T22:10:13Z'
+  number: 456
+  updated_at: '2012-09-19T22:14:10Z'
   labels:
     - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/bug'
       color: fc2929
@@ -292,50 +1272,45 @@
     - url: 'https://api.github.com/repos/ros-visualization/rviz/labels/major'
       color: ededed
       name: major
-  pull_request:
-    patch_url: null
-    diff_url: null
-    html_url: null
   state: closed
-  id: 6996392
-  comments: 0
-  html_url: 'https://github.com/ros-visualization/rviz/issues/347'
-  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/347/events'
-  comments_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/347/comments'
+  id: 6996592
+  events_url: 'https://api.github.com/repos/ros-visualization/rviz/issues/456/events'
+  comments: 1
+  html_url: 'https://github.com/ros-visualization/rviz/issues/456'
   repo: rviz
   owner: ros-visualization
   data_comments: []
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> VNzzg701Q11gABlu
-  url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/108'
-  labels_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/108/labels{/name}'
-  comments_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/108/comments'
-  events_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/108/events'
-  html_url: 'https://github.com/PR2/pr2_simulator/issues/108'
-  id: 57501000
-  number: 108
-  title: Missing dependency on PCL
+    id: !<tag:yaml.org,2002:binary> VdsRRBtIdm+HAc7y
+  url: 'https://api.github.com/repos/DLu/roscompile/issues/2'
+  labels_url: 'https://api.github.com/repos/DLu/roscompile/issues/2/labels{/name}'
+  comments_url: 'https://api.github.com/repos/DLu/roscompile/issues/2/comments'
+  events_url: 'https://api.github.com/repos/DLu/roscompile/issues/2/events'
+  html_url: 'https://github.com/DLu/roscompile/issues/2'
+  id: 96960197
+  number: 2
+  title: Separate Test Depends
   user:
-    login: dirk-thomas
-    id: 1335366
-    avatar_url: 'https://avatars.githubusercontent.com/u/1335366?v=3'
+    login: DLu
+    id: 1016143
+    avatar_url: 'https://avatars.githubusercontent.com/u/1016143?v=3'
     gravatar_id: ''
-    url: 'https://api.github.com/users/dirk-thomas'
-    html_url: 'https://github.com/dirk-thomas'
-    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
-    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+    url: 'https://api.github.com/users/DLu'
+    html_url: 'https://github.com/DLu'
+    followers_url: 'https://api.github.com/users/DLu/followers'
+    following_url: 'https://api.github.com/users/DLu/following{/other_user}'
+    gists_url: 'https://api.github.com/users/DLu/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/DLu/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/DLu/subscriptions'
+    organizations_url: 'https://api.github.com/users/DLu/orgs'
+    repos_url: 'https://api.github.com/users/DLu/repos'
+    events_url: 'https://api.github.com/users/DLu/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/DLu/received_events'
     type: User
     site_admin: false
   labels:
-    - url: 'https://api.github.com/repos/PR2/pr2_simulator/labels/bug'
+    - url: 'https://api.github.com/repos/DLu/roscompile/labels/bug'
       name: bug
       color: fc2929
   state: open
@@ -343,1042 +1318,551 @@
   assignee: null
   milestone: null
   comments: 0
-  created_at: '2015-02-12T18:39:59Z'
-  updated_at: '2015-02-12T18:39:59Z'
+  created_at: '2015-07-24T04:06:36Z'
+  updated_at: '2015-07-24T04:06:36Z'
   closed_at: null
-  body: "The CMakeLists.txt requires PCL (https://github.com/PR2/pr2_simulator/blob/d41a9c603c4e07359daa60de01a1f78448d1372b/pr2_gazebo_plugins/CMakeLists.txt#L96) but the package.xml file does not list it as a dependency.\r\n\r\nhttp://54.183.26.131:8080/job/Ibin_uT64__pr2_gazebo_plugins__ubuntu_trusty_amd64__binary/1/console"
-  repo: pr2_simulator
-  owner: PR2
-  data_comments:
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> VNz8Gr01Q02UABps
-      url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/comments/74133391'
-      html_url: 'https://github.com/PR2/pr2_simulator/issues/108#issuecomment-74133391'
-      issue_url: 'https://api.github.com/repos/PR2/pr2_simulator/issues/108'
-      id: 74133391
-      user:
-        login: TheDash
-        id: 1786601
-        avatar_url: 'https://avatars.githubusercontent.com/u/1786601?v=3'
-        gravatar_id: ''
-        url: 'https://api.github.com/users/TheDash'
-        html_url: 'https://github.com/TheDash'
-        followers_url: 'https://api.github.com/users/TheDash/followers'
-        following_url: 'https://api.github.com/users/TheDash/following{/other_user}'
-        gists_url: 'https://api.github.com/users/TheDash/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/TheDash/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/TheDash/subscriptions'
-        organizations_url: 'https://api.github.com/users/TheDash/orgs'
-        repos_url: 'https://api.github.com/users/TheDash/repos'
-        events_url: 'https://api.github.com/users/TheDash/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/TheDash/received_events'
-        type: User
-        site_admin: false
-      created_at: '2015-02-12T19:16:38Z'
-      updated_at: '2015-02-12T19:16:38Z'
-      body: >-
-        Looks like the PCL dependency wasn't required at all, and so I've
-        removed it.
-        https://github.com/PR2/pr2_simulator/commit/7196212fb6ecebcd0ff9765cc5ae11716d999ebd
-      repo: pr2_simulator
-      owner: PR2
-      issue_id: 108
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> Un6ctL01Q+2vAAEy
-  url: 'https://api.github.com/repos/ros/diagnostics/issues/14'
-  labels_url: 'https://api.github.com/repos/ros/diagnostics/issues/14/labels{/name}'
-  comments_url: 'https://api.github.com/repos/ros/diagnostics/issues/14/comments'
-  events_url: 'https://api.github.com/repos/ros/diagnostics/issues/14/events'
-  html_url: 'https://github.com/ros/diagnostics/issues/14'
-  id: 22393340
-  number: 14
-  title: fix reference to example.cpp in manifest.dox file
-  user:
-    login: dirk-thomas
-    id: 1335366
-    avatar_url: >-
-      https://0.gravatar.com/avatar/00f79f6be5722ab3a1b3ece2cd32bb35?d=https%3A%2F%2Fidenticons.github.com%2F0c4fa44dd82805398e25508d93341849.png&r=x
-    gravatar_id: 00f79f6be5722ab3a1b3ece2cd32bb35
-    url: 'https://api.github.com/users/dirk-thomas'
-    html_url: 'https://github.com/dirk-thomas'
-    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
-    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-    type: User
-    site_admin: false
-  labels:
-    - url: 'https://api.github.com/repos/ros/diagnostics/labels/bug'
-      name: bug
-      color: fc2929
-  state: open
-  assignee: null
-  milestone: null
-  comments: 0
-  created_at: '2013-11-09T20:35:59Z'
-  updated_at: '2013-11-09T20:35:59Z'
-  closed_at: null
-  pull_request:
-    html_url: null
-    diff_url: null
-    patch_url: null
-  body: "The reference to `example.cpp` is not unique since other packages which this package depends on also contain a file with that name. Therefore you need to reference the file with its relative location from the `manifest.dox` file: https://github.com/ros/diagnostics/blob/groovy-devel/diagnostic_updater/mainpage.dox#L25\r\n\r\n    Example uses of these classes can be found in \\ref src/example.cpp.\r\n\r\nBtw. the `\\ref` should not be necessary. Doxygen will consider every word containing dots as potential file references."
-  repo: diagnostics
-  owner: ros
+  body: >-
+    Currently does not support test functionality, nor dependencies that are
+    only used in tests. 
+  closed_by: null
+  repo: roscompile
+  owner: DLu
   data_comments: []
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> U5cdib01QyrlAiCE
-  url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-  labels_url: 'https://api.github.com/repos/ros/pluginlib/issues/29/labels{/name}'
-  comments_url: 'https://api.github.com/repos/ros/pluginlib/issues/29/comments'
-  events_url: 'https://api.github.com/repos/ros/pluginlib/issues/29/events'
-  html_url: 'https://github.com/ros/pluginlib/issues/29'
-  id: 35390490
-  number: 29
-  title: fails to configure without gtest
+    id: !<tag:yaml.org,2002:binary> UqeCIr01Q72VAAB2
+  url: 'https://api.github.com/repos/ros-visualization/qt_gui_core/issues/37'
+  labels_url: >-
+    https://api.github.com/repos/ros-visualization/qt_gui_core/issues/37/labels{/name}
+  comments_url: >-
+    https://api.github.com/repos/ros-visualization/qt_gui_core/issues/37/comments
+  events_url: 'https://api.github.com/repos/ros-visualization/qt_gui_core/issues/37/events'
+  html_url: 'https://github.com/ros-visualization/qt_gui_core/issues/37'
+  id: 23622061
+  number: 37
+  title: Incorrect build_depends
   user:
-    login: dirk-thomas
-    id: 1335366
-    avatar_url: 'https://avatars.githubusercontent.com/u/1335366?'
-    gravatar_id: 00f79f6be5722ab3a1b3ece2cd32bb35
-    url: 'https://api.github.com/users/dirk-thomas'
-    html_url: 'https://github.com/dirk-thomas'
-    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
-    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+    login: wjwwood
+    id: 100427
+    avatar_url: >-
+      https://2.gravatar.com/avatar/e9b7130c915ff71c0812d99ff927e929?d=https%3A%2F%2Fidenticons.github.com%2Ffa1f170d31df1d5069af37f35a171700.png&r=x
+    gravatar_id: e9b7130c915ff71c0812d99ff927e929
+    url: 'https://api.github.com/users/wjwwood'
+    html_url: 'https://github.com/wjwwood'
+    followers_url: 'https://api.github.com/users/wjwwood/followers'
+    following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+    gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+    organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+    repos_url: 'https://api.github.com/users/wjwwood/repos'
+    events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/wjwwood/received_events'
     type: User
     site_admin: false
   labels:
-    - url: 'https://api.github.com/repos/ros/pluginlib/labels/bug'
+    - url: 'https://api.github.com/repos/ros-visualization/qt_gui_core/labels/bug'
       name: bug
       color: fc2929
-  state: open
-  assignee:
-    login: esteve
-    id: 33620
-    avatar_url: 'https://avatars.githubusercontent.com/u/33620?'
-    gravatar_id: 33e7091d621f15f76e2bdf03a88552c4
-    url: 'https://api.github.com/users/esteve'
-    html_url: 'https://github.com/esteve'
-    followers_url: 'https://api.github.com/users/esteve/followers'
-    following_url: 'https://api.github.com/users/esteve/following{/other_user}'
-    gists_url: 'https://api.github.com/users/esteve/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/esteve/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/esteve/subscriptions'
-    organizations_url: 'https://api.github.com/users/esteve/orgs'
-    repos_url: 'https://api.github.com/users/esteve/repos'
-    events_url: 'https://api.github.com/users/esteve/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/esteve/received_events'
-    type: User
-    site_admin: false
+  state: closed
+  assignee: null
   milestone: null
   comments: 1
-  created_at: '2014-06-10T14:58:26Z'
-  updated_at: '2014-06-10T14:59:04Z'
-  closed_at: null
-  body: "See http://answers.ros.org/question/173255/compiling-ros-to-virtual-nao/\r\nAfter calling `catkin_add_gtest` the target can only be used if it actually exists since when the user does not have gtest no target is created."
-  repo: pluginlib
-  owner: ros
+  created_at: '2013-12-03T05:25:39Z'
+  updated_at: '2013-12-03T07:18:47Z'
+  closed_at: '2013-12-03T07:18:47Z'
+  pull_request:
+    html_url: null
+    diff_url: null
+    patch_url: null
+  body: "This build depend should be with `_`'s and not `-`'s, I believe:\r\n\r\nhttps://github.com/ros-visualization/qt_gui_core/blob/groovy-devel/qt_gui/package.xml#L20\r\n\r\n@dirk-thomas?"
+  repo: qt_gui_core
+  owner: ros-visualization
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U5cdir01QyrlAiCG
-      url: 'https://api.github.com/repos/ros/pluginlib/issues/comments/45624840'
-      html_url: 'https://github.com/ros/pluginlib/issues/29#issuecomment-45624840'
-      issue_url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-      id: 45624840
+        id: !<tag:yaml.org,2002:binary> UqfrD701Q+oeAACz
+      url: >-
+        https://api.github.com/repos/ros-visualization/qt_gui_core/issues/comments/29688226
+      html_url: >-
+        https://github.com/ros-visualization/qt_gui_core/issues/37#issuecomment-29688226
+      issue_url: 'https://api.github.com/repos/ros-visualization/qt_gui_core/issues/37'
+      id: 29688226
       user:
-        login: esteve
-        id: 33620
-        avatar_url: 'https://avatars.githubusercontent.com/u/33620?'
-        gravatar_id: 33e7091d621f15f76e2bdf03a88552c4
-        url: 'https://api.github.com/users/esteve'
-        html_url: 'https://github.com/esteve'
-        followers_url: 'https://api.github.com/users/esteve/followers'
-        following_url: 'https://api.github.com/users/esteve/following{/other_user}'
-        gists_url: 'https://api.github.com/users/esteve/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/esteve/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/esteve/subscriptions'
-        organizations_url: 'https://api.github.com/users/esteve/orgs'
-        repos_url: 'https://api.github.com/users/esteve/repos'
-        events_url: 'https://api.github.com/users/esteve/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/esteve/received_events'
+        login: wjwwood
+        id: 100427
+        avatar_url: >-
+          https://0.gravatar.com/avatar/e9b7130c915ff71c0812d99ff927e929?d=https%3A%2F%2Fidenticons.github.com%2Ffa1f170d31df1d5069af37f35a171700.png&r=x
+        gravatar_id: e9b7130c915ff71c0812d99ff927e929
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
         type: User
         site_admin: false
-      created_at: '2014-06-10T14:59:04Z'
-      updated_at: '2014-06-10T14:59:04Z'
-      body: Thanks!
-      owner: ros
-      repo: pluginlib
-      issue_id: 29
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U5cjb701Qyq7AkAW
-      url: 'https://api.github.com/repos/ros/pluginlib/issues/comments/45628360'
-      html_url: 'https://github.com/ros/pluginlib/issues/29#issuecomment-45628360'
-      issue_url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-      id: 45628360
-      user:
-        login: esteve
-        id: 33620
-        avatar_url: 'https://avatars.githubusercontent.com/u/33620?'
-        gravatar_id: 33e7091d621f15f76e2bdf03a88552c4
-        url: 'https://api.github.com/users/esteve'
-        html_url: 'https://github.com/esteve'
-        followers_url: 'https://api.github.com/users/esteve/followers'
-        following_url: 'https://api.github.com/users/esteve/following{/other_user}'
-        gists_url: 'https://api.github.com/users/esteve/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/esteve/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/esteve/subscriptions'
-        organizations_url: 'https://api.github.com/users/esteve/orgs'
-        repos_url: 'https://api.github.com/users/esteve/repos'
-        events_url: 'https://api.github.com/users/esteve/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/esteve/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-06-10T15:22:12Z'
-      updated_at: '2014-06-10T15:22:12Z'
-      body: 'That''s weird, gtest is both a build and run-time dependency for catkin'
-      repo: pluginlib
-      owner: ros
-      issue_id: 29
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U5c0sL01QymiAi93
-      url: 'https://api.github.com/repos/ros/pluginlib/issues/comments/45638884'
-      html_url: 'https://github.com/ros/pluginlib/issues/29#issuecomment-45638884'
-      issue_url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-      id: 45638884
-      user:
-        login: dirk-thomas
-        id: 1335366
-        avatar_url: 'https://avatars.githubusercontent.com/u/1335366?'
-        gravatar_id: 00f79f6be5722ab3a1b3ece2cd32bb35
-        url: 'https://api.github.com/users/dirk-thomas'
-        html_url: 'https://github.com/dirk-thomas'
-        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
-        following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
-        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
-        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
-        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
-        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-06-10T16:39:09Z'
-      updated_at: '2014-06-10T16:39:09Z'
-      body: "There are numerous reasons why this can be the case:\r\n* gtest removed after catkin pcakage was installed\r\n* gtest not installed in the first place (on platforms different then Debian)\r\n* ...\r\n\r\nSo the CMake code should handle this more graceful."
-      repo: pluginlib
-      owner: ros
-      issue_id: 29
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U5c1W701QyqFAizY
-      url: 'https://api.github.com/repos/ros/pluginlib/issues/comments/45639266'
-      html_url: 'https://github.com/ros/pluginlib/issues/29#issuecomment-45639266'
-      issue_url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-      id: 45639266
-      user:
-        login: vrabaud
-        id: 700766
-        avatar_url: 'https://avatars.githubusercontent.com/u/700766?'
-        gravatar_id: cc30ac48a693633fa4d05d66238eaff8
-        url: 'https://api.github.com/users/vrabaud'
-        html_url: 'https://github.com/vrabaud'
-        followers_url: 'https://api.github.com/users/vrabaud/followers'
-        following_url: 'https://api.github.com/users/vrabaud/following{/other_user}'
-        gists_url: 'https://api.github.com/users/vrabaud/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/vrabaud/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/vrabaud/subscriptions'
-        organizations_url: 'https://api.github.com/users/vrabaud/orgs'
-        repos_url: 'https://api.github.com/users/vrabaud/repos'
-        events_url: 'https://api.github.com/users/vrabaud/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/vrabaud/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-06-10T16:41:57Z'
-      updated_at: '2014-06-10T16:41:57Z'
-      body: >-
-        the weird thing is those instructions worked for us: really, maybe gtest
-        is not part of that VM
-      repo: pluginlib
-      owner: ros
-      issue_id: 29
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U5gvAL01QyoUArMe
-      url: 'https://api.github.com/repos/ros/pluginlib/issues/comments/45725039'
-      html_url: 'https://github.com/ros/pluginlib/issues/29#issuecomment-45725039'
-      issue_url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-      id: 45725039
-      user:
-        login: vrabaud
-        id: 700766
-        avatar_url: 'https://avatars.githubusercontent.com/u/700766?'
-        gravatar_id: cc30ac48a693633fa4d05d66238eaff8
-        url: 'https://api.github.com/users/vrabaud'
-        html_url: 'https://github.com/vrabaud'
-        followers_url: 'https://api.github.com/users/vrabaud/followers'
-        following_url: 'https://api.github.com/users/vrabaud/following{/other_user}'
-        gists_url: 'https://api.github.com/users/vrabaud/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/vrabaud/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/vrabaud/subscriptions'
-        organizations_url: 'https://api.github.com/users/vrabaud/orgs'
-        repos_url: 'https://api.github.com/users/vrabaud/repos'
-        events_url: 'https://api.github.com/users/vrabaud/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/vrabaud/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-06-11T10:27:11Z'
-      updated_at: '2014-06-11T10:27:11Z'
-      body: >-
-        According to the question, gtest was simply not installed. Not sure if
-        you want to close that bug.
-      repo: pluginlib
-      owner: ros
-      issue_id: 29
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> U5g5ar01QyoUArWM
-      url: 'https://api.github.com/repos/ros/pluginlib/issues/comments/45728358'
-      html_url: 'https://github.com/ros/pluginlib/issues/29#issuecomment-45728358'
-      issue_url: 'https://api.github.com/repos/ros/pluginlib/issues/29'
-      id: 45728358
-      user:
-        login: esteve
-        id: 33620
-        avatar_url: 'https://avatars.githubusercontent.com/u/33620?'
-        gravatar_id: 33e7091d621f15f76e2bdf03a88552c4
-        url: 'https://api.github.com/users/esteve'
-        html_url: 'https://github.com/esteve'
-        followers_url: 'https://api.github.com/users/esteve/followers'
-        following_url: 'https://api.github.com/users/esteve/following{/other_user}'
-        gists_url: 'https://api.github.com/users/esteve/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/esteve/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/esteve/subscriptions'
-        organizations_url: 'https://api.github.com/users/esteve/orgs'
-        repos_url: 'https://api.github.com/users/esteve/repos'
-        events_url: 'https://api.github.com/users/esteve/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/esteve/received_events'
-        type: User
-        site_admin: false
-      created_at: '2014-06-11T11:11:37Z'
-      updated_at: '2014-06-11T11:11:37Z'
-      body: >-
-        I've been trying to get ROS installed onto the OpenNAO VM. I updated the
-        wiki with some fixes, but I couldn't get past the rosdep step. Are there
-        any more up to date instructions somewhere? In any case, I'm going add a
-        check for gtest in CMakeLists.txt and skip the test if it's missing, and
-        close this ticket.
-      repo: pluginlib
-      owner: ros
-      issue_id: 29
+      created_at: '2013-12-03T07:18:47Z'
+      updated_at: '2013-12-03T07:18:47Z'
+      body: "Ok, I think `python-qt-bindings` != `python_qt_binding`, which is really confusing...\r\n\r\nSorry for the noise."
+      owner: ros-visualization
+      repo: qt_gui_core
+      issue_id: 37
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> UQxpO701Q9ZVAAL4
-  updated_at: '2013-01-31T19:13:32Z'
-  assignee: null
-  url: 'https://api.github.com/repos/ros/ros_comm/issues/149'
-  comments: 15
-  html_url: 'https://github.com/ros/ros_comm/issues/149'
-  comments_url: 'https://api.github.com/repos/ros/ros_comm/issues/149/comments'
-  user:
+    id: !<tag:yaml.org,2002:binary> UNMbp+iSKR+AExLX
+  created_at: '2012-12-10T23:35:27Z'
+  comments_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/48/comments'
+  labels:
+    - color: fc2929
+      url: 'https://api.github.com/repos/ros-visualization/rqt/labels/bug'
+      name: bug
+    - color: 0b02e1
+      url: 'https://api.github.com/repos/ros-visualization/rqt/labels/Groovy'
+      name: Groovy
+  number: 48
+  body: "The issue:![snapshot14](https://f.cloud.github.com/assets/2374428/4739/ca0814d2-431f-11e2-84a6-a7f1dfe59dc4.png)\r\n\r\nsteps to duplicate\r\nexecute the UnderstandingTopics tutorial (http://www.ros.org/wiki/ROS/Tutorials/UnderstandingTopics)\r\nleave the rqt_plot open for an extended period of time.\r\nYou will see the following:\r\n![after](https://f.cloud.github.com/assets/2374428/4776/df579af4-4321-11e2-997d-bc8c5d1fda9f.png)\r\n\r\nIt should look like the following (it starts this way and progressively gets worse:\r\n![before1](https://f.cloud.github.com/assets/2374428/4782/33dcb488-4322-11e2-966d-a1a430b8ac7f.png)\r\n\r\ngroovy\r\nusing rqt 1.5"
+  pull_request:
+    html_url: null
+    patch_url: null
+    diff_url: null
+  milestone: null
+  html_url: 'https://github.com/ros-visualization/rqt/issues/48'
+  events_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/48/events'
+  labels_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/48/labels{/name}'
+  assignee:
     type: User
-    received_events_url: 'https://api.github.com/users/tfoote/received_events'
-    url: 'https://api.github.com/users/tfoote'
+    starred_url: 'https://api.github.com/users/DorianScholz/starred{/owner}{/repo}'
+    repos_url: 'https://api.github.com/users/DorianScholz/repos'
+    followers_url: 'https://api.github.com/users/DorianScholz/followers'
+    following_url: 'https://api.github.com/users/DorianScholz/following'
+    events_url: 'https://api.github.com/users/DorianScholz/events{/privacy}'
+    organizations_url: 'https://api.github.com/users/DorianScholz/orgs'
+    url: 'https://api.github.com/users/DorianScholz'
+    received_events_url: 'https://api.github.com/users/DorianScholz/received_events'
+    gists_url: 'https://api.github.com/users/DorianScholz/gists{/gist_id}'
     avatar_url: >-
-      https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    organizations_url: 'https://api.github.com/users/tfoote/orgs'
-    gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-    gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-    repos_url: 'https://api.github.com/users/tfoote/repos'
-    followers_url: 'https://api.github.com/users/tfoote/followers'
-    subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-    following_url: 'https://api.github.com/users/tfoote/following'
-    events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-    id: 447804
-    login: tfoote
-  created_at: '2013-01-31T19:13:20Z'
-  labels_url: 'https://api.github.com/repos/ros/ros_comm/issues/149/labels{/name}'
-  body: "I am using this call method from a ServiceClient:\r\n{{{\r\n  template<class MReq, class MRes>\r\n  bool call(MReq& req, MRes& res)\r\n}}}\r\n\r\ntracing the execution, this goes into service_server_link.cpp\r\n{{{\r\nbool ServiceServerLink::call(const SerializedMessage& req, SerializedMessage& resp)\r\n}}}\r\n\r\nthe problem seems to be that the finished_condition_.wait() call here never terminates.\r\n\r\n{{{\r\n    boost::mutex::scoped_lock lock(info->finished_mutex_);\r\n\r\n    while (!info->finished_)\r\n    {\r\n      info->finished_condition_.wait(lock);\r\n    }\r\n\r\n}}}\r\n\r\nusing:\r\nhttps://code.ros.org/svn/ros/stacks/ros/tags/latest/core/roscpp\r\nr9871\r\n\r\nThis happens almost every time.\r\nI believe my setup had incorrect MD5 sums (however, no error or warning mentioned this). At some point, the node providing the service crashed (potentially caused by the MD5 sum error). I kept this setup until I found the hanging call to the condition. Doing rosmake in my build fixed all the problems.\r\n\r\nRegardless of the potential issues with the build I used and the service provider node, I believe there should have been warnings about the MD5 sum being different and the code should not hang.\n\ntrac data:\n * Owner: **dthomas**\n * Reporter: **isucan**\n * Reported at: **Thu May 27 10:08:33 2010**\n * URL: https://code.ros.org/trac/ros/ticket/2742"
-  pull_request:
-    html_url: null
-    diff_url: null
-    patch_url: null
-  milestone: null
+      https://secure.gravatar.com/avatar/53dc25775bca05e98ad0b4dc28711191?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    subscriptions_url: 'https://api.github.com/users/DorianScholz/subscriptions'
+    gravatar_id: 53dc25775bca05e98ad0b4dc28711191
+    id: 1461297
+    login: DorianScholz
+  title: ' (matplot only) rqt_plot shows strange output after running for ~5 minutes (progressively gets worse)'
+  url: 'https://api.github.com/repos/ros-visualization/rqt/issues/48'
   closed_at: null
+  updated_at: '2012-12-17T18:43:18Z'
+  comments: 8
   state: open
-  labels:
-    - url: 'https://api.github.com/repos/ros/ros_comm/labels/bug'
-      color: fc2929
-      name: bug
-    - url: 'https://api.github.com/repos/ros/ros_comm/labels/critical'
-      color: ededed
-      name: critical
-  title: 'roscpp: ros::service::call hangs  (ros ticket #2742)'
-  number: 149
-  id: 10513271
-  events_url: 'https://api.github.com/repos/ros/ros_comm/issues/149/events'
-  repo: ros_comm
-  owner: ros
+  user:
+    type: User
+    starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+    repos_url: 'https://api.github.com/users/ablasdel/repos'
+    followers_url: 'https://api.github.com/users/ablasdel/followers'
+    following_url: 'https://api.github.com/users/ablasdel/following'
+    events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+    organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+    url: 'https://api.github.com/users/ablasdel'
+    received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+    gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
+    gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+    id: 2374428
+    login: ablasdel
+  id: 9163607
+  repo: rqt
+  owner: ros-visualization
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMZ
-      updated_at: '2013-01-31T19:13:20Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960111'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        id: !<tag:yaml.org,2002:binary> UNztROiSKWtvAIws
+      created_at: '2012-12-11T10:37:48Z'
+      body: "From the screenshots it looks like rxplot also has this problem (maybe not as strong), is that correct?\r\nThen I would guess this has something to do with the MatPlot backend.\r\nCould you try to reproduce this with the PyQtGraph and QwtPlot backends? (selectable form the settings menu)"
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11238770
+      updated_at: '2012-12-11T10:37:48Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/DorianScholz/followers'
+        login: DorianScholz
+        received_events_url: 'https://api.github.com/users/DorianScholz/received_events'
+        gists_url: 'https://api.github.com/users/DorianScholz/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/DorianScholz/following'
+        organizations_url: 'https://api.github.com/users/DorianScholz/orgs'
+        url: 'https://api.github.com/users/DorianScholz'
+        subscriptions_url: 'https://api.github.com/users/DorianScholz/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:20Z'
-      body: "[isucan] Actually, I'm getting the error once in a while even after the rebuild -- so no MD5 sum errors and no crashed nodes.\r\n\r\nAlso, running with valgrind, I get this:\r\n\r\n{{{\r\n==21823== Invalid read of size 8\r\n==21823==    at 0x8468CFC: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (shared_count.hpp:250)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473518 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D00: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (shared_array.hpp:47)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473510 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid read of size 8\r\n==21823==    at 0x8468D19: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (sp_counted_base_gcc_x86.hpp:66)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473518 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid read of size 4\r\n==21823==    at 0x45B3F7: boost::detail::atomic_exchange_and_add(int*, int) (sp_counted_base_gcc_x86.hpp:50)\r\n==21823==    by 0x45B538: boost::detail::sp_counted_base::release() (sp_counted_base_gcc_x86.hpp:143)\r\n==21823==    by 0x8468D26: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (shared_count.hpp:253)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473610 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D27: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (shared_count.hpp:254)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473518 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D30: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (serialized_message.h:40)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473520 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D39: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (serialized_message.h:40)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473528 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid read of size 8\r\n==21823==    at 0x8468D50: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (shared_count.hpp:262)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473538 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D54: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (move.h:83)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473530 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D58: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (shared_count.hpp:263)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473538 is not stack'd, malloc'd or (recently) free'd\r\n==21823== \r\n==21823== Invalid write of size 8\r\n==21823==    at 0x8468D6B: ros::ServiceServerLink::onResponse(boost::shared_ptr<ros::Connection> const&, boost::shared_array<unsigned char> const&, unsigned int, bool) (serialized_message.h:40)\r\n==21823==    by 0x83E556F: ros::Connection::readTransport() (function_template.hpp:1013)\r\n==21823==    by 0x83E70AD: ros::Connection::onReadable(boost::shared_ptr<ros::Transport> const&) (connection.cpp:104)\r\n==21823==    by 0x83F3E67: boost::function1<void, boost::shared_ptr<ros::Transport> const&>::operator()(boost::shared_ptr<ros::Transport> const&) const (function_template.hpp:1013)\r\n==21823==    by 0x83F2E69: ros::TransportTCP::socketUpdate(int) (transport_tcp.cpp:555)\r\n==21823==    by 0x83DCBBA: ros::PollSet::update(int) (function_template.hpp:1013)\r\n==21823==    by 0x841F014: ros::PollManager::threadFunc() (poll_manager.cpp:95)\r\n==21823==    by 0x8D37DAF: thread_proxy (in /usr/lib/libboost_thread.so.1.40.0)\r\n==21823==    by 0xA418A03: start_thread (pthread_create.c:300)\r\n==21823==    by 0xA70DD4C: clone (clone.S:112)\r\n==21823==  Address 0x16473540 is not stack'd, malloc'd or (recently) free'd\r\n}}}"
-      id: 12960111
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
+          https://secure.gravatar.com/avatar/53dc25775bca05e98ad0b4dc28711191?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/DorianScholz/events{/privacy}'
+        id: 1461297
+        repos_url: 'https://api.github.com/users/DorianScholz/repos'
+        starred_url: 'https://api.github.com/users/DorianScholz/starred{/owner}{/repo}'
+        gravatar_id: 53dc25775bca05e98ad0b4dc28711191
+      id: 11238770
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMa
-      updated_at: '2013-01-31T19:13:22Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960115'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        id: !<tag:yaml.org,2002:binary> UNztROiSKWtvAIwt
+      created_at: '2012-12-11T16:10:18Z'
+      body: "Yes it happens on rxplot too but it does seem more pronounced on the rqt\r\nversion.\r\n\r\nI will try to reproduce on the other plotters today."
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11249650
+      updated_at: '2012-12-11T17:30:47Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        login: ablasdel
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        url: 'https://api.github.com/users/ablasdel'
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:22Z'
-      body: '[jfaust] is there some sample code that reproduces this?'
-      id: 12960115
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        id: 2374428
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+      id: 11249650
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMb
-      updated_at: '2013-01-31T19:13:22Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960116'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        id: !<tag:yaml.org,2002:binary> UNztReiSKWtvAIwu
+      created_at: '2012-12-11T17:52:34Z'
+      body: "Tested QwtPlot and it doesn't seem to happen (so far I will continue running this to be sure)\r\n\r\nAfter fixing a bug in pyqtgraph in pyqtgraph/graphicsItems/PlotItem/PlotItem.py:\r\n```\r\n        if name is not None and self.legend is not None:\r\n->\r\n        if name is not None and hasattr(self, 'legend') and self.legend is not None:\r\n```\r\nIt also doesn't seem to happen.\r\nIt looks pretty clear that this is a MatPlot bug.\r\n\r\nPerhaps we should depend on one of the other packages and make it the default?"
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11254300
+      updated_at: '2012-12-11T17:52:51Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        login: ablasdel
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        url: 'https://api.github.com/users/ablasdel'
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:22Z'
-      body: "[vlopez] Apologies for reopening such an old ticket, but this issue is still happening on diamondback and cturtle.\r\n\r\nIt has also been mentioned in these other tickets: https://code.ros.org/trac/ros/ticket/2913 https://code.ros.org/trac/ros-pkg/ticket/4195\r\n\r\nThe issue is caused by a deadlock caused by a service call when pollmanager is \r\n\r\nI'm working on a code example that reproduces this issue, but it only happens when PollManager is running and I don't know what makes it start working. And there's little information about PollManager.\r\n\r\nThis is the callstack after the deadlock.\r\n\r\n\r\n{{{\r\n#0  0xb78d3430 in __kernel_vsyscall ()\r\n#1  0xb6dbfaf9 in __lll_lock_wait () from /lib/tls/i686/cmov/libpthread.so.0\r\n#2  0xb6dbb149 in _L_lock_839 () from /lib/tls/i686/cmov/libpthread.so.0\r\n#3  0xb6dbafdb in pthread_mutex_lock () from /lib/tls/i686/cmov/libpthread.so.0\r\n#4  0xb71a8dba in lock (this=<optimized out>) at /usr/include/boost/thread/pthread/recursive_mutex.hpp:67\r\n#5  lock (this=<optimized out>) at /usr/include/boost/thread/locks.hpp:338\r\n#6  unique_lock (m_=<optimized out>, this=<optimized out>) at /usr/include/boost/thread/locks.hpp:224\r\n#7  ros::TransportTCP::close (this=0xb3200fd4) at /opt/ros/cturtle/ros/core/roscpp/src/libros/transport/transport_tcp.cpp:336\r\n#8  0xb71ad463 in ros::TransportTCP::read (this=0xb3200f90, buffer=0x8732aa8 \"\\370\\003Ƕ\\220\\364s\\b\\020\", size=5)\r\n    at /opt/ros/cturtle/ros/core/roscpp/src/libros/transport/transport_tcp.cpp:406\r\n#9  0xb719cc8e in ros::Connection::readTransport (this=0xb3201598) at /opt/ros/cturtle/ros/core/roscpp/src/libros/connection.cpp:123\r\n#10 0xb719dcad in ros::Connection::read (this=0xb3201598, size=5, callback=...) at /opt/ros/cturtle/ros/core/roscpp/src/libros/connection.cpp:284\r\n#11 0xb7229112 in ros::ServiceServerLink::onRequestWritten (this=0xb3202118, conn=...) at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_server_link.cpp:181\r\n#12 0xb722dd44 in operator() (a1=<optimized out>, p=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/mem_fn_template.hpp:162\r\n#13 operator()<boost::_mfi::mf1<void, ros::ServiceServerLink, const ros::ConnectionPtr&>, boost::_bi::list1<const boost::shared_ptr<ros::Connection>&> > (\r\n    a=<optimized out>, f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:306\r\n#14 operator()<boost::shared_ptr<ros::Connection> > (a1=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind_template.hpp:47\r\n#15 boost::detail::function::void_function_obj_invoker1<boost::_bi::bind_t<void, boost::_mfi::mf1<void, ros::ServiceServerLink, ros::ConnectionPtr const&>, boost::_bi::list2<boost::_bi::value<ros::ServiceServerLink*>, boost::arg<1> > >, void, ros::ConnectionPtr const&>::invoke (function_obj_ptr=..., a0=...)\r\n    at /usr/include/boost/function/function_template.hpp:153\r\n#16 0xb719febd in operator() (a0=<optimized out>, this=<optimized out>) at /usr/include/boost/function/function_template.hpp:1013\r\n#17 ros::Connection::writeTransport (this=0xb3201598) at /opt/ros/cturtle/ros/core/roscpp/src/libros/connection.cpp:240\r\n#18 0xb71a07e2 in ros::Connection::write (this=0xb3201598, buffer=..., size=4, callback=..., immediate=true)\r\n    at /opt/ros/cturtle/ros/core/roscpp/src/libros/connection.cpp:311\r\n#19 0xb722b864 in ros::ServiceServerLink::processNextCall (this=0xb3202118) at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_server_link.cpp:312\r\n#20 0xb722c207 in ros::ServiceServerLink::call (this=0xb3202118, req=..., resp=...) at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_server_link.cpp:348\r\n#21 0xb724d03e in ros::ServiceClient::call (this=0xb3200524, req=..., resp=..., service_md5sum=...)\r\n    at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_client.cpp:144\r\n#22 0x0812d876 in ros::ServiceClient::call<std_srvs::EmptyRequest, std_srvs::EmptyResponse> (this=0xb3200524, req=..., resp=..., service_md5sum=...)\r\n    at /opt/ros/cturtle/ros/core/roscpp/include/ros/service_client.h:102\r\n#23 0x0812ce09 in ros::ServiceClient::call<std_srvs::Empty> (this=0xb3200524, service=...) at /opt/ros/cturtle/ros/core/roscpp/include/ros/service_client.h:90\r\n}}}\r\n\r\n{{{\r\n#0  0xb78d3430 in __kernel_vsyscall ()\r\n#1  0xb6bbd0cc in sched_yield () from /lib/tls/i686/cmov/libc.so.6\r\n#2  0xb76a6f47 in boost::this_thread::yield() () from /usr/lib/libboost_thread.so.1.40.0\r\n#3  0xb722a095 in ros::ServiceServerLink::cancelCall (this=0xb3202118, info=...) at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_server_link.cpp:83\r\n#4  0xb722a246 in ros::ServiceServerLink::clearCalls (this=0xb3202118) at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_server_link.cpp:99\r\n#5  0xb722a5c1 in ros::ServiceServerLink::onConnectionDropped (this=0xb3202118, conn=...) at /opt/ros/cturtle/ros/core/roscpp/src/libros/service_server_link.cpp:173\r\n#6  0xb722dcb4 in operator() (a1=<optimized out>, p=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/mem_fn_template.hpp:162\r\n#7  operator()<boost::_mfi::mf1<void, ros::ServiceServerLink, const ros::ConnectionPtr&>, boost::_bi::list2<const boost::shared_ptr<ros::Connection>&, ros::Connection::DropReason&> > (a=<optimized out>, f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:306\r\n#8  operator()<boost::shared_ptr<ros::Connection>, ros::Connection::DropReason> (a2=<optimized out>, a1=<optimized out>, this=<optimized out>)\r\n    at /usr/include/boost/bind/bind_template.hpp:76\r\n#9  boost::detail::function::void_function_obj_invoker2<boost::_bi::bind_t<void, boost::_mfi::mf1<void, ros::ServiceServerLink, ros::ConnectionPtr const&>, boost::_bi::list2<boost::_bi::value<ros::ServiceServerLink*>, boost::arg<1> > >, void, ros::ConnectionPtr const&, ros::Connection::DropReason>::invoke (function_obj_ptr=..., \r\n    a0=..., a1=ros::Connection::TransportDisconnect) at /usr/include/boost/function/function_template.hpp:153\r\n#10 0xb71a548e in boost::signal2<void, boost::shared_ptr<ros::Connection> const&, ros::Connection::DropReason, boost::last_value<void>, int, std::less<int>, boost::function<void (boost::shared_ptr<ros::Connection> const&, ros::Connection::DropReason)> >::operator()(boost::shared_ptr<ros::Connection> const&, ros::Connection::DropReason) () from /opt/ros/cturtle/ros/core/roscpp/lib/libros.so\r\n#11 0xb719e41f in ros::Connection::drop (this=0xb3201598, reason=ros::Connection::TransportDisconnect)\r\n    at /opt/ros/cturtle/ros/core/roscpp/src/libros/connection.cpp:332\r\n#12 0xb719ec66 in ros::Connection::onDisconnect (this=0xb3201598, transport=...) at /opt/ros/cturtle/ros/core/roscpp/src/libros/connection.cpp:319\r\n#13 0xb71a2e54 in operator() (a1=<optimized out>, p=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/mem_fn_template.hpp:162\r\n#14 operator()<boost::_mfi::mf1<void, ros::Connection, const ros::TransportPtr&>, boost::_bi::list1<const boost::shared_ptr<ros::Transport>&> > (a=<optimized out>, \r\n    f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:306\r\n#15 operator()<boost::shared_ptr<ros::Transport> > (a1=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind_template.hpp:47\r\n#16 boost::detail::function::void_function_obj_invoker1<boost::_bi::bind_t<void, boost::_mfi::mf1<void, ros::Connection, ros::TransportPtr const&>, boost::_bi::list2<boost::_bi::value<ros::Connection*>, boost::arg<1> > >, void, ros::TransportPtr const&>::invoke (function_obj_ptr=..., a0=...)\r\n    at /usr/include/boost/function/function_template.hpp:153\r\n#17 0xb71a9223 in operator() (a0=..., this=<optimized out>) at /usr/include/boost/function/function_template.hpp:1013\r\n#18 ros::TransportTCP::close (this=0xb3200f90) at /opt/ros/cturtle/ros/core/roscpp/src/libros/transport/transport_tcp.cpp:373\r\n#19 0xb71abded in ros::TransportTCP::socketUpdate (this=0xb3200f90, events=<optimized out>)\r\n    at /opt/ros/cturtle/ros/core/roscpp/src/libros/transport/transport_tcp.cpp:614\r\n#20 0xb71adb24 in operator() (p=<optimized out>, this=<optimized out>, a1=<optimized out>) at /usr/include/boost/bind/mem_fn_template.hpp:162\r\n#21 operator()<boost::_mfi::mf1<void, ros::TransportTCP, int>, boost::_bi::list1<int&> > (a=<optimized out>, f=<optimized out>, this=<optimized out>)\r\n    at /usr/include/boost/bind/bind.hpp:306\r\n#22 operator()<int> (a1=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind_template.hpp:32\r\n#23 boost::detail::function::void_function_obj_invoker1<boost::_bi::bind_t<void, boost::_mfi::mf1<void, ros::TransportTCP, int>, boost::_bi::list2<boost::_bi::value<ros::TransportTCP*>, boost::arg<1> > >, void, int>::invoke (function_obj_ptr=..., a0=25) at /usr/include/boost/function/function_template.hpp:153\r\n---Type <return> to continue, or q <return> to quit---\r\n#24 0xb7197adf in operator() (a0=<optimized out>, this=<optimized out>) at /usr/include/boost/function/function_template.hpp:1013\r\n#25 ros::PollSet::update (this=0x872c008, poll_timeout=10) at /opt/ros/cturtle/ros/core/roscpp/src/libros/poll_set.cpp:267\r\n#26 0xb71dd283 in ros::PollManager::threadFunc (this=0x872c008) at /opt/ros/cturtle/ros/core/roscpp/src/libros/poll_manager.cpp:95\r\n#27 0xb71de777 in operator() (p=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/mem_fn_template.hpp:49\r\n#28 operator()<boost::_mfi::mf0<void, ros::PollManager>, boost::_bi::list0> (a=<optimized out>, f=<optimized out>, this=<optimized out>)\r\n    at /usr/include/boost/bind/bind.hpp:246\r\n#29 operator() (this=<optimized out>) at /usr/include/boost/bind/bind_template.hpp:20\r\n#30 boost::detail::thread_data<boost::_bi::bind_t<void, boost::_mfi::mf0<void, ros::PollManager>, boost::_bi::list1<boost::_bi::value<ros::PollManager*> > > >::run (\r\n    this=0x872ddf0) at /usr/include/boost/thread/detail/thread.hpp:56\r\n#31 0xb76a77c5 in thread_proxy () from /usr/lib/libboost_thread.so.1.40.0\r\n#32 0xb6db896e in start_thread () from /lib/tls/i686/cmov/libpthread.so.0\r\n#33 0xb6be6a4e in clone () from /lib/tls/i686/cmov/libc.so.6\r\n}}}"
-      id: 12960116
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        id: 2374428
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+      id: 11254300
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMc
-      updated_at: '2013-01-31T19:13:25Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960121'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        id: !<tag:yaml.org,2002:binary> UNztReiSKWtvAIwv
+      created_at: '2012-12-11T18:01:33Z'
+      body: "Just to note it gets really bad and really slow after awhile of running. I talked with some people here and they mentioned this slowness has been an issue in rxplot for some time.\r\n![Really bad](https://f.cloud.github.com/assets/2374428/6385/b2b3b15e-43bc-11e2-9176-d53763f4db5e.png)\r\n"
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11254684
+      updated_at: '2012-12-11T18:01:33Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        login: ablasdel
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        url: 'https://api.github.com/users/ablasdel'
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:25Z'
-      body: "[kwc] Please at least provide:\r\n\r\n * some set of instructions that leads to this condition\r\n * an example in Diamondback, not C Turtle, and include the version number (rosversion ros_comm)"
-      id: 12960121
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        id: 2374428
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+      id: 11254684
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMd
-      updated_at: '2013-01-31T19:13:25Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960122'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        id: !<tag:yaml.org,2002:binary> UNztReiSKWtvAIww
+      created_at: '2012-12-17T14:40:33Z'
+      body: "I had a quick look at the MatPlot backend code which someone ported form rxplot and it looks like the calculation of the axes bounds might be the problem, as it calculates the min and max y values over the complete data sequence...\r\nI made a quick change to only use the last 100 data points, which should prevent this from happening.\r\nCould you check if this was the reason and if it looks better now?\r\nStill this is just a dirty hack and I think we should rather depend on the PyQtGraph library, but it is not the Ubuntu package repos...\r\nOtherwise someone has to take a deeper look into making the MatPlot backend work better."
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11443919
+      updated_at: '2012-12-17T14:40:33Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/DorianScholz/followers'
+        login: DorianScholz
+        received_events_url: 'https://api.github.com/users/DorianScholz/received_events'
+        gists_url: 'https://api.github.com/users/DorianScholz/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/DorianScholz/following'
+        organizations_url: 'https://api.github.com/users/DorianScholz/orgs'
+        url: 'https://api.github.com/users/DorianScholz'
+        subscriptions_url: 'https://api.github.com/users/DorianScholz/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:25Z'
-      body: "[vlopez] I've added the test file.\r\n\r\nAs you can see the issue happens sometimes after the following steps:\r\n1. Create a service server.\r\n2. Create a persistent connection to this service and call it\r\n3. Shutdown the server\r\n4. Create another service server in the same node, with the same name and to the same function.\r\n5. Call the service with the persistent client we had created before.\r\n\r\nI understand that this behaviour is not typical, and you might expect it to fail. That's why I check if the client is valid and if the service exists.\r\n\r\nThe real issue is the deadlock."
-      id: 12960122
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
+          https://secure.gravatar.com/avatar/53dc25775bca05e98ad0b4dc28711191?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/DorianScholz/events{/privacy}'
+        id: 1461297
+        repos_url: 'https://api.github.com/users/DorianScholz/repos'
+        starred_url: 'https://api.github.com/users/DorianScholz/starred{/owner}{/repo}'
+        gravatar_id: 53dc25775bca05e98ad0b4dc28711191
+      id: 11443919
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMe
-      updated_at: '2013-01-31T19:13:26Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960124'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        id: !<tag:yaml.org,2002:binary> UNztReiSKWtvAIwx
+      created_at: '2012-12-17T18:20:34Z'
+      body: "I checked it out and this did not fix the problem and actually caused some\r\nrather hilarious bouncing in graphs with regular cycles.\r\nYou can see this bouncing if you run the following lines from the Tutorials:\r\n\r\nhttp://www.ros.org/wiki/ROS/Tutorials/UnderstandingTopics\r\n```\r\nrosrun turtlesim turtlesim_node\r\nrostopic pub /turtle1/command_velocity turtlesim/Velocity -r 1 -- 2.0  -1.8\r\nrosrun rqt_plot rqt_plot --args /turtle1/pose/x:y\r\n```\r\n\r\nThis could probably be avoided if we ensured the currently view-able graph was considered in the bound limits."
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11453209
+      updated_at: '2012-12-17T18:22:50Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        login: ablasdel
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        url: 'https://api.github.com/users/ablasdel'
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:26Z'
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        id: 2374428
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+      id: 11453209
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UNztRuiSKWtvAIwy
+      created_at: '2012-12-17T18:26:14Z'
+      body: "Also I have some new information on the original bug. \r\n\r\nIf you pause the plot and then unpause it the time you had it paused will show up in the graph as a perfectly smooth graph and then the plotter will start to draw incorrectly again.\r\n![pauseunpause](https://f.cloud.github.com/assets/2374428/17436/55c7d78a-4877-11e2-9c27-a9a1e5b5d7f3.png)\r\n\r\n\r\n"
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11453445
+      updated_at: '2012-12-17T18:27:17Z'
+      user:
+        type: User
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        login: ablasdel
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        url: 'https://api.github.com/users/ablasdel'
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
+        avatar_url: >-
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        id: 2374428
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+      id: 11453445
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UNztR+iSKWtvAIwz
+      created_at: '2012-12-17T18:43:18Z'
       body: >-
-        [straszheim] Thanks for the great test case.  Should be fixed in r15057,
-        will watch hudson for a bit to see how things go.
-      id: 12960124
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMf
-      updated_at: '2013-01-31T19:13:27Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960125'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
+        an aside: What is preventing us from depending directly on one of the
+        other 2 plotting libraries and using those as the default?
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11454108
+      updated_at: '2012-12-17T18:43:18Z'
       user:
         type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        login: ablasdel
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        url: 'https://api.github.com/users/ablasdel'
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
         avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:27Z'
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        id: 2374428
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+      id: 11454108
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UNztR+iSKWtvAIw0
+      created_at: '2012-12-24T21:27:51Z'
+      body: "The problem is that the matplot function is taking longer and longer and therefore block reading the incoming data. This is also the reason why \"pause\" make the curves perfectly smooth again.\r\n\r\nI have update the code to not use collections for the data but simple list (which turns out to scale better), perform the calculation of the min/max y values when adding values (instead of repeatedly when drawing going over all/parts of the data).\r\n\r\nIt scales much better now but the inherent problem is not fixed - the data will always accumulate over time. We could either limit the history or add a manual clean option if we want this to be fixed completely."
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/11666184
+      updated_at: '2012-12-24T21:27:51Z'
+      user:
+        type: User
+        followers_url: 'https://api.github.com/users/dirk-thomas/followers'
+        login: dirk-thomas
+        received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
+        gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
+        following_url: 'https://api.github.com/users/dirk-thomas/following'
+        organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
+        url: 'https://api.github.com/users/dirk-thomas'
+        subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
+        avatar_url: >-
+          https://secure.gravatar.com/avatar/cf4cd2ddf59ec6633656cad1fc3ab678?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
+        id: 1335366
+        repos_url: 'https://api.github.com/users/dirk-thomas/repos'
+        starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
+        gravatar_id: cf4cd2ddf59ec6633656cad1fc3ab678
+      id: 11666184
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      owner: ros-visualization
+      repo: rqt
+      issue_id: 48
+    - _id:
+        _bsontype: ObjectID
+        id: !<tag:yaml.org,2002:binary> UQxo3L01Q9Z4AAFe
+      updated_at: '2013-01-28T22:41:38Z'
+      url: >-
+        https://api.github.com/repos/ros-visualization/rqt/issues/comments/12809733
+      issue_url: 'https://api.github.com/repos/ros-visualization/rqt/issues/9163607'
+      user:
+        type: User
+        received_events_url: 'https://api.github.com/users/ablasdel/received_events'
+        url: 'https://api.github.com/users/ablasdel'
+        starred_url: 'https://api.github.com/users/ablasdel/starred{/owner}{/repo}'
+        organizations_url: 'https://api.github.com/users/ablasdel/orgs'
+        gists_url: 'https://api.github.com/users/ablasdel/gists{/gist_id}'
+        gravatar_id: 8c375f2097ab3e8e9166aa8a56707223
+        followers_url: 'https://api.github.com/users/ablasdel/followers'
+        avatar_url: >-
+          https://secure.gravatar.com/avatar/8c375f2097ab3e8e9166aa8a56707223?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        subscriptions_url: 'https://api.github.com/users/ablasdel/subscriptions'
+        following_url: 'https://api.github.com/users/ablasdel/following'
+        events_url: 'https://api.github.com/users/ablasdel/events{/privacy}'
+        repos_url: 'https://api.github.com/users/ablasdel/repos'
+        id: 2374428
+        login: ablasdel
+      created_at: '2013-01-28T22:41:38Z'
       body: >-
-        [straszheim] Was a little overly agressive checking for the condition. 
-        Real fix should be in r15058.  Watching hudson again.
-      id: 12960125
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMg
-      updated_at: '2013-01-31T19:13:28Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960127'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:28Z'
-      body: '[straszheim] Fixed!'
-      id: 12960127
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMh
-      updated_at: '2013-01-31T19:13:28Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960128'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:28Z'
-      body: '[straszheim] in r15289 there may be code that revives this deadlock.'
-      id: 12960128
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMi
-      updated_at: '2013-01-31T19:13:29Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960129'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:29Z'
-      body: >-
-        [gerkey] Indeed, it's been unfixed by r15289.  r15295 disables the test
-        for this bug.  It should be re-enabled after it's re-fixed.
-      id: 12960129
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMj
-      updated_at: '2013-01-31T19:13:29Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960130'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:29Z'
-      body: "[vlopez] Do you have an estimate time of when will these be fixed? Will it make it into Fuerte?\r\n\r\nThis bug is preventing us from using persistent services.\r\n\r\nAnd using non-persistent services is giving us many problems since each non-persistent service call uses up to 2 system sockets and we're running out of sockets on heavy service usage situations.\r\n\r\nSystem sockets are not completely freed until 1-2minutes have passed since they were closed, and if the system runs out of sockets the load average skyrockets and the system slows down."
-      id: 12960130
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMk
-      updated_at: '2013-01-31T19:13:30Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960131'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:30Z'
-      body: "[jrcapriles] Replying to [comment:13 kwc]:\r\n\r\nI'm working with ROS Electric and I found out the same problem. I've a state machine who has several persistence connections to service servers. When I switch between states sometimes I kill/launch nodes. The problem that I have is if I kill a node which had a service server that had been already called once, when the node starts again and my service client in the state machine call it, it hangs. How is the situation about this ticket? Is there any alternative solution?"
-      id: 12960131
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMl
-      updated_at: '2013-01-31T19:13:30Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960134'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:30Z'
-      body: >-
-        [akimmel] I am also having this issue running ROS Electric on Mac
-        10.7.4, and I was wondering if there is a workaround for this issue.  I
-        am running a few different nodes which each have several persistent
-        services running, and I encounter this same problem when executing the
-        ros::service::call method between the nodes.
-      id: 12960134
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMm
-      updated_at: '2013-01-31T19:13:31Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960135'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:31Z'
-      body: "[vlopez] I'm still struggling with this issue.\r\n\r\nI have found something that might be related to the cause of the problem.\r\nServices use TCP connection, when the server dies, the client should be notified because the connection has dropped.\r\n\r\nBut after the service server crashes, the socket is in WAIT status for as long as 2 minutes (depending on the configuration of the computer), until the TCP socket is finally closed, the server disconnection is not noticed and the client is susceptible to be blocked forever when calling."
-      id: 12960135
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UQx3zr01Q9/iAAMn
-      updated_at: '2013-01-31T19:13:32Z'
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/12960136'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      user:
-        type: User
-        received_events_url: 'https://api.github.com/users/tfoote/received_events'
-        url: 'https://api.github.com/users/tfoote'
-        organizations_url: 'https://api.github.com/users/tfoote/orgs'
-        gists_url: 'https://api.github.com/users/tfoote/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/tfoote/starred{/owner}{/repo}'
-        gravatar_id: 7dd5d644088bc8f9afa3573ce85e429c
-        repos_url: 'https://api.github.com/users/tfoote/repos'
-        followers_url: 'https://api.github.com/users/tfoote/followers'
-        subscriptions_url: 'https://api.github.com/users/tfoote/subscriptions'
-        following_url: 'https://api.github.com/users/tfoote/following'
-        events_url: 'https://api.github.com/users/tfoote/events{/privacy}'
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/7dd5d644088bc8f9afa3573ce85e429c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        id: 447804
-        login: tfoote
-      created_at: '2013-01-31T19:13:32Z'
-      body: '[asomerville] related to #2913'
-      id: 12960136
-      owner: ros
-      repo: ros_comm
-      issue_id: 149
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> UR1J7r01Q1r8AAS0
-      url: 'https://api.github.com/repos/ros/ros_comm/issues/comments/13227456'
-      issue_url: 'https://api.github.com/repos/ros/ros_comm/issues/10513271'
-      id: 13227456
-      user:
-        login: LopezV
-        id: 3469405
-        avatar_url: >-
-          https://secure.gravatar.com/avatar/441581ed0d88303764d0971c84961d4d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-        gravatar_id: 441581ed0d88303764d0971c84961d4d
-        url: 'https://api.github.com/users/LopezV'
-        followers_url: 'https://api.github.com/users/LopezV/followers'
-        following_url: 'https://api.github.com/users/LopezV/following'
-        gists_url: 'https://api.github.com/users/LopezV/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/LopezV/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/LopezV/subscriptions'
-        organizations_url: 'https://api.github.com/users/LopezV/orgs'
-        repos_url: 'https://api.github.com/users/LopezV/repos'
-        events_url: 'https://api.github.com/users/LopezV/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/LopezV/received_events'
-        type: User
-      created_at: '2013-02-07T09:12:40Z'
-      updated_at: '2013-02-07T09:12:40Z'
-      body: "I'm unable to attach the file that reproduced the issue. For the record it is here: https://code.ros.org/trac/ros/attachment/ticket/2742/main.cpp\r\n"
-      repo: ros_comm
-      owner: ros
-      issue_id: 149
+        migrated to
+        https://github.com/ros-visualization/rqt_common_plugins/issues/19
+      id: 12809733
+      repo: rqt
+      owner: ros-visualization
+      issue_id: 48
 - _id:
     _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> Uqc8RL01Q6EaAAFW
-  url: 'https://api.github.com/repos/ros-industrial/industrial_core/issues/45'
+    id: !<tag:yaml.org,2002:binary> Ueu4W701QxfEAAek
+  url: 'https://api.github.com/repos/ros-perception/perception_pcl/issues/27'
   labels_url: >-
-    https://api.github.com/repos/ros-industrial/industrial_core/issues/45/labels{/name}
+    https://api.github.com/repos/ros-perception/perception_pcl/issues/27/labels{/name}
   comments_url: >-
-    https://api.github.com/repos/ros-industrial/industrial_core/issues/45/comments
-  events_url: 'https://api.github.com/repos/ros-industrial/industrial_core/issues/45/events'
-  html_url: 'https://github.com/ros-industrial/industrial_core/issues/45'
-  id: 23706491
-  number: 45
-  title: 'CMake targets should be prefixed by ${PROJECT_NAME}'
+    https://api.github.com/repos/ros-perception/perception_pcl/issues/27/comments
+  events_url: 'https://api.github.com/repos/ros-perception/perception_pcl/issues/27/events'
+  html_url: 'https://github.com/ros-perception/perception_pcl/issues/27'
+  id: 16998096
+  number: 27
+  title: missing exported dependency breaks downstream packages on hydro
   user:
-    login: gavanderhoorn
-    id: 4550046
-    avatar_url: 'https://identicons.github.com/102affc52ecaa02a58f70343f8f53b2b.png'
-    gravatar_id: null
-    url: 'https://api.github.com/users/gavanderhoorn'
-    html_url: 'https://github.com/gavanderhoorn'
-    followers_url: 'https://api.github.com/users/gavanderhoorn/followers'
-    following_url: 'https://api.github.com/users/gavanderhoorn/following{/other_user}'
-    gists_url: 'https://api.github.com/users/gavanderhoorn/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/gavanderhoorn/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/gavanderhoorn/subscriptions'
-    organizations_url: 'https://api.github.com/users/gavanderhoorn/orgs'
-    repos_url: 'https://api.github.com/users/gavanderhoorn/repos'
-    events_url: 'https://api.github.com/users/gavanderhoorn/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/gavanderhoorn/received_events'
+    login: dirk-thomas
+    id: 1335366
+    avatar_url: >-
+      https://secure.gravatar.com/avatar/00f79f6be5722ab3a1b3ece2cd32bb35?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    gravatar_id: 00f79f6be5722ab3a1b3ece2cd32bb35
+    url: 'https://api.github.com/users/dirk-thomas'
+    html_url: 'https://github.com/dirk-thomas'
+    followers_url: 'https://api.github.com/users/dirk-thomas/followers'
+    following_url: 'https://api.github.com/users/dirk-thomas/following{/other_user}'
+    gists_url: 'https://api.github.com/users/dirk-thomas/gists{/gist_id}'
+    starred_url: 'https://api.github.com/users/dirk-thomas/starred{/owner}{/repo}'
+    subscriptions_url: 'https://api.github.com/users/dirk-thomas/subscriptions'
+    organizations_url: 'https://api.github.com/users/dirk-thomas/orgs'
+    repos_url: 'https://api.github.com/users/dirk-thomas/repos'
+    events_url: 'https://api.github.com/users/dirk-thomas/events{/privacy}'
+    received_events_url: 'https://api.github.com/users/dirk-thomas/received_events'
     type: User
-    site_admin: false
   labels:
-    - url: 'https://api.github.com/repos/ros-industrial/industrial_core/labels/bug'
+    - url: 'https://api.github.com/repos/ros-perception/perception_pcl/labels/bug'
       name: bug
       color: fc2929
-  state: open
+  state: closed
   assignee: null
   milestone: null
-  comments: 0
-  created_at: '2013-12-04T10:32:04Z'
-  updated_at: '2013-12-04T10:32:04Z'
-  closed_at: null
+  comments: 1
+  created_at: '2013-07-19T23:29:56Z'
+  updated_at: '2013-07-20T00:30:27Z'
+  closed_at: '2013-07-20T00:30:27Z'
   pull_request:
     html_url: null
     diff_url: null
     patch_url: null
-  body: "See ros-industrial/ros_industrial_issues#8.\r\n"
-  repo: industrial_core
-  owner: ros-industrial
+  body: "While pcl_ros exposes pcl_conversions headers it does not export it as a CATKIN_DEPENDS.\r\n\r\nThe list of other packages not being part of CATKIN_DEPENDS is long but I don't know if that is correct or if some of them are also missing. Adding pcl_conversions here (https://github.com/ros-perception/perception_pcl/blob/hydro-devel/pcl_ros/CMakeLists.txt#L39) made the isolated build work for me."
+  repo: perception_pcl
+  owner: ros-perception
   data_comments:
     - _id:
         _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> Uq63Yr01QxbqA9M9
+        id: !<tag:yaml.org,2002:binary> Ueu4ab01QxfEAAet
       url: >-
-        https://api.github.com/repos/ros-industrial/industrial_core/issues/comments/30643017
+        https://api.github.com/repos/ros-perception/perception_pcl/issues/comments/21284948
       html_url: >-
-        https://github.com/ros-industrial/industrial_core/issues/45#issuecomment-30643017
-      issue_url: 'https://api.github.com/repos/ros-industrial/industrial_core/issues/45'
-      id: 30643017
+        https://github.com/ros-perception/perception_pcl/issues/27#issuecomment-21284948
+      issue_url: 'https://api.github.com/repos/ros-perception/perception_pcl/issues/27'
+      id: 21284948
       user:
-        login: gavanderhoorn
-        id: 4550046
-        avatar_url: 'https://identicons.github.com/102affc52ecaa02a58f70343f8f53b2b.png'
-        gravatar_id: null
-        url: 'https://api.github.com/users/gavanderhoorn'
-        html_url: 'https://github.com/gavanderhoorn'
-        followers_url: 'https://api.github.com/users/gavanderhoorn/followers'
-        following_url: 'https://api.github.com/users/gavanderhoorn/following{/other_user}'
-        gists_url: 'https://api.github.com/users/gavanderhoorn/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/gavanderhoorn/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/gavanderhoorn/subscriptions'
-        organizations_url: 'https://api.github.com/users/gavanderhoorn/orgs'
-        repos_url: 'https://api.github.com/users/gavanderhoorn/repos'
-        events_url: 'https://api.github.com/users/gavanderhoorn/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/gavanderhoorn/received_events'
+        login: wjwwood
+        id: 100427
+        avatar_url: >-
+          https://secure.gravatar.com/avatar/e9b7130c915ff71c0812d99ff927e929?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+        gravatar_id: e9b7130c915ff71c0812d99ff927e929
+        url: 'https://api.github.com/users/wjwwood'
+        html_url: 'https://github.com/wjwwood'
+        followers_url: 'https://api.github.com/users/wjwwood/followers'
+        following_url: 'https://api.github.com/users/wjwwood/following{/other_user}'
+        gists_url: 'https://api.github.com/users/wjwwood/gists{/gist_id}'
+        starred_url: 'https://api.github.com/users/wjwwood/starred{/owner}{/repo}'
+        subscriptions_url: 'https://api.github.com/users/wjwwood/subscriptions'
+        organizations_url: 'https://api.github.com/users/wjwwood/orgs'
+        repos_url: 'https://api.github.com/users/wjwwood/repos'
+        events_url: 'https://api.github.com/users/wjwwood/events{/privacy}'
+        received_events_url: 'https://api.github.com/users/wjwwood/received_events'
         type: User
-        site_admin: false
-      created_at: '2013-12-16T08:18:39Z'
-      updated_at: '2013-12-16T08:18:39Z'
-      body: "This is actually more involved than just prefixing all targets with the project_name variable due to the way `simple_message` and `industrial_robot_client` build and export their libraries (#46). The fact that CMake resolves linking dependencies at configuration time makes it impossible to depend on renamed targets (ie, depend on `foo` instead of `foo-before-rename`).\r\n\r\nWithout exporting the `simple_message` and `industrial_robot_client` library targets in the `catkin_package(..)` statement, end-users will have to explicitly depend on `industrial_robot_client_industrial_robot_client` or `simple_message_simple_message_bswap`. It is probably best to first sort out the issues described in #46.\r\n"
-      repo: industrial_core
-      owner: ros-industrial
-      issue_id: 45
-    - _id:
-        _bsontype: ObjectID
-        id: !<tag:yaml.org,2002:binary> VNQ3S701Q29uAMqR
-      url: >-
-        https://api.github.com/repos/ros-industrial/industrial_core/issues/comments/73178214
-      html_url: >-
-        https://github.com/ros-industrial/industrial_core/issues/45#issuecomment-73178214
-      issue_url: 'https://api.github.com/repos/ros-industrial/industrial_core/issues/45'
-      id: 73178214
-      user:
-        login: shaun-edwards
-        id: 2932571
-        avatar_url: 'https://avatars.githubusercontent.com/u/2932571?v=3'
-        gravatar_id: ''
-        url: 'https://api.github.com/users/shaun-edwards'
-        html_url: 'https://github.com/shaun-edwards'
-        followers_url: 'https://api.github.com/users/shaun-edwards/followers'
-        following_url: 'https://api.github.com/users/shaun-edwards/following{/other_user}'
-        gists_url: 'https://api.github.com/users/shaun-edwards/gists{/gist_id}'
-        starred_url: 'https://api.github.com/users/shaun-edwards/starred{/owner}{/repo}'
-        subscriptions_url: 'https://api.github.com/users/shaun-edwards/subscriptions'
-        organizations_url: 'https://api.github.com/users/shaun-edwards/orgs'
-        repos_url: 'https://api.github.com/users/shaun-edwards/repos'
-        events_url: 'https://api.github.com/users/shaun-edwards/events{/privacy}'
-        received_events_url: 'https://api.github.com/users/shaun-edwards/received_events'
-        type: User
-        site_admin: false
-      created_at: '2015-02-06T03:38:45Z'
-      updated_at: '2015-02-06T03:38:45Z'
-      body: >-
-        This was scheduled for `indigo`, but it only applies to `simple_message`
-        and `industrial_robot_client` which cannot be fixed as stated above.
-      repo: industrial_core
-      owner: ros-industrial
-      issue_id: 45
-- _id:
-    _bsontype: ObjectID
-    id: !<tag:yaml.org,2002:binary> WaQtp2SA/fEaXqRu
-  url: 'https://api.github.com/repos/pyros-dev/catkin_pip/issues/55'
-  repository_url: 'https://api.github.com/repos/pyros-dev/catkin_pip'
-  labels_url: 'https://api.github.com/repos/pyros-dev/catkin_pip/issues/55/labels{/name}'
-  comments_url: 'https://api.github.com/repos/pyros-dev/catkin_pip/issues/55/comments'
-  events_url: 'https://api.github.com/repos/pyros-dev/catkin_pip/issues/55/events'
-  html_url: 'https://github.com/pyros-dev/catkin_pip/issues/55'
-  id: 192761439
-  number: 55
-  title: OSError with catkin_make
-  user:
-    login: naveedhd
-    id: 3486082
-    avatar_url: 'https://avatars2.githubusercontent.com/u/3486082?v=4'
-    gravatar_id: ''
-    url: 'https://api.github.com/users/naveedhd'
-    html_url: 'https://github.com/naveedhd'
-    followers_url: 'https://api.github.com/users/naveedhd/followers'
-    following_url: 'https://api.github.com/users/naveedhd/following{/other_user}'
-    gists_url: 'https://api.github.com/users/naveedhd/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/naveedhd/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/naveedhd/subscriptions'
-    organizations_url: 'https://api.github.com/users/naveedhd/orgs'
-    repos_url: 'https://api.github.com/users/naveedhd/repos'
-    events_url: 'https://api.github.com/users/naveedhd/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/naveedhd/received_events'
-    type: User
-    site_admin: false
-  labels:
-    - id: 350291291
-      url: 'https://api.github.com/repos/pyros-dev/catkin_pip/labels/bug'
-      name: bug
-      color: ee0701
-      default: true
-  state: open
-  locked: false
-  assignee: null
-  assignees: []
-  milestone: null
-  comments: 2
-  created_at: '2016-12-01T06:03:21Z'
-  updated_at: '2016-12-06T10:17:24Z'
-  closed_at: null
-  body: "\r\n```\r\n-- +++ processing catkin package: 'pyros_config'\r\n-- ==> add_subdirectory(pyros_config)\r\n-- Loading catkin-pip.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-requirements.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-prefix.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-env.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-runcmd.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-setup.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-env.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-runcmd.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-prefix.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\nCMake Warning (dev) at /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-env.cmake:27 (message):\r\n  Incomplete catkin-pip setup detected.This is expected if you use catkin-pip\r\n  from source, and did not source the current develspace yet.Quick patch will\r\n  be applied to the current cmake process environment.\r\nCall Stack (most recent call first):\r\n  /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-prefix.cmake:127 (catkin_pip_check_env)\r\n  /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip.cmake:63 (catkin_pip_setup_prefix)\r\n  /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin_pipConfig.cmake:190 (include)\r\n  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)\r\n  pyros_config/CMakeLists.txt:11 (find_package)\r\nThis warning is for project developers.  Use -Wno-dev to suppress it.\r\n\r\n-- Adding /opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages to PYTHONPATH\r\n-- Adding /opt/groot/bootstrap_ws/build/catkin_pip_env/bin to PATH\r\n-- Catkin pip PYTHONPATH : /opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages:/opt/groot/bootstrap_ws/devel/lib/python2.7/site-packages:/opt/groot/bootstrap_ws/devel/lib/python2.7/dist-packages:/opt/groot/messages_ws/devel/lib/python2.7/dist-packages:/opt/yujin/amd64/indigo-devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/opt/groot/bootstrap_ws/src/pyros\r\n-- Catkin pip PATH : /opt/groot/bootstrap_ws/build/catkin_pip_env/bin:/opt/groot/messages_ws/devel/bin:/opt/yujin/amd64/indigo-devel/bin:/opt/ros/indigo/bin:/usr/local/heroku/bin:/home/naveed/.nvm/versions/node/v7.0.0/bin:/home/naveed/.rvm/gems/ruby-2.2.4/bin:/home/naveed/.rvm/gems/ruby-2.2.4@global/bin:/home/naveed/.rvm/rubies/ruby-2.2.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/naveed/.rvm/bin:/home/naveed/.rvm/bin\r\n--     ... Catkin pip was not found in /opt/groot/bootstrap_ws/build/catkin_pip_env/bin ...\r\n--     System pip version detected : 1.5.4\r\n--     System pip install detected options : \r\n--       --user\r\n--     ... Retrieving catkin_pip requirements using system pip ...\r\n--     ... Done ... [0]: \r\n--     ... Running python -m pip install --ignore-installed -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req --src /opt/groot/bootstrap_ws/src --exists-action b --prefix /opt/groot/bootstrap_ws/build/catkin_pip_env ...\r\n--     ... Done ... [0]: Collecting pip (from -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-base.req (line 3))\r\n  Using cached pip-9.0.1-py2.py3-none-any.whl\r\nCollecting setuptools (from -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-base.req (line 4))\r\n  Using cached setuptools-29.0.1-py2.py3-none-any.whl\r\nCollecting nose (from -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req (line 7))\r\n  Using cached nose-1.3.7-py2-none-any.whl\r\nCollecting pytest (from -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req (line 9))\r\n  Using cached pytest-3.0.4-py2.py3-none-any.whl\r\nCollecting pytest-cov (from -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req (line 10))\r\n  Using cached pytest_cov-2.4.0-py2.py3-none-any.whl\r\nCollecting pytest-timeout (from -r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req (line 11))\r\n  Using cached pytest_timeout-1.2.0-py2.py3-none-any.whl\r\nCollecting py>=1.4.29 (from pytest->-r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req (line 9))\r\n  Using cached py-1.4.31-py2.py3-none-any.whl\r\nCollecting coverage>=3.7.1 (from pytest-cov->-r /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-fixups.req (line 10))\r\nInstalling collected packages: pip, setuptools, nose, py, pytest, coverage, pytest-cov, pytest-timeout\r\nSuccessfully installed coverage-4.2 nose-1.3.7 pip-9.0.1 py-1.4.31 pytest-3.0.4 pytest-cov-2.4.0 pytest-timeout-1.2.0 setuptools-29.0.1\r\n\r\n-- Found catkin_pip pip command at /opt/groot/bootstrap_ws/build/catkin_pip_env/bin/pip.\r\n-- Loading catkin-pip-env.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-runcmd.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-setup.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-prefix.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Loading catkin-pip-requirements.cmake from /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake... \r\n-- Catkin_pip using Python nosetests: /opt/groot/bootstrap_ws/build/catkin_pip_env/bin/nosetests-2.7\r\n-- Catkin_pip using Python py.test: /opt/groot/bootstrap_ws/build/catkin_pip_env/bin/py.test\r\n-- Catkin_pip using Python nosetests: /opt/groot/bootstrap_ws/build/catkin_pip_env/bin/nosetests-2.7\r\n--     ... Running /opt/groot/bootstrap_ws/build/catkin_pip_env/bin/pip install -e /opt/groot/bootstrap_ws/src/pyros_config --no-dependencies --prefix /opt/groot/bootstrap_ws/devel ...\r\n--     ... Done ... [2]: Obtaining file:///opt/groot/bootstrap_ws/src/pyros_config\r\nInstalling collected packages: pyros-config\r\n  Found existing installation: pyros-config 0.1.5\r\n    Uninstalling pyros-config-0.1.5:\r\n\r\n-- Command /opt/groot/bootstrap_ws/build/catkin_pip_env/bin/pip install -e /opt/groot/bootstrap_ws/src/pyros_config --no-dependencies --prefix /opt/groot/bootstrap_ws/devel FAILED !\r\nCMake Error at /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-runcmd.cmake:37 (message):\r\n  Exception:\r\n\r\n  Traceback (most recent call last):\r\n\r\n    File \"/opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages/pip/basecommand.py\", line 215, in main\r\n      status = self.run(options, args)\r\n    File \"/opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages/pip/commands/install.py\", line 342, in run\r\n      prefix=options.prefix_path,\r\n    File \"/opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages/pip/req/req_set.py\", line 778, in install\r\n      requirement.uninstall(auto_confirm=True)\r\n    File \"/opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages/pip/req/req_install.py\", line 754, in uninstall\r\n      paths_to_remove.remove(auto_confirm)\r\n    File \"/opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages/pip/req/req_uninstall.py\", line 115, in remove\r\n      renames(path, new_path)\r\n    File \"/opt/groot/bootstrap_ws/build/catkin_pip_env/lib/python2.7/site-packages/pip/utils/__init__.py\", line 267, in renames\r\n      shutil.move(old, new)\r\n    File \"/usr/lib/python2.7/shutil.py\", line 300, in move\r\n      rmtree(src)\r\n    File \"/usr/lib/python2.7/shutil.py\", line 252, in rmtree\r\n      onerror(os.remove, fullname, sys.exc_info())\r\n    File \"/usr/lib/python2.7/shutil.py\", line 250, in rmtree\r\n      os.remove(fullname)\r\n\r\n  OSError: [Errno 13] Permission denied:\r\n  '/opt/ros/indigo/lib/python2.7/dist-packages/pyros_config/_version.py'\r\n\r\nCall Stack (most recent call first):\r\n  /opt/groot/bootstrap_ws/devel/share/catkin_pip/cmake/catkin-pip-setup.cmake:97 (catkin_pip_runcmd)\r\n  pyros_config/CMakeLists.txt:16 (catkin_pip_setup)\r\n\r\n\r\n-- Configuring incomplete, errors occurred!\r\nSee also \"/opt/groot/bootstrap_ws/build/CMakeFiles/CMakeOutput.log\".\r\nSee also \"/opt/groot/bootstrap_ws/build/CMakeFiles/CMakeError.log\".\r\nInvoking \"cmake\" failed\r\n```\r\n"
-  closed_by: null
-  repo: catkin_pip
-  owner: pyros-dev
-  data_comments: []
+      created_at: '2013-07-20T00:30:26Z'
+      updated_at: '2013-07-20T00:30:26Z'
+      body: Fixed in a0de2e66dbc798d9348a52100ec6302b094918cd
+      owner: ros-perception
+      repo: perception_pcl
+      issue_id: 27
