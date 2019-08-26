@@ -31,8 +31,8 @@ console.info(`Sampling with size: ${sampleSize}`);
 const positiveSample = positivesShuffled.slice(0, sampleSize);
 const negativeSample = negativesShuffled.slice(0, sampleSize);
 
-const positiveURLs = positiveSample.map((i) => i.url);
-const negativeURLs = negativeSample.map((i) => i.url);
+const positiveURLs = positiveSample.map((i) => i.html_url);
+const negativeURLs = negativeSample.map((i) => i.html_url);
 
 fs.writeFileSync('results/positives_sample.yaml', safeDump(positiveSample));
 fs.writeFileSync('results/negatives_sample.yaml', safeDump(negativeSample));
