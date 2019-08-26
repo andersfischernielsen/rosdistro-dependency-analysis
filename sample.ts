@@ -26,8 +26,24 @@ const negatives = safeLoad(
 const positivesShuffled = shuffle(positives);
 const negativesShuffled = shuffle(negatives);
 
-const positiveSample = positivesShuffled.slice(0, 50);
-const negativeSample = negativesShuffled.slice(0, 50);
+const sampleSize = +process.argv[2];
+console.info(`Sampling with size: ${sampleSize}`);
+const positiveSample = positivesShuffled.slice(0, sampleSize);
+const negativeSample = negativesShuffled.slice(0, sampleSize);
+
+const positiveURLs = positiveSample.map((i) => i.url);
+const negativeURLs = negativeSample.map((i) => i.url);
 
 fs.writeFileSync('results/positives_sample.yaml', safeDump(positiveSample));
 fs.writeFileSync('results/negatives_sample.yaml', safeDump(negativeSample));
+
+const positivesMapped = positiveURLs.map((p) => {
+  return { pos_neg: 'P', URL: p };
+});
+const negativesMapped = negativeURLs.map((n) => {
+  return { pos_neg: 'N', URL: n };
+});
+
+const combinedURLs = shuffle(positivesMapped.concat(negativesMapped));
+
+fs.writeFileSync('results/sample_urls.yaml', safeDump(combinedURLs));

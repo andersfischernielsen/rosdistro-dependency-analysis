@@ -34,15 +34,16 @@ function getIssuesForRepository(owner, repository) {
             i.labels.length > 0 &&
             i.labels.some((l) => l.name.match('bug') != undefined));
         const issuesWithComments = yield Promise.all(issuesWithBugLabels.map((i) => getCommentForIssue(i)));
+        const regex = 'depend';
         const issuesWithDependency = issuesWithComments.filter((i) => {
-            return ((i.body != undefined && i.body.match('dependenc(ies|y)') != null) ||
-                (i.title != undefined && i.title.match('dependenc(ies|y)') != null) ||
-                i.data_comments.some((c) => c.body != undefined && c.body.match('dependenc(ies|y)') != null));
+            return ((i.body != undefined && i.body.match(regex) != null) ||
+                (i.title != undefined && i.title.match(regex) != null) ||
+                i.data_comments.some((c) => c.body != undefined && c.body.match(regex) != null));
         });
         const issuesWithoutDependency = issuesWithComments.filter((i) => {
-            return ((i.body != undefined && !i.body.match('dependenc(ies|y)') != null) ||
-                (i.title != undefined && !i.title.match('dependenc(ies|y)') != null) ||
-                !i.data_comments.some((c) => c.body != undefined && c.body.match('dependenc(ies|y)') != null));
+            return ((i.body != undefined && !i.body.match(regex) != null) ||
+                (i.title != undefined && !i.title.match(regex) != null) ||
+                !i.data_comments.some((c) => c.body != undefined && c.body.match(regex) != null));
         });
         console.info(`Parsed /${owner}/${repository}/...`);
         const fraction = issuesWithDependency.length / issuesWithComments.length;

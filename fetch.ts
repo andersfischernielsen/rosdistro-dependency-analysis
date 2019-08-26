@@ -50,22 +50,23 @@ async function getIssuesForRepository(
     issuesWithBugLabels.map((i) => getCommentForIssue(i)),
   );
 
+  const regex = 'depend';
   const issuesWithDependency = issuesWithComments.filter((i) => {
     return (
-      (i.body != undefined && i.body.match('dependenc(ies|y)') != null) ||
-      (i.title != undefined && i.title.match('dependenc(ies|y)') != null) ||
+      (i.body != undefined && i.body.match(regex) != null) ||
+      (i.title != undefined && i.title.match(regex) != null) ||
       i.data_comments.some(
-        (c) => c.body != undefined && c.body.match('dependenc(ies|y)') != null,
+        (c) => c.body != undefined && c.body.match(regex) != null,
       )
     );
   });
 
   const issuesWithoutDependency = issuesWithComments.filter((i) => {
     return (
-      (i.body != undefined && !i.body.match('dependenc(ies|y)') != null) ||
-      (i.title != undefined && !i.title.match('dependenc(ies|y)') != null) ||
+      (i.body != undefined && !i.body.match(regex) != null) ||
+      (i.title != undefined && !i.title.match(regex) != null) ||
       !i.data_comments.some(
-        (c) => c.body != undefined && c.body.match('dependenc(ies|y)') != null,
+        (c) => c.body != undefined && c.body.match(regex) != null,
       )
     );
   });

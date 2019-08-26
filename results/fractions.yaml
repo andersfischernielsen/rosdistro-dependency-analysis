@@ -16,8 +16,8 @@
 - owner: ros
   repository: actionlib
   bugs: 4
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 0.25
 - owner: tork-a
   repository: adi_driver
   bugs: 0
@@ -121,8 +121,8 @@
 - owner: osrf
   repository: capabilities
   bugs: 1
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 1
 - owner: PickNikRobotics
   repository: cartesian_msgs
   bugs: 0
@@ -141,8 +141,8 @@
 - owner: pyros-dev
   repository: catkin_pip
   bugs: 6
-  dependencies: 3
-  fraction: 0.5
+  dependencies: 4
+  fraction: 0.6666666666666666
 - owner: locusrobotics
   repository: catkin_virtualenv
   bugs: 0
@@ -206,8 +206,8 @@
 - owner: ros
   repository: common_msgs
   bugs: 3
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 0.3333333333333333
 - owner: ros-controls
   repository: control_msgs
   bugs: 1
@@ -241,8 +241,8 @@
 - owner: ros
   repository: diagnostics
   bugs: 1
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 1
 - owner: ros-drivers
   repository: driver_common
   bugs: 0
@@ -331,8 +331,8 @@
 - owner: ipab-slmc
   repository: exotica
   bugs: 33
-  dependencies: 1
-  fraction: 0.030303030303030304
+  dependencies: 3
+  fraction: 0.09090909090909091
 - owner: eyeware
   repository: eyeware-ros
   bugs: 0
@@ -481,8 +481,8 @@
 - owner: ros-planning
   repository: geometric_shapes
   bugs: 2
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 0.5
 - owner: ros
   repository: geometry
   bugs: 7
@@ -611,8 +611,8 @@
 - owner: ros-industrial
   repository: industrial_core
   bugs: 21
-  dependencies: 3
-  fraction: 0.14285714285714285
+  dependencies: 5
+  fraction: 0.23809523809523808
 - owner: RobotWebTools
   repository: interactive_marker_proxy
   bugs: 0
@@ -641,8 +641,8 @@
 - owner: ros-drivers
   repository: joystick_drivers
   bugs: 35
-  dependencies: 2
-  fraction: 0.05714285714285714
+  dependencies: 4
+  fraction: 0.11428571428571428
 - owner: jsk-ros-pkg
   repository: jsk_3rdparty
   bugs: 0
@@ -651,8 +651,8 @@
 - owner: jsk-ros-pkg
   repository: jsk_recognition
   bugs: 55
-  dependencies: 5
-  fraction: 0.09090909090909091
+  dependencies: 8
+  fraction: 0.14545454545454545
 - owner: jsk-ros-pkg
   repository: jsk_roseus
   bugs: 0
@@ -801,8 +801,8 @@
 - owner: mavlink
   repository: mavros
   bugs: 34
-  dependencies: 0
-  fraction: 0
+  dependencies: 3
+  fraction: 0.08823529411764706
 - owner: at-wat
   repository: mcl_3dl
   bugs: 1
@@ -861,8 +861,8 @@
 - owner: strands-project
   repository: mongodb_store
   bugs: 7
-  dependencies: 4
-  fraction: 0.5714285714285714
+  dependencies: 5
+  fraction: 0.7142857142857143
 - owner: magazino
   repository: move_base_flex
   bugs: 8
@@ -871,8 +871,8 @@
 - owner: ros-planning
   repository: moveit
   bugs: 7
-  dependencies: 0
-  fraction: 0
+  dependencies: 2
+  fraction: 0.2857142857142857
 - owner: ros-planning
   repository: moveit_msgs
   bugs: 0
@@ -956,8 +956,8 @@
 - owner: ros-planning
   repository: navigation
   bugs: 25
-  dependencies: 1
-  fraction: 0.04
+  dependencies: 6
+  fraction: 0.24
 - owner: skasperski
   repository: navigation_2d
   bugs: 0
@@ -1256,8 +1256,8 @@
 - owner: PR2
   repository: pr2_simulator
   bugs: 57
-  dependencies: 4
-  fraction: 0.07017543859649122
+  dependencies: 5
+  fraction: 0.08771929824561403
 - owner: PilzDE
   repository: prbt_grippers
   bugs: 0
@@ -1311,8 +1311,8 @@
 - owner: ros-visualization
   repository: qt_gui_core
   bugs: 15
-  dependencies: 1
-  fraction: 0.06666666666666667
+  dependencies: 2
+  fraction: 0.13333333333333333
 - owner: OUXT-Polaris
   repository: quaternion_operation
   bugs: 0
@@ -1441,8 +1441,8 @@
 - owner: robotics-in-concert
   repository: rocon_msgs
   bugs: 3
-  dependencies: 1
-  fraction: 0.3333333333333333
+  dependencies: 2
+  fraction: 0.6666666666666666
 - owner: robotics-in-concert
   repository: rocon_tools
   bugs: 23
@@ -1456,13 +1456,13 @@
 - owner: ros-industrial
   repository: ros_canopen
   bugs: 12
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 0.08333333333333333
 - owner: ros
   repository: ros_comm
   bugs: 84
-  dependencies: 4
-  fraction: 0.047619047619047616
+  dependencies: 11
+  fraction: 0.13095238095238096
 - owner: ros
   repository: ros_comm_msgs
   bugs: 0
@@ -1471,8 +1471,8 @@
 - owner: ros-controls
   repository: ros_control
   bugs: 7
-  dependencies: 2
-  fraction: 0.2857142857142857
+  dependencies: 3
+  fraction: 0.42857142857142855
 - owner: PickNikRobotics
   repository: ros_control_boilerplate
   bugs: 0
@@ -1561,8 +1561,8 @@
 - owner: ros-infrastructure
   repository: rosdoc_lite
   bugs: 17
-  dependencies: 2
-  fraction: 0.11764705882352941
+  dependencies: 6
+  fraction: 0.35294117647058826
 - owner: xqms
   repository: rosfmt
   bugs: 0
@@ -1576,8 +1576,8 @@
 - owner: ros
   repository: roslisp
   bugs: 2
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 0.5
 - owner: ros
   repository: roslisp_common
   bugs: 3
@@ -1636,8 +1636,8 @@
 - owner: ros-visualization
   repository: rqt
   bugs: 35
-  dependencies: 0
-  fraction: 0
+  dependencies: 2
+  fraction: 0.05714285714285714
 - owner: ros-visualization
   repository: rqt_action
   bugs: 0
@@ -1651,8 +1651,8 @@
 - owner: ros-visualization
   repository: rqt_common_plugins
   bugs: 48
-  dependencies: 2
-  fraction: 0.041666666666666664
+  dependencies: 5
+  fraction: 0.10416666666666667
 - owner: ros-visualization
   repository: rqt_console
   bugs: 0
@@ -1706,8 +1706,8 @@
 - owner: ros-visualization
   repository: rqt_plot
   bugs: 4
-  dependencies: 0
-  fraction: 0
+  dependencies: 4
+  fraction: 1
 - owner: ros-visualization
   repository: rqt_pose_view
   bugs: 0
@@ -1816,8 +1816,8 @@
 - owner: ros-visualization
   repository: rviz
   bugs: 351
-  dependencies: 7
-  fraction: 0.019943019943019943
+  dependencies: 12
+  fraction: 0.03418803418803419
 - owner: PickNikRobotics
   repository: rviz_visual_tools
   bugs: 0
@@ -2266,8 +2266,8 @@
 - owner: yujinrobot
   repository: yujin_ocs
   bugs: 7
-  dependencies: 2
-  fraction: 0.2857142857142857
+  dependencies: 3
+  fraction: 0.42857142857142855
 - owner: stonier
   repository: zeroconf_msgs
   bugs: 0

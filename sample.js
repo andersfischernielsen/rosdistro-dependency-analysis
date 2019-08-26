@@ -24,8 +24,20 @@ const positives = js_yaml_1.safeLoad(fs_1.default.readFileSync('results/positive
 const negatives = js_yaml_1.safeLoad(fs_1.default.readFileSync('results/negatives.yaml').toString());
 const positivesShuffled = shuffle(positives);
 const negativesShuffled = shuffle(negatives);
-const positiveSample = positivesShuffled.slice(0, 50);
-const negativeSample = negativesShuffled.slice(0, 50);
+const sampleSize = +process.argv[2];
+console.info(`Sampling with size: ${sampleSize}`);
+const positiveSample = positivesShuffled.slice(0, sampleSize);
+const negativeSample = negativesShuffled.slice(0, sampleSize);
+const positiveURLs = positiveSample.map((i) => i.url);
+const negativeURLs = negativeSample.map((i) => i.url);
 fs_1.default.writeFileSync('results/positives_sample.yaml', js_yaml_1.safeDump(positiveSample));
 fs_1.default.writeFileSync('results/negatives_sample.yaml', js_yaml_1.safeDump(negativeSample));
+const positivesMapped = positiveURLs.map((p) => {
+    return { pos_neg: 'P', URL: p };
+});
+const negativesMapped = negativeURLs.map((n) => {
+    return { pos_neg: 'N', URL: n };
+});
+const combinedURLs = shuffle(positivesMapped.concat(negativesMapped));
+fs_1.default.writeFileSync('results/sample_urls.yaml', js_yaml_1.safeDump(combinedURLs));
 //# sourceMappingURL=Sample.js.map
