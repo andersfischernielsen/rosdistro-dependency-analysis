@@ -135,9 +135,9 @@
   fraction: 0
 - owner: ros
   repository: catkin
-  bugs: 8
-  dependencies: 1
-  fraction: 0.125
+  bugs: 18
+  dependencies: 2
+  fraction: 0.1111111111111111
 - owner: pyros-dev
   repository: catkin_pip
   bugs: 6
@@ -611,8 +611,8 @@
 - owner: ros-industrial
   repository: industrial_core
   bugs: 21
-  dependencies: 5
-  fraction: 0.23809523809523808
+  dependencies: 7
+  fraction: 0.3333333333333333
 - owner: RobotWebTools
   repository: interactive_marker_proxy
   bugs: 0
@@ -680,7 +680,7 @@
   fraction: 0
 - owner: yujinrobot
   repository: kobuki
-  bugs: 0
+  bugs: 17
   dependencies: 0
   fraction: 0
 - owner: yujinrobot
@@ -771,8 +771,8 @@
 - owner: swri-robotics
   repository: mapviz
   bugs: 13
-  dependencies: 0
-  fraction: 0
+  dependencies: 1
+  fraction: 0.07692307692307693
 - owner: tuw-robotics
   repository: marker_rviz_plugin
   bugs: 0
@@ -1255,9 +1255,9 @@
   fraction: 0
 - owner: PR2
   repository: pr2_simulator
-  bugs: 57
-  dependencies: 5
-  fraction: 0.08771929824561403
+  bugs: 58
+  dependencies: 6
+  fraction: 0.10344827586206896
 - owner: PilzDE
   repository: prbt_grippers
   bugs: 0
@@ -1461,8 +1461,8 @@
 - owner: ros
   repository: ros_comm
   bugs: 84
-  dependencies: 11
-  fraction: 0.13095238095238096
+  dependencies: 12
+  fraction: 0.14285714285714285
 - owner: ros
   repository: ros_comm_msgs
   bugs: 0
@@ -1535,7 +1535,7 @@
   fraction: 0
 - owner: RobotWebTools
   repository: rosbridge_suite
-  bugs: 0
+  bugs: 3
   dependencies: 0
   fraction: 0
 - owner: DLu
@@ -1815,9 +1815,9 @@
   fraction: 0
 - owner: ros-visualization
   repository: rviz
-  bugs: 351
-  dependencies: 12
-  fraction: 0.03418803418803419
+  bugs: 365
+  dependencies: 14
+  fraction: 0.038356164383561646
 - owner: PickNikRobotics
   repository: rviz_visual_tools
   bugs: 0

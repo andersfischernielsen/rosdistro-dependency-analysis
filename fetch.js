@@ -16,6 +16,7 @@ const fs_1 = __importDefault(require("fs"));
 const js_yaml_1 = require("js-yaml");
 const url = '127.0.0.1:27017/github';
 const db = monk_1.default(url);
+const toLower = (toLowerCase) => toLowerCase.toLowerCase();
 function getIssuesForRepository(owner, repository) {
     return __awaiter(this, void 0, void 0, function* () {
         const getCommentForIssue = (i) => __awaiter(this, void 0, void 0, function* () {
@@ -32,18 +33,19 @@ function getIssuesForRepository(owner, repository) {
         });
         const issuesWithBugLabels = allIssues.filter((i) => Date.parse(i.created_at) < date &&
             i.labels.length > 0 &&
-            i.labels.some((l) => l.name.match('bug') != undefined));
+            i.labels.some((l) => toLower(l.name).match('bug') != undefined ||
+                toLower(l.name).match('critical') != undefined));
         const issuesWithComments = yield Promise.all(issuesWithBugLabels.map((i) => getCommentForIssue(i)));
         const regex = 'depend';
         const issuesWithDependency = issuesWithComments.filter((i) => {
-            return ((i.body != undefined && i.body.match(regex) != null) ||
-                (i.title != undefined && i.title.match(regex) != null) ||
-                i.data_comments.some((c) => c.body != undefined && c.body.match(regex) != null));
+            return ((i.body != undefined && toLower(i.body).match(regex) != null) ||
+                (i.title != undefined && toLower(i.title).match(regex) != null) ||
+                i.data_comments.some((c) => c.body != undefined && toLower(c.body).match(regex) != null));
         });
         const issuesWithoutDependency = issuesWithComments.filter((i) => {
-            return ((i.body != undefined && !i.body.match(regex) != null) ||
-                (i.title != undefined && !i.title.match(regex) != null) ||
-                !i.data_comments.some((c) => c.body != undefined && c.body.match(regex) != null));
+            return ((i.body != undefined && toLower(i.body).match(regex) == null) ||
+                (i.title != undefined && toLower(i.title).match(regex) == null) ||
+                i.data_comments.some((c) => c.body != undefined && toLower(c.body).match(regex) == null));
         });
         console.info(`Parsed /${owner}/${repository}/...`);
         const fraction = issuesWithDependency.length / issuesWithComments.length;

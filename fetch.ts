@@ -21,6 +21,8 @@ type Results = {
 const url = '127.0.0.1:27017/github';
 const db = monk(url);
 
+const toLower = (toLowerCase: string) => toLowerCase.toLowerCase();
+
 async function getIssuesForRepository(
   owner: string,
   repository: string,
@@ -43,7 +45,11 @@ async function getIssuesForRepository(
     (i) =>
       Date.parse(i.created_at) < date &&
       i.labels.length > 0 &&
-      i.labels.some((l) => l.name.match('bug') != undefined),
+      i.labels.some(
+        (l) =>
+          toLower(l.name).match('bug') != undefined ||
+          toLower(l.name).match('critical') != undefined,
+      ),
   );
 
   const issuesWithComments = await Promise.all(
@@ -53,20 +59,20 @@ async function getIssuesForRepository(
   const regex = 'depend';
   const issuesWithDependency = issuesWithComments.filter((i) => {
     return (
-      (i.body != undefined && i.body.match(regex) != null) ||
-      (i.title != undefined && i.title.match(regex) != null) ||
+      (i.body != undefined && toLower(i.body).match(regex) != null) ||
+      (i.title != undefined && toLower(i.title).match(regex) != null) ||
       i.data_comments.some(
-        (c) => c.body != undefined && c.body.match(regex) != null,
+        (c) => c.body != undefined && toLower(c.body).match(regex) != null,
       )
     );
   });
 
   const issuesWithoutDependency = issuesWithComments.filter((i) => {
     return (
-      (i.body != undefined && !i.body.match(regex) != null) ||
-      (i.title != undefined && !i.title.match(regex) != null) ||
-      !i.data_comments.some(
-        (c) => c.body != undefined && c.body.match(regex) != null,
+      (i.body != undefined && toLower(i.body).match(regex) == null) ||
+      (i.title != undefined && toLower(i.title).match(regex) == null) ||
+      i.data_comments.some(
+        (c) => c.body != undefined && toLower(c.body).match(regex) == null,
       )
     );
   });
