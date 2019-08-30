@@ -1,0 +1,37 @@
+[{
+    "https://github.com/stonier/ecl_core/pull/70": "P"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/210": "N"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/154": "P"
+}, {
+    "https://github.com/ros-visualization/rqt/issues/48": "N"
+}, {
+    "https://github.com/yujinrobot/kobuki_desktop/issues/13": "N"
+}, {
+    "https://github.com/jsk-ros-pkg/jsk_recognition/pull/1819": "P"
+}, {
+    "https://github.com/mavlink/mavros/issues/394": "N"
+}, {
+    "https://github.com/ros-planning/srdfdom/issues/7": "P"
+}, {
+    "https://github.com/ros/geometry2/issues/299": "P"
+}, {
+    "https://github.com/ros-controls/ros_control/pull/253": "P"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/266": "N"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/246": "N"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/47": "P"
+}, {
+    "https://github.com/strands-project/mongodb_store/issues/48": "P"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/684": "N"
+}, {
+    "https://github.com/ros-perception/perception_pcl/issues/27": "P"
+}, {
+    "https://github.com/ros-visualization/rviz/issues/271": "N"
+}, {
+    "https://github.com/DLu/roscompile/issues/16": "N"
+}]
