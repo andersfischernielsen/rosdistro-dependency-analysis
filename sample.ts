@@ -16,52 +16,53 @@ const shuffle = function(xs: any[]) {
   }
 };
 
-const previousSample: {}[] = fs.existsSync('results/sample_urls.json')
-  ? JSON.parse(fs.readFileSync('results/sample_urls.json').toString())
+const previousSample: {}[] = fs.existsSync('results/sample_urls_100.json')
+  ? JSON.parse(fs.readFileSync('results/sample_urls_100.json').toString())
   : undefined;
 
-const previousURLs = previousSample.map((o) => Object.keys(o)[0]);
+const previousURLs = Object.keys(previousSample).map((k) => k);
 
 const positives = safeLoad(
   fs.readFileSync('results/positives.yaml').toString(),
 );
-const negatives = safeLoad(
-  fs.readFileSync('results/negatives.yaml').toString(),
-);
+// const negatives = safeLoad(
+//   fs.readFileSync('results/negatives.yaml').toString(),
+// );
 const positivesWithoutPrevious = positives.filter(
   (i: { html_url: string }) => !previousURLs.some((p) => p === i.html_url),
 );
-const negativesWithoutPrevious = negatives.filter(
-  (i: { html_url: string }) => !previousURLs.some((p) => p === i.html_url),
-);
+// const negativesWithoutPrevious = negatives.filter(
+//   (i: { html_url: string }) => !previousURLs.some((p) => p === i.html_url),
+// );
 
 const positivesShuffled = shuffle(positivesWithoutPrevious);
-const negativesShuffled = shuffle(negativesWithoutPrevious);
+// const negativesShuffled = shuffle(negativesWithoutPrevious);
 
-const sampleSize = +process.argv[2];
+// const sampleSize = +process.argv[2];
+const sampleSize = positivesWithoutPrevious.length;
 console.info(`Sampling with size: ${sampleSize}`);
 const positiveSample = positivesShuffled.slice(0, sampleSize);
-const negativeSample = negativesShuffled.slice(0, sampleSize);
+// const negativeSample = negativesShuffled.slice(0, sampleSize);
 
 const positiveURLs = positiveSample.map((i) => i.html_url);
-const negativeURLs = negativeSample.map((i) => i.html_url);
+// const negativeURLs = negativeSample.map((i) => i.html_url);
 
 fs.writeFileSync('results/positives_sample.yaml', safeDump(positiveSample));
-fs.writeFileSync('results/negatives_sample.yaml', safeDump(negativeSample));
+// fs.writeFileSync('results/negatives_sample.yaml', safeDump(negativeSample));
 
 const positivesMapped = positiveURLs.map((p) => {
   const u = {};
   u[p] = 'P';
   return u;
 });
-const negativesMapped = negativeURLs.map((n) => {
-  const u = {};
-  u[n] = 'N';
-  return u;
-});
+// const negativesMapped = negativeURLs.map((n) => {
+//   const u = {};
+//   u[n] = 'N';
+//   return u;
+// });
 
-const combinedURLs = positivesMapped.concat(negativesMapped);
-const shuffled = shuffle(combinedURLs);
+// const combinedURLs = positivesMapped.concat(negativesMapped);
+const shuffled = shuffle(positivesMapped);
 const asMap = Object.assign({}, ...shuffled);
 
 fs.writeFileSync('results/sample_urls.json', JSON.stringify(asMap));
