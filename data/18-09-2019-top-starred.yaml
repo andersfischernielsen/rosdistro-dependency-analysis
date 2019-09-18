@@ -1,0 +1,34 @@
+%YAML 1.1
+#
+# Fetched from http://gitstar-ranking on 18 September 2019
+#
+# OMITTED:
+#
+# freeCodeCamp/freeCodeCamp - due to being teaching material
+# 996icu/996.ICU - due to being a political movement
+# EbookFoundation/free-programming-books - due to being a list of books
+# sindesorhus/awesome - due to being a text-based list of repositories
+# getify/You-Dont-Know-JS - due to being a book series
+# jwasham/coding-interview-university - due to being teaching material
+# github/gitignore - due to being a group of templates
+# airbnb/javascript - due to being a coding style guide
+# kamranahmedse/developer-roadmap - due to being teaching material
+
+---
+repositories:
+  vue:
+    organisation: vuejs
+  react:
+    organisation: facebook
+  bootstrap:
+    organisation: twbs
+  tensorflow:
+    organisation: tensorflow
+  oh-my-zsh:
+    organisation: robbyrussell
+  d3:
+    organisation: d3
+  vscode:
+    organisation: Microsoft
+  react-native:
+    organisation: facebook
