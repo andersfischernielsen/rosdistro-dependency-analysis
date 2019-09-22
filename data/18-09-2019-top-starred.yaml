@@ -1,4 +1,4 @@
-%YAML 1.1
+%YAML 1.2
 #
 # Fetched from http://gitstar-ranking on 18 September 2019
 #
@@ -13,7 +13,15 @@
 # github/gitignore - due to being a group of templates
 # airbnb/javascript - due to being a coding style guide
 # kamranahmedse/developer-roadmap - due to being teaching material
-
+# CyC2018/CS-Notes - due to being teaching material
+# vinta/awesome-python - due to being a lists of libraries
+# donnemartin/system-design-primer - due to being teaching material
+# jlevy/the-art-of-command-line - due to being teaching material
+# toddmotto/public-apis - due to being a list of APIs
+# justjavac/free-programming-books-zh_CN - due to being a list of books
+# Snailclimb/JavaGuide - due to being teaching material
+# trekhleb/javascript-algorithms - due to being teaching material
+# iluwatar/java-design-patterns - due to being teaching material
 ---
 repositories:
   vue:
@@ -32,3 +40,47 @@ repositories:
     organisation: Microsoft
   react-native:
     organisation: facebook
+  linux:
+    organisation: torvalds
+  electron:
+    organisation: electron
+  create-react-app:
+    organisation: facebook
+  go:
+    organisation: golang
+  animate.css:
+    organisation: daneden
+  Font-Awesome:
+    organisation: FortAwesome
+  angular:
+    organisation: angular
+  kubernetes:
+    organisation: kubernetes
+  models:
+    organisation: tensorflow
+  laravel:
+    organisation: laravel
+  moby:
+    organisation: moby
+  three.js:
+    organisation: mrdoob
+  puppeteer:
+    organisation: GoogleChrome
+  TypeScript:
+    organisation: Microsoft
+  jquery:
+    organisation: jquery
+  terminal:
+    organisation: Microsoft
+  ant-design:
+    organisation: ant-design
+  webpack:
+    organisation: webpack
+  redux:
+    organisation: reduxjs
+  material-ui:
+    organisation: mui-org
+  atom:
+    organisation: atom
+  swift:
+    organisation: apple

@@ -127,8 +127,8 @@ fetchForAll('data/18-09-2019-top-starred.yaml').then((rs) => {
       fs.mkdirSync(path);
     }
     fs.writeFileSync(`${path}/${filename}`, safeDump(fractions));
-    fs.writeFileSync(`${path}/positives.yaml`, safeDump(positives));
-    fs.writeFileSync(`${path}/negatives.yaml`, safeDump(negatives));
+    // fs.writeFileSync(`${path}/positives.yaml`, safeDump(positives));
+    // fs.writeFileSync(`${path}/negatives.yaml`, safeDump(negatives));
     console.log(`Results have been written to ${path}/${filename}`);
     process.exit(0);
   } catch (error) {

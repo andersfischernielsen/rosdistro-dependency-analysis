@@ -47,7 +47,7 @@ function getIssuesForRepository(owner, repository) {
                 (i.title != undefined && toLower(i.title).match(regex) == null) ||
                 i.data_comments.some((c) => c.body != undefined && toLower(c.body).match(regex) == null));
         });
-        console.info(`Parsed /${owner}/${repository}/...`);
+        console.info(`Parsed /${owner}/${repository}`);
         const fraction = issuesWithDependency.length / issuesWithComments.length;
         return {
             fractions: {
@@ -76,7 +76,7 @@ const fetchForAll = (path) => __awaiter(this, void 0, void 0, function* () {
     return yield Promise.all(repositories.map((r) => getIssuesForRepository(r.owner, r.name)));
 });
 fetchForAll('data/18-09-2019-top-starred.yaml').then((rs) => {
-    const filename = 'fractions_top_starred.yaml';
+    const filename = 'fractions.yaml';
     const path = 'results_top_starred';
     const fractions = rs.reduce((acc, r) => acc.concat(r.fractions), []);
     const positives = rs.reduce((acc, r) => acc.concat(r.positives), []);
