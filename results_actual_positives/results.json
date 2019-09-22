@@ -1,0 +1,209 @@
+[{
+    "url": "ros/actionlib/issues/1",
+    "days_open": 1,
+    "opened_by": "dirk-thomas",
+    "creator_is_contributor": false,
+    "closed_by": "dirk-thomas",
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "ros-simulation/gazebo_ros_pkgs/issues/24",
+    "days_open": 1,
+    "opened_by": "tfoote",
+    "creator_is_contributor": false,
+    "closed_by": "tfoote",
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "ros-perception/vision_opencv/issues/15",
+    "days_open": null,
+    "opened_by": "dirk-thomas",
+    "creator_is_contributor": false,
+    "unique_users_participating": 2,
+    "number_of_comments": 2
+}, {
+    "url": "strands-project/mongodb_store/issues/98",
+    "days_open": null,
+    "opened_by": "marc-hanheide",
+    "creator_is_contributor": false,
+    "unique_users_participating": 2,
+    "number_of_comments": 2
+}, {
+    "url": "strands-project/mongodb_store/issues/100",
+    "days_open": null,
+    "opened_by": "marc-hanheide",
+    "creator_is_contributor": false,
+    "unique_users_participating": 4,
+    "number_of_comments": 28
+}, {
+    "url": "ros-visualization/rviz/issues/471",
+    "days_open": 1,
+    "opened_by": "hershwg",
+    "creator_is_contributor": false,
+    "closed_by": "hershwg",
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "ros-drivers/velodyne/issues/4",
+    "days_open": 1,
+    "opened_by": "jack-oquin",
+    "creator_is_contributor": false,
+    "closed_by": "jack-oquin",
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "jsk-ros-pkg/jsk_recognition/issues/1852",
+    "days_open": 1,
+    "opened_by": "wkentaro",
+    "creator_is_contributor": false,
+    "closed_by": "k-okada",
+    "unique_users_participating": 2,
+    "number_of_comments": 2
+}, {
+    "url": "mavlink/mavros/issues/849",
+    "days_open": null,
+    "opened_by": "vooon",
+    "creator_is_contributor": false,
+    "unique_users_participating": 3,
+    "number_of_comments": 5
+}, {
+    "url": "ros/rosconsole_bridge/issues/16",
+    "days_open": 8,
+    "opened_by": "meyerj",
+    "creator_is_contributor": false,
+    "closed_by": "dirk-thomas",
+    "unique_users_participating": 3,
+    "number_of_comments": 3
+}, {
+    "url": "ros/ros_tutorials/issues/8",
+    "days_open": 2,
+    "opened_by": "tfoote",
+    "creator_is_contributor": false,
+    "closed_by": "tfoote",
+    "unique_users_participating": 2,
+    "number_of_comments": 6
+}, {
+    "url": "yujinrobot/yujin_ocs/issues/40",
+    "days_open": null,
+    "opened_by": "jihoonl",
+    "creator_is_contributor": false,
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "ros-simulation/gazebo_ros_pkgs/issues/74",
+    "days_open": null,
+    "opened_by": "davetcoleman",
+    "creator_is_contributor": false,
+    "unique_users_participating": 2,
+    "number_of_comments": 2
+}, {
+    "url": "ros/ros_comm/issues/332",
+    "days_open": 2,
+    "opened_by": "shaun-edwards",
+    "creator_is_contributor": false,
+    "closed_by": "shaun-edwards",
+    "unique_users_participating": 2,
+    "number_of_comments": 2
+}, {
+    "url": "ros/common_msgs/issues/27",
+    "days_open": 1,
+    "opened_by": "dirk-thomas",
+    "creator_is_contributor": false,
+    "closed_by": "dirk-thomas",
+    "unique_users_participating": 3,
+    "number_of_comments": 9
+}, {
+    "url": "ros-visualization/qt_gui_core/issues/42",
+    "days_open": null,
+    "opened_by": "tfoote",
+    "creator_is_contributor": false,
+    "unique_users_participating": 1,
+    "number_of_comments": 1
+}, {
+    "url": "ros-planning/navigation/issues/769",
+    "days_open": null,
+    "opened_by": "mikeferguson",
+    "creator_is_contributor": false,
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "swri-robotics/marti_common/issues/239",
+    "days_open": 1,
+    "opened_by": "evenator",
+    "creator_is_contributor": false,
+    "closed_by": "evenator",
+    "unique_users_participating": 1,
+    "number_of_comments": 2
+}, {
+    "url": "ros-planning/geometric_shapes/issues/17",
+    "days_open": null,
+    "opened_by": "tfoote",
+    "creator_is_contributor": false,
+    "unique_users_participating": 1,
+    "number_of_comments": 1
+}, {
+    "url": "ros-industrial/industrial_core/issues/67",
+    "days_open": null,
+    "opened_by": "gavanderhoorn",
+    "creator_is_contributor": false,
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "ros-controls/ros_controllers/issues/150",
+    "days_open": null,
+    "opened_by": "tfoote",
+    "creator_is_contributor": false,
+    "unique_users_participating": 1,
+    "number_of_comments": 2
+}, {
+    "url": "ros-simulation/gazebo_ros_pkgs/issues/536",
+    "days_open": null,
+    "opened_by": "BenBlumer",
+    "creator_is_contributor": false,
+    "unique_users_participating": 4,
+    "number_of_comments": 17
+}, {
+    "url": "ros/geometry2/issues/50",
+    "days_open": null,
+    "opened_by": "tfoote",
+    "creator_is_contributor": false,
+    "unique_users_participating": 4,
+    "number_of_comments": 6
+}, {
+    "url": "ros-perception/perception_pcl/issues/141",
+    "days_open": null,
+    "opened_by": "wkentaro",
+    "creator_is_contributor": false,
+    "unique_users_participating": 1,
+    "number_of_comments": 1
+}, {
+    "url": "jsk-ros-pkg/jsk_recognition/issues/1674",
+    "days_open": null,
+    "opened_by": "wkentaro",
+    "creator_is_contributor": false,
+    "unique_users_participating": 2,
+    "number_of_comments": 3
+}, {
+    "url": "swri-robotics/marti_common/issues/462",
+    "days_open": null,
+    "opened_by": "evenator",
+    "creator_is_contributor": false,
+    "unique_users_participating": 0,
+    "number_of_comments": 0
+}, {
+    "url": "ros-perception/calibration/issues/19",
+    "days_open": 1,
+    "opened_by": "wjwwood",
+    "creator_is_contributor": false,
+    "closed_by": "wjwwood",
+    "unique_users_participating": 4,
+    "number_of_comments": 6
+}, {
+    "url": "ros-visualization/rqt_common_plugins/issues/426",
+    "days_open": 1,
+    "opened_by": "130s",
+    "creator_is_contributor": false,
+    "closed_by": "dirk-thomas",
+    "unique_users_participating": 2,
+    "number_of_comments": 5
+}]

@@ -46,6 +46,7 @@ export interface Issue {
   repo: string;
   owner: string;
   data_comments: GHComment[];
+  closed_by: { login: string };
 }
 
 export interface GHComment {
@@ -54,7 +55,7 @@ export interface GHComment {
   url: string;
   html_url: string;
   body: string;
-  user: any;
+  user: { login: string };
   created_at: string;
   updated_at: Date;
 }

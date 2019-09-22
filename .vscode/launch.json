@@ -39,5 +39,15 @@
                 "${workspaceFolder}/**/*.js"
             ]
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Fetch Actual Positive Data",
+            "program": "${workspaceFolder}/Fetch_data_for_actual_positives.js",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
     ]
 }
