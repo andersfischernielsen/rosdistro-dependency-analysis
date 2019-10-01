@@ -7,15 +7,22 @@ type Fraction = {
   owner: string;
   repository: string;
   bugs: number;
-  dependencies: number;
-  fraction: number;
+  dependencyIssues: number;
+  concurrencyIssues: number;
+  memoryIssues: number;
+  dependencyFraction: number;
+  concurrencyFraction: number;
+  memoryFraction: number;
 };
 
 type Results = {
   fractions: Fraction;
-  positives: Issue[];
-  negatives: Issue[];
+  dependencyPositives: Issue[];
+  concurrencyPositives: Issue[];
+  memoryPositives: Issue[];
+  dependencyNegatives: Issue[];
   allBugs: number;
+  allIssues: number;
 };
 
 const url = '127.0.0.1:27017/github';
@@ -34,6 +41,36 @@ async function getIssuesForRepository(
     const comments = allComments.filter((i) => Date.parse(i.created_at) < date);
     i.data_comments = comments;
     return i;
+  };
+
+  const matchWithRegex = (issues: Issue[], regex: string[]) => {
+    const joined = regex.join('|');
+    return issues.filter((i) => {
+      return (
+        (i.body != undefined && toLower(i.body).match(joined) != null) ||
+        (i.title != undefined && toLower(i.title).match(joined) != null) ||
+        i.data_comments.some(
+          (c) => c.body != undefined && toLower(c.body).match(joined) != null,
+        )
+      );
+    });
+  };
+
+  const invertMatchWithRegex = (issues: Issue[], regex: string) => {
+    return issues.filter((i) => {
+      return (
+        (i.body != undefined && toLower(i.body).match(regex) == null) ||
+        (i.title != undefined && toLower(i.title).match(regex) == null) ||
+        i.data_comments.some(
+          (c) => c.body != undefined && toLower(c.body).match(regex) == null,
+        )
+      );
+    });
+  };
+
+  const fraction = (positives: Issue[], all: Issue[]) => {
+    const fraction = positives.length / all.length;
+    return isNaN(fraction) || !isFinite(fraction) ? 0 : fraction;
   };
 
   const date = 1561161601000; //22/06/2019 00:00:01
@@ -56,40 +93,47 @@ async function getIssuesForRepository(
     issuesWithBugLabels.map((i) => getCommentForIssue(i)),
   );
 
-  const regex = 'depend';
-  const issuesWithDependency = issuesWithComments.filter((i) => {
-    return (
-      (i.body != undefined && toLower(i.body).match(regex) != null) ||
-      (i.title != undefined && toLower(i.title).match(regex) != null) ||
-      i.data_comments.some(
-        (c) => c.body != undefined && toLower(c.body).match(regex) != null,
-      )
-    );
-  });
-
-  const issuesWithoutDependency = issuesWithComments.filter((i) => {
-    return (
-      (i.body != undefined && toLower(i.body).match(regex) == null) ||
-      (i.title != undefined && toLower(i.title).match(regex) == null) ||
-      i.data_comments.some(
-        (c) => c.body != undefined && toLower(c.body).match(regex) == null,
-      )
-    );
-  });
+  const dependencyIssues = matchWithRegex(issuesWithComments, ['depend']);
+  const concurrencyIssues = matchWithRegex(issuesWithComments, [
+    'concurren',
+    'parallel',
+    'deadlock',
+    'race',
+    'lock',
+  ]);
+  const memoryIssues = matchWithRegex(issuesWithComments, [
+    'leak',
+    'null dereference',
+    'buffer',
+    'overflow',
+  ]);
+  const withoutDependencyIssues = invertMatchWithRegex(
+    issuesWithComments,
+    'depend',
+  );
 
   console.info(`Parsed /${owner}/${repository}/...`);
-  const fraction = issuesWithDependency.length / issuesWithComments.length;
+  const dependencyFraction = fraction(dependencyIssues, issuesWithComments);
+  const concurrencyFraction = fraction(concurrencyIssues, issuesWithComments);
+  const memoryFraction = fraction(memoryIssues, issuesWithComments);
   return {
     fractions: {
       owner: owner,
       repository: repository,
       bugs: issuesWithComments.length,
-      dependencies: issuesWithDependency.length,
-      fraction: isNaN(fraction) || !isFinite(fraction) ? 0 : fraction,
+      dependencyIssues: dependencyIssues.length,
+      concurrencyIssues: concurrencyIssues.length,
+      memoryIssues: memoryIssues.length,
+      dependencyFraction: dependencyFraction,
+      concurrencyFraction: concurrencyFraction,
+      memoryFraction: memoryFraction,
     },
-    positives: issuesWithDependency,
-    negatives: issuesWithoutDependency,
+    dependencyPositives: dependencyIssues,
+    dependencyNegatives: withoutDependencyIssues,
+    concurrencyPositives: concurrencyIssues,
+    memoryPositives: memoryIssues,
     allBugs: issuesWithComments.length,
+    allIssues: allIssues.length,
   };
 }
 
@@ -121,13 +165,21 @@ fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
   const filename = 'fractions.yaml';
   const path = 'results';
   const fractions = rs.reduce((acc, r) => acc.concat(r.fractions), []);
-  const positives = rs.reduce((acc, r) => acc.concat(r.positives), []);
-  const negatives = rs.reduce((acc, r) => acc.concat(r.negatives), []);
-  const allBugs = rs.reduce((acc, r) => acc + r.allBugs, 0);
-  const totalFraction = positives.length / allBugs;
-
-  console.log(
-    `The total fraction is: ${positives.length}/${allBugs} = ${totalFraction}`,
+  const dependPositives = rs.reduce(
+    (acc, r) => acc.concat(r.dependencyPositives),
+    [],
+  );
+  const concurrencyPositives = rs.reduce(
+    (acc, r) => acc.concat(r.concurrencyPositives),
+    [],
+  );
+  const memoryPositives = rs.reduce(
+    (acc, r) => acc.concat(r.memoryPositives),
+    [],
+  );
+  const dependNegatives = rs.reduce(
+    (acc, r) => acc.concat(r.dependencyNegatives),
+    [],
   );
 
   try {
@@ -135,9 +187,17 @@ fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
       fs.mkdirSync('results');
     }
     fs.writeFileSync(`${path}/${filename}`, safeDump(fractions));
-    fs.writeFileSync(`${path}/positives.yaml`, safeDump(positives));
-    fs.writeFileSync(`${path}/negatives.yaml`, safeDump(negatives));
-    console.log(`Results have been written to ${path}/${filename}`);
+    fs.writeFileSync(`${path}/dependPositives.yaml`, safeDump(dependPositives));
+    fs.writeFileSync(
+      `${path}/concurrencyPositives.yaml`,
+      safeDump(concurrencyPositives),
+    );
+    fs.writeFileSync(`${path}/memoryPositives.yaml`, safeDump(memoryPositives));
+    fs.writeFileSync(
+      `${path}/dependencyNegatives.yaml`,
+      safeDump(dependNegatives),
+    );
+    console.log(`Results have been written to ${path}/`);
     process.exit(0);
   } catch (error) {
     console.error(error);
