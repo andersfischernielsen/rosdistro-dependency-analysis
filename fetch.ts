@@ -161,8 +161,29 @@ const fetchForAll = async (path: string) => {
   );
 };
 
-fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
-  const filename = 'fractions.yaml';
+const fetchForAllTopStarred = async (path: string) => {
+  const content = fs.readFileSync(path);
+  const loaded = safeLoad(content.toString());
+  const repositories = Object.entries(loaded.repositories)
+    .map((repo: any) => {
+      const name: string = repo[0];
+      const owner: string = repo[1].organisation;
+      return { owner: owner, name: name };
+    })
+    .filter((r) => r !== undefined);
+
+  return await Promise.all(
+    repositories.map((r) => getIssuesForRepository(r.owner, r.name)),
+  );
+};
+
+const shouldRunOnTopStarred = true;
+(shouldRunOnTopStarred
+  ? fetchForAllTopStarred('data/18-09-2019-top-starred.yaml')
+  : fetchForAll('data/22-06-2019-distribution.yaml')
+).then((rs) => {
+  const mode = shouldRunOnTopStarred ? '_top_starred' : '';
+  const filename = `fractions${mode}.yaml`;
   const path = 'results';
   const fractions = rs.reduce((acc, r) => acc.concat(r.fractions), []);
   const dependPositives = rs.reduce(
@@ -183,20 +204,28 @@ fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
   );
 
   try {
-    if (!fs.existsSync('results')) {
-      fs.mkdirSync('results');
+    if (!fs.existsSync(path)) {
+      fs.mkdirSync(path);
     }
     fs.writeFileSync(`${path}/${filename}`, safeDump(fractions));
-    fs.writeFileSync(`${path}/dependPositives.yaml`, safeDump(dependPositives));
-    fs.writeFileSync(
-      `${path}/concurrencyPositives.yaml`,
-      safeDump(concurrencyPositives),
-    );
-    fs.writeFileSync(`${path}/memoryPositives.yaml`, safeDump(memoryPositives));
-    fs.writeFileSync(
-      `${path}/dependencyNegatives.yaml`,
-      safeDump(dependNegatives),
-    );
+    if (!shouldRunOnTopStarred) {
+      fs.writeFileSync(
+        `${path}/dependPositives${mode}.yaml`,
+        safeDump(dependPositives),
+      );
+      fs.writeFileSync(
+        `${path}/concurrencyPositives${mode}.yaml`,
+        safeDump(concurrencyPositives),
+      );
+      fs.writeFileSync(
+        `${path}/memoryPositives${mode}.yaml`,
+        safeDump(memoryPositives),
+      );
+      fs.writeFileSync(
+        `${path}/dependencyNegatives${mode}.yaml`,
+        safeDump(dependNegatives),
+      );
+    }
     console.log(`Results have been written to ${path}/`);
     process.exit(0);
   } catch (error) {

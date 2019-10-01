@@ -117,8 +117,24 @@ const fetchForAll = (path) => __awaiter(this, void 0, void 0, function* () {
         .filter((r) => r !== undefined);
     return yield Promise.all(repositories.map((r) => getIssuesForRepository(r.owner, r.name)));
 });
-fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
-    const filename = 'fractions.yaml';
+const fetchForAllTopStarred = (path) => __awaiter(this, void 0, void 0, function* () {
+    const content = fs_1.default.readFileSync(path);
+    const loaded = js_yaml_1.safeLoad(content.toString());
+    const repositories = Object.entries(loaded.repositories)
+        .map((repo) => {
+        const name = repo[0];
+        const owner = repo[1].organisation;
+        return { owner: owner, name: name };
+    })
+        .filter((r) => r !== undefined);
+    return yield Promise.all(repositories.map((r) => getIssuesForRepository(r.owner, r.name)));
+});
+const shouldRunOnTopStarred = true;
+(shouldRunOnTopStarred
+    ? fetchForAllTopStarred('data/18-09-2019-top-starred.yaml')
+    : fetchForAll('data/22-06-2019-distribution.yaml')).then((rs) => {
+    const mode = shouldRunOnTopStarred ? '_top_starred' : '';
+    const filename = `fractions${mode}.yaml`;
     const path = 'results';
     const fractions = rs.reduce((acc, r) => acc.concat(r.fractions), []);
     const dependPositives = rs.reduce((acc, r) => acc.concat(r.dependencyPositives), []);
@@ -126,14 +142,14 @@ fetchForAll('data/22-06-2019-distribution.yaml').then((rs) => {
     const memoryPositives = rs.reduce((acc, r) => acc.concat(r.memoryPositives), []);
     const dependNegatives = rs.reduce((acc, r) => acc.concat(r.dependencyNegatives), []);
     try {
-        if (!fs_1.default.existsSync('results')) {
-            fs_1.default.mkdirSync('results');
+        if (!fs_1.default.existsSync(path)) {
+            fs_1.default.mkdirSync(path);
         }
         fs_1.default.writeFileSync(`${path}/${filename}`, js_yaml_1.safeDump(fractions));
-        fs_1.default.writeFileSync(`${path}/dependPositives.yaml`, js_yaml_1.safeDump(dependPositives));
-        fs_1.default.writeFileSync(`${path}/concurrencyPositives.yaml`, js_yaml_1.safeDump(concurrencyPositives));
-        fs_1.default.writeFileSync(`${path}/memoryPositives.yaml`, js_yaml_1.safeDump(memoryPositives));
-        fs_1.default.writeFileSync(`${path}/dependencyNegatives.yaml`, js_yaml_1.safeDump(dependNegatives));
+        fs_1.default.writeFileSync(`${path}/dependPositives${mode}.yaml`, js_yaml_1.safeDump(dependPositives));
+        fs_1.default.writeFileSync(`${path}/concurrencyPositives${mode}.yaml`, js_yaml_1.safeDump(concurrencyPositives));
+        fs_1.default.writeFileSync(`${path}/memoryPositives${mode}.yaml`, js_yaml_1.safeDump(memoryPositives));
+        fs_1.default.writeFileSync(`${path}/dependencyNegatives${mode}.yaml`, js_yaml_1.safeDump(dependNegatives));
         console.log(`Results have been written to ${path}/`);
         process.exit(0);
     }
