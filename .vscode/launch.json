@@ -32,8 +32,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Fetch Top Starred",
-            "program": "${workspaceFolder}/Fetch_top_starred.js",
+            "name": "Launch Fetch Actual Positive Data",
+            "program": "${workspaceFolder}/Fetch_data_for_actual_positives.js",
             "sourceMaps": true,
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
@@ -42,8 +42,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Fetch Actual Positive Data",
-            "program": "${workspaceFolder}/Fetch_data_for_actual_positives.js",
+            "name": "Launch User Discussion",
+            "program": "${workspaceFolder}/UserDiscussion.js",
             "sourceMaps": true,
             "outFiles": [
                 "${workspaceFolder}/**/*.js"

@@ -129,7 +129,7 @@ const fetchForAllTopStarred = (path) => __awaiter(this, void 0, void 0, function
         .filter((r) => r !== undefined);
     return yield Promise.all(repositories.map((r) => getIssuesForRepository(r.owner, r.name)));
 });
-const shouldRunOnTopStarred = true;
+const shouldRunOnTopStarred = false;
 (shouldRunOnTopStarred
     ? fetchForAllTopStarred('data/18-09-2019-top-starred.yaml')
     : fetchForAll('data/22-06-2019-distribution.yaml')).then((rs) => {
@@ -146,10 +146,12 @@ const shouldRunOnTopStarred = true;
             fs_1.default.mkdirSync(path);
         }
         fs_1.default.writeFileSync(`${path}/${filename}`, js_yaml_1.safeDump(fractions));
-        fs_1.default.writeFileSync(`${path}/dependPositives${mode}.yaml`, js_yaml_1.safeDump(dependPositives));
-        fs_1.default.writeFileSync(`${path}/concurrencyPositives${mode}.yaml`, js_yaml_1.safeDump(concurrencyPositives));
-        fs_1.default.writeFileSync(`${path}/memoryPositives${mode}.yaml`, js_yaml_1.safeDump(memoryPositives));
-        fs_1.default.writeFileSync(`${path}/dependencyNegatives${mode}.yaml`, js_yaml_1.safeDump(dependNegatives));
+        if (!shouldRunOnTopStarred) {
+            fs_1.default.writeFileSync(`${path}/dependPositives${mode}.yaml`, js_yaml_1.safeDump(dependPositives));
+            fs_1.default.writeFileSync(`${path}/concurrencyPositives${mode}.yaml`, js_yaml_1.safeDump(concurrencyPositives));
+            fs_1.default.writeFileSync(`${path}/memoryPositives${mode}.yaml`, js_yaml_1.safeDump(memoryPositives));
+            fs_1.default.writeFileSync(`${path}/dependencyNegatives${mode}.yaml`, js_yaml_1.safeDump(dependNegatives));
+        }
         console.log(`Results have been written to ${path}/`);
         process.exit(0);
     }

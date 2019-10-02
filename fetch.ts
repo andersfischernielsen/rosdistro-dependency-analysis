@@ -177,7 +177,7 @@ const fetchForAllTopStarred = async (path: string) => {
   );
 };
 
-const shouldRunOnTopStarred = true;
+const shouldRunOnTopStarred = false;
 (shouldRunOnTopStarred
   ? fetchForAllTopStarred('data/18-09-2019-top-starred.yaml')
   : fetchForAll('data/22-06-2019-distribution.yaml')
