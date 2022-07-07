@@ -12,7 +12,7 @@
     "@types/js-yaml": "^3.12.1",
     "@types/mongodb": "^3.3.0",
     "js-yaml": "^3.13.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongodb": "^3.3.0",
     "monk": "^7.0.0"
   }
